@@ -319,6 +319,7 @@ module.exports = {
 			items: [
 			//'Product/S2E-Module/s2e_module',
 			'Product/S2E-Module/serial-to-ethernet-guide',
+			'Product/S2E-Module/serial-to-ethernet-guide-ko',
 			{
 				type: 'category',
 				label: 'WIZ75x Series',

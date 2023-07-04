@@ -2,10 +2,11 @@
 
 //docusaurus.config.js for Docs only Mode
 
-// const rlc = require("remark-link-card");
+const rlc = require("remark-link-card");
 
-// const config = {
-  module.exports = {
+// module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "WIZnet Document System",
   tagline: "Welcome to new WIZnet Document System!",
   //url: 'https://wiznet.github.io',
@@ -19,8 +20,8 @@
   projectName: 'document_framework', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
-    metadata: [{name: 'keywords', content: 'wiznet,documentation,datasheet,w5500,hardwired tcp/ip,ethernet chip,ethernet shield,embedded ethernet'}],
-    docs:{
+    metadata: [{ name: 'keywords', content: 'wiznet,documentation,datasheet,w5500,hardwired tcp/ip,ethernet chip,ethernet shield,embedded ethernet' }],
+    docs: {
       sidebar: {
         hideable: true,
         autoCollapseCategories: true,
@@ -48,15 +49,15 @@
       indexName: "wiznet",
       //apiKey: 'd2ede60bed9975d4b60dd5436896fe91',
       //indexName: 'wiznet',
-             // Optional: see doc section bellow
-     // contextualSearch: true,
+      // Optional: see doc section bellow
+      // contextualSearch: true,
 
-       // Optional: Algolia search parameters
+      // Optional: Algolia search parameters
       //searchParameters: {},
-       //inputSelector: 'I',
+      //inputSelector: 'I',
       //algoliaOptions: {'facetFilters': ["type:content"] },
-       //... other Algolia params
-     },
+      //... other Algolia params
+    },
 
     navbar: {
       hideOnScroll: true,
@@ -200,18 +201,20 @@
     [
       "@gracefullight/docusaurus-plugin-channelio",
       { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
+      "docusaurus-plugin-sass",
     ],
   ],
   presets: [
     [
-      "@docusaurus/preset-classic",
+      // "@docusaurus/preset-classic",
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
       {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/Wiznet/document_framework/tree/master/",
-          // remarkPlugins: [rlc]
-          remarkPlugins: []
+          remarkPlugins: [rlc]
         },
         googleAnalytics: {
           trackingID: 'UA-207547783-2',
@@ -223,12 +226,12 @@
           // Optional fields.
           anonymizeIP: false, // Should IPs be anonymized?
         },
-         sitemap: { 
+        sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
-         },
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         }
@@ -237,4 +240,4 @@
   ]
 };
 
-// module.exports = config;
+module.exports = config;
