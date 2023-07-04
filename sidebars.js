@@ -191,6 +191,7 @@ module.exports = {
 					'Product/iEthernet/W6100/w6100-evb',
 					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W6100/getting-started-w6100evb',
+					'Product/iEthernet/W6100/new-project-stm32cubeide',
 					'Product/iEthernet/W6100/new-project-truestudio',
 					'Product/iEthernet/W6100/new-project-eclipse',
 				],
@@ -224,6 +225,7 @@ module.exports = {
 					'Product/iEthernet/W5100S/w5100s-evb',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-getting-started',
+					'Product/iEthernet/W5100S/w5100s-projects-stm32cubeide',
 					'Product/iEthernet/W5100S/w5100s-projects-truestudio',
 					'Product/iEthernet/W5100S/w5100s-projects-eclipse',
 				//'Product/iEthernet/W5100S/all_pages',
@@ -283,6 +285,7 @@ module.exports = {
 						'Product/iEthernet/W5300/overview',
 						'Product/iEthernet/W5300/document',
 						'Product/iEthernet/W5300/w5300-evb',
+						'Product/iEthernet/W5300/W5300-TOE-Shield'
 					],
 				},
 				{
@@ -904,11 +907,13 @@ module.exports = {
 				label: 'RP2040 Based',
 				link: {type: 'doc', id: 'Product/Open-Source-Hardware/rp2040_based'},
 				items: [
-					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					//'Product/Open-Source-Hardware/w2e-gateway-pico',
 					'Product/Open-Source-Hardware/wizfi360-evb-pico',
-					'Product/Open-Source-Hardware/w2e-gateway-pico',
+					'Product/iEthernet/W6100/w6100-evb-pico',
 					'Product/iEthernet/W5500/w5500-evb-pico',
 					'Product/iEthernet/W5100S/w5100s-evb-pico',
+					'Product/Open-Source-Hardware/wiznet_ethernet_hat',
+					'Product/Open-Source-Hardware/wiznet-pico-poe',
 				]
 			},
 			{

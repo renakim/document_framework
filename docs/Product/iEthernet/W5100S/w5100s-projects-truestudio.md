@@ -2,6 +2,8 @@
 id: w5100s-projects-truestudio
 title: Make New W5100S-EVB Projects using TrueSTUDIO
 date: 2020-04-03
+keywords: [w5100s,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 This page introduces how to make the project for W5100S-EVB with
@@ -72,7 +74,7 @@ as follows.
 
 Download the libraries and projects for W5100S-EVB from
 ![](/img/products/w5500/w5500_evb/icons/link.png)[W5100S-EVB GitHub
-repository](https://github.com/Wiznet/W5100S-EVB). After downloading,
+repository](https://github.com/Wiznet/W5100S-EVB/tree/truestudio_ver). After downloading,
 import the required project libraries to your workspace.
 
 1\. Delete "main.c", "tiny\_printf.c", "stm32f1xx\_it.c",

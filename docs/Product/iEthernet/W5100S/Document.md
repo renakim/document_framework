@@ -2,6 +2,8 @@
 id: document
 title: Document
 date: 2020-04-03
+keywords: [w5100s,w5100s datasheet, ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico ethernet]
+description: W5100S chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
 ----
@@ -9,13 +11,22 @@ date: 2020-04-03
 ## Datasheet
 
 ### Korean
- * <a href="/img/products/w5100s/w5100s_ds_v127k.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
+ * <a href="/img/products/w5100s/w5100s-ds-v128k.pdf" target="_blank">W5100S Datasheet v1.2.8</a>
 
 ### English
- * <a href="/img/products/w5100s/w5100s_ds_v127e.pdf" target="_blank">W5100S Datasheet v1.2.7</a>
+ * <a href="/img/products/w5100s/w5100s-ds-v128e.pdf" target="_blank">W5100S Datasheet v1.2.8</a>
 
 ----
 
+## Errata Sheet
+
+### Korean
+ * <a href="/img/products/w5100s/w5100s-errata-kr-v100.pdf" target="_blank">W5100S Errata Sheet v1.0.0</a>
+
+### English
+ * <a href="/img/products/w5100s/w5100s-errata-en-v100.pdf" target="_blank">W5100S Errata Sheet v1.0.0</a>
+
+----
 
 ## W5100S vs W5100 Comparison Sheet
 

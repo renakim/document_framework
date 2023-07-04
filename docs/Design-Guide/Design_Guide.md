@@ -22,6 +22,10 @@ using WIZnet's chips.: easily, quickly, accurately
   - [Eagle CAD Library of WIZnet Products](eagle_cad_library_of_wiznet_products)
 
 -----
+## Design Guide Download
+  - <a href="/img/design_guide/Wiznet Ethernet Design Guide_ENG.pdf" target="_blank">Hardware Design Guide(ENG)</a>
+  - <a href="/img/design_guide/Wiznet Ethernet Design Guide_KOR.pdf" target="_blank">Hardware Design Guide(KOR)</a>
+-----
 
 ## Limitation Note
 

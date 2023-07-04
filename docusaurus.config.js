@@ -19,6 +19,7 @@
   projectName: 'document_framework', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    metadata: [{name: 'keywords', content: 'wiznet,documentation,datasheet,w5500,hardwired tcp/ip,ethernet chip,ethernet shield,embedded ethernet'}],
     docs:{
       sidebar: {
         hideable: true,
@@ -195,7 +196,12 @@
     image: "img/wiznet-logo.png"
   },
   //plugins: ['./PreventTrailingSlash/PreventTrailingSlashPlugin'],
-
+  plugins: [
+    [
+      "@gracefullight/docusaurus-plugin-channelio",
+      { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
+    ],
+  ],
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -217,9 +223,12 @@
           // Optional fields.
           anonymizeIP: false, // Should IPs be anonymized?
         },
-//         sitemap:{
-//         trailingSlash: false
-//         },
+         sitemap: { 
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         }
