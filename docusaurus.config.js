@@ -2,7 +2,7 @@
 
 //docusaurus.config.js for Docs only Mode
 
-const rlc = require("remark-link-card");
+// const rlc = require("remark-link-card");
 
 // module.exports = {
 /** @type {import('@docusaurus/types').Config} */
@@ -201,7 +201,6 @@ const config = {
     [
       "@gracefullight/docusaurus-plugin-channelio",
       { pluginKey: "cb95c060-ab4c-45ec-bbe8-fe40a1ea3aec" },
-      "docusaurus-plugin-sass",
     ],
   ],
   presets: [
@@ -214,7 +213,7 @@ const config = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/Wiznet/document_framework/tree/master/",
-          remarkPlugins: [rlc]
+          // remarkPlugins: [rlc]
         },
         googleAnalytics: {
           trackingID: 'UA-207547783-2',
