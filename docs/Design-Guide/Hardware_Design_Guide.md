@@ -67,6 +67,7 @@ performance.
   - The analog GND pin and digital GND pin should be maintained in a
     good path.
       - We recommend you not to separate analog and digital GND.
+      - In some cases, such as the W5100 and W5300 reference circuits, DGND and AGND can be separated by beads, but if there is enough GND space, it is better to integrate them into DGND than to separate them by beads.
   - Place a 0.1uF Bypass Capacitor near the input pin to reduce noise
     from power supply.
       - Place as close as possible to the input pin through the Bypass
@@ -101,7 +102,7 @@ performance.
         100Ω.
   - Connect TX+/- and RX+/- signals as short as possible.
   - Recommended signal length is less than 25mm (1000 mil).
-      - Less than 75mm (3000mil).
+      - In worst case, MDI maximum routing length is 75mm (3000mil).
   - Connect TX+/TX- and RX+/RX- with the same length as possible.
       - \+/- Differential signal should be same length.
       - Timing problems may occur depending on the Trace length.
