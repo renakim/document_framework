@@ -6,7 +6,7 @@ keywords: [w5300,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico eth
 description: W5300 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
-![](/img/products/w5300/w5300_280.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5300/w5300_280.jpg)
 
 **Hardwired Dual TCP/IP Stack Controller**
 
@@ -16,7 +16,7 @@ W5300 suits users in need of stable internet connectivity best, using a single c
 
 By using W5300, users can implement the Ethernet application they need by using a simple socket program instead of handling a complex Ethernet Controller. It is possible to use 8 independent hardware sockets simultaneously. BUS (Direct & Indirect) is provided for easy integration with the external MCU. The W5300 supports max. 80Mbps network throughput.
 
-![](/img/products/w5300/w5500_blockdiagram.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5300/w5500_blockdiagram.jpg)
 
 -----
 

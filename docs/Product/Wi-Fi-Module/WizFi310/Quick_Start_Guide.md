@@ -14,48 +14,48 @@ Feature Identification
 
 ---
 
-![](/img/products/wizfi310/wizfi310-evb_guide.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310-evb_guide.png)
 
 #### Button Description
 
 ---
 
-|  | |
-|--|--|
-|WizFi310 Reset	|Through this button, user can restart WizFi310 module.|
-|Function	|Through the function button, user can enter specific mode without AT Command.♦ AP Mode : When module is working, press it once.♦ OTA Mode : When module is working, press it twice.♦ Factory Default : When module is working, press it three times.|
+|                |                                                                                                                                                                                                                                                      |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WizFi310 Reset | Through this button, user can restart WizFi310 module.                                                                                                                                                                                               |
+| Function       | Through the function button, user can enter specific mode without AT Command.♦ AP Mode : When module is working, press it once.♦ OTA Mode : When module is working, press it twice.♦ Factory Default : When module is working, press it three times. |
 
 #### LED Description
 
 ---
 
-| | |
-|---|--|
-|UART RX/TX	|Indicate UART RX/TX Status|
-|Power LED	|Indicate Power On/Off of WizFi310|
-|Mode LED	|Indicate Data/Command Mode ♦ LOW(ON) : Data Mode ♦ HIGH(OFF) : Command Mode|
-|Wi-Fi LED|	Indicate Wi-Fi Association ♦ LOW(ON) : Wi-Fi is associated ♦ HIGH(OFF) : Wi-Fi is not associated|
+|            |                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------ |
+| UART RX/TX | Indicate UART RX/TX Status                                                                       |
+| Power LED  | Indicate Power On/Off of WizFi310                                                                |
+| Mode LED   | Indicate Data/Command Mode ♦ LOW(ON) : Data Mode ♦ HIGH(OFF) : Command Mode                      |
+| Wi-Fi LED  | Indicate Wi-Fi Association ♦ LOW(ON) : Wi-Fi is associated ♦ HIGH(OFF) : Wi-Fi is not associated |
 
 #### Pin Description
 
 ---
 
-|GPIO Pin	|Through this pin, user can use GPIO signal|
-|---------|-------------------------------------------|
+| GPIO Pin | Through this pin, user can use GPIO signal |
+| -------- | ------------------------------------------ |
 
 #### Interface Description
 ---
-|||
-|--|--|
-|Debug Message Interface	|Through these pins, user can see debug message.Using these pins, WizFi310 can't use AT commands.|
-|USB Interface	|This provides power supply & Serial interface .Default serial information:♦ Baud rate : 115200 ♦ Data rate : 8 ♦ Stop bits : 1 ♦ Parity : None ♦ Flow control : None|
-|JTAG Interface	|User doesn't need to know. It is used only for factory.|
+|                         |                                                                                                                                                                      |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Debug Message Interface | Through these pins, user can see debug message.Using these pins, WizFi310 can't use AT commands.                                                                     |
+| USB Interface           | This provides power supply & Serial interface .Default serial information:♦ Baud rate : 115200 ♦ Data rate : 8 ♦ Stop bits : 1 ♦ Parity : None ♦ Flow control : None |
+| JTAG Interface          | User doesn't need to know. It is used only for factory.                                                                                                              |
 
 ## Start Serial to Wi-Fi
 
 This chapter describes how to set WizFi310 in order to exchange data with peer system. This picture shows the environment for testing Serial to Wi-Fi example. In this example, WizFi310 is set to TCP server and peer system is set to TCP client. And then data can be exchanged between WizFi310 and the peer system.
 
-![](/img/products/wizfi310/quick_start_guide_2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/quick_start_guide_2.png)
 
 #### Using Serial Command
 
@@ -94,7 +94,7 @@ In order to exit data mode or enter into command mode again, You have to send a 
 This section explains how to exchange data between WizFi310 and Peer System.
 This picture describes the flow for data communication.
 
-![](/img/products/wizfi310/quick_start_guide_3.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/quick_start_guide_3.png)
 
 After TCP connection is done successfully and then if WizFi310 receives serial data, the serial data will be sent to peer system immediately. And WizFi310 can receive data from peer system.
-![](/img/products/wizfi310/quick_start_guide_4.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/quick_start_guide_4.png)

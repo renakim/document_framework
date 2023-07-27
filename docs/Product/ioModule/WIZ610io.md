@@ -9,10 +9,10 @@ date: 2020-04-15
 WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, include PHY), MAG-JACK (RJ45 with X’FMR) with other glue logics. Please click the link for the further information about
 **[W6100](../iEthernet/W6100/Overview.md)**. It can be used as a component and no effort is required to interface W6100 and Transformer. The best advantage of the WIZ610io is that it supports IPv6. The WIZ610io is an ideal option for users who want to develop their Internet enabling systems rapidly.
 
-|                                                   |
-| ------------------------------------------------- |
+|                                                    |
+| -------------------------------------------------- |
 | ![WIZ610io](/img/products/wiz610io/wiz610io_1.png) |
-| Figure: ***WIZ610io***                            |
+| Figure: ***WIZ610io***                             |
 
 -----
 
@@ -47,8 +47,8 @@ WIZ610io is the network module that includes W6100 (TCP/IP hardwired chip, inclu
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/download.png)
-    <a href="/img/products/wiz610io/wiz610io_user_manual_v1.1.pdf" target="_blank">Download</a> 
+  - ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
+    <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz610io/wiz610io_user_manual_v1.1.pdf" target="_blank">Download</a> 
 
 -----
 

@@ -17,7 +17,7 @@ date: 2020-04-08
 ## 잘 알려진 내용
 
 | Configuration Tool 관련 문제 |
-| ------------------------ |
+| ---------------------------- |
 
 <details>
 <summary>WIZ750SR 제품의 Configuration tool은 어디서 찾을 수 있나요?</summary>
@@ -41,20 +41,20 @@ date: 2020-04-08
         2.  ping 192.168.xxx.xxx (제품에 할당된 IP 입력)
         3.  응답 확인
 
-|                                                         |
-| ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
-| Windows Run에서 'cmd' 커맨드 입력 실행                           |
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| Windows Run에서 'cmd' 커맨드 입력 실행                                                               |
 
-|                                                            |
-| ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
-| Ping request / reply 성공                                    |
+|                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| Ping request / reply 성공                                                                               |
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
-| Ping request / reply 실패                                   |
+|                                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| Ping request / reply 실패                                                                              |
 
   - WIZ750SR 제품의 설정 툴에서 제공하는 UDP Search 기능은 **UDP broadcast, 포트
     50001번**을 이용합니다. **OS의 방화벽**과 **백신 프로그램**을 해제 하신 후 다시 테스트 부탁
@@ -77,10 +77,10 @@ date: 2020-04-08
   - 설정을 변경 하신 후, Configuration tool 상단의 'Setting' 아이콘을 클릭하시면 제품의 재시작과 함께
     변경된 설정 내용이 적용됩니다.
 
-|                                                       |
-| ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
-| WIZ107/108SR & **WIZ750SR** Configuration Tool        |
+|                                                                                                    |
+| -------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/gettingstarted/configtool.png) |
+| WIZ107/108SR & **WIZ750SR** Configuration Tool                                                     |
 
 </details>
 
@@ -107,20 +107,20 @@ date: 2020-04-08
         2.  ping 192.168.xxx.xxx (제품에 할당된 IP 입력)
         3.  응답 확인
 
-|                                                         |
-| ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
-| Windows Run에서 'cmd' 커맨드 입력 실행                           |
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| Windows Run에서 'cmd' 커맨드 입력 실행                                                               |
 
-|                                                            |
-| ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
-| Ping request / reply 성공                                    |
+|                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| Ping request / reply 성공                                                                               |
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
-| Ping request / reply 실패                                   |
+|                                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| Ping request / reply 실패                                                                              |
 
   - 펌웨어 업데이트 시, Config-tool이 동작 중인 PC와 WIZ750SR 모듈의 IP 대역이 일치해야 합니다.
       - **DHCP 모드** (자동 IP 할당) 사용 시, PC와 제품이 동일한 공유기로부터 IP를 할당 받도록 구성
@@ -132,7 +132,7 @@ date: 2020-04-08
 </details>
 
 | WIZ750SR 개발 보드(EVB) 관련 문제 |
-| ------------------------- |
+| --------------------------------- |
 
 <details>
 <summary>WIZ750SR 개발 보드의 시리얼 인터페이스를 PC와 연결하여 테스트 하려면 어떻게 해야하나요?</summary>

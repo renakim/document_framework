@@ -18,7 +18,7 @@ WIZ-Embedded WebServer는 소형의 마이컴으로 동작하는 Web Server로�
 
 ## TFTP Guide Document
 
-<a href="/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP 사용 가이드 문서</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP 사용 가이드 문서</a>
 
 ## Configuration Tool
 
@@ -79,11 +79,11 @@ Password : 설정 패스워드
 
 이 기능은 모든 설정을 factory default 설정으로 초기화 하는 기능으로 설정 시 “Setting Password”를 요구한다. Factory default 값은 아래 표와 같다.
 
-|**Category	|Item|	Value**|
-|---------|-----|------|
-|**Network**	|Local IP	|192.168.11.100|
-||Local Gateway	|192.168.11.1|
-||Local Subnet	|255.255.255.0|
+| **Category  | Item          | Value**        |
+| ----------- | ------------- | -------------- |
+| **Network** | Local IP      | 192.168.11.100 |
+|             | Local Gateway | 192.168.11.1   |
+|             | Local Subnet  | 255.255.255.0  |
 
 #### Exit
 
@@ -135,9 +135,9 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 아래는 사용자가 입력할 수 있는 예제들이다. 예제에서 볼 수 있는 것처럼, WIZ550WEB의 응답에도 항상 “\r\n”가 존재한다.
 
-|사용자의 입력	|AT\r\n (0x61 0x74 0x0d 0x0a)|
-|---------------|---------------------------|
-|WIZ550WEB의 응답|	[S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a)|
+| 사용자의 입력    | AT\r\n (0x61 0x74 0x0d 0x0a)       |
+| ---------------- | ---------------------------------- |
+| WIZ550WEB의 응답 | [S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a) |
 
 ---
 ### Responses
@@ -153,14 +153,14 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 응답 종류별 세부적인 내용은 다음과 같다.
 
-|**Response|	Description**|
-|--------|-------------|
-|Success Response	|[S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓ 명령 수행 성공. 필요한 경우, 인자를 포함한 응답|
-|Success Dump Response	|[D,(Id),(Size)]↓(Data)↓ 명령 수행 성공. 대용량 데이터를 포함한 응답.|
-|Fail Response|	[F,(Id),(ErrorCode),(ErrorParam)]↓ 명령 수행 실패, 필요한 경우 에러코드 포함한 응답|
-|Wait Response	|[W,(Id)]↓ 비동기 모드로 명령이 수행중임. 완료시 ID를 이용해서 표시함.|
-|Data Receive Response	|[R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓데이터 수신을 알림. 소켓 ID로 수신 대상 구분.|
-|Event Response|	[V,(Id),(EventCode)]↓이벤트 발생 알림.|
+| **Response            | Description**                                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Success Response      | [S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓ 명령 수행 성공. 필요한 경우, 인자를 포함한 응답 |
+| Success Dump Response | [D,(Id),(Size)]↓(Data)↓ 명령 수행 성공. 대용량 데이터를 포함한 응답.                                            |
+| Fail Response         | [F,(Id),(ErrorCode),(ErrorParam)]↓ 명령 수행 실패, 필요한 경우 에러코드 포함한 응답                             |
+| Wait Response         | [W,(Id)]↓ 비동기 모드로 명령이 수행중임. 완료시 ID를 이용해서 표시함.                                           |
+| Data Receive Response | [R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓데이터 수신을 알림. 소켓 ID로 수신 대상 구분.              |
+| Event Response        | [V,(Id),(EventCode)]↓이벤트 발생 알림.                                                                          |
 
  - (Id): 0 - 시스템 ID or 0~n - 소켓 지정자
  - (Size): 출력한 데이터의 길이
@@ -176,57 +176,57 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 **General Error Code**
 
-|Code	|Error Name|	Description|
-|--------|---------|----------------|
-|0	|ERR_Undefined|	정의되지 않은 오류|
-|1|	ERR_WrongOperator|	잘못된 명령어|
-|2	|ERR_WrongCommandSign|	잘못된 명령 부호|
-|3|	ERR_WrongArguments|	잘못된 인자들|
-|4|	ERR_OurofRange	|지정범위를 벗어난 인자들|
-|5|	ERR_FuncDisabled|	지정된 함수 사용불가|
-|6	|ERR_NotAllowed	|허용되지 않음음|
-|7|	ERR_CommandBusy|	명령 수행중|
-|8	|ERR_CommandTimeout|	명령 타임아웃|
+| Code | Error Name           | Description              |
+| ---- | -------------------- | ------------------------ |
+| 0    | ERR_Undefined        | 정의되지 않은 오류       |
+| 1    | ERR_WrongOperator    | 잘못된 명령어            |
+| 2    | ERR_WrongCommandSign | 잘못된 명령 부호         |
+| 3    | ERR_WrongArguments   | 잘못된 인자들            |
+| 4    | ERR_OurofRange       | 지정범위를 벗어난 인자들 |
+| 5    | ERR_FuncDisabled     | 지정된 함수 사용불가     |
+| 6    | ERR_NotAllowed       | 허용되지 않음음          |
+| 7    | ERR_CommandBusy      | 명령 수행중              |
+| 8    | ERR_CommandTimeout   | 명령 타임아웃            |
 
 #### Socket Error Code
 
-|Code|	Error Name|	Description|
-|----|------------|-------------|
-|10|	ERR_SockNotAvail|	소켓이 가용하지 않음|
-|11	|ERR_SockClosed|	소켓이 닫힘|
-|12|	ERR_SockPortNumNotAvail|	지정된 포트 넘버가 사용할 수 없음|
-|13	|ERR_SockNotConnected	|연결되지 않음|
-|14|	ERR_SockWrongAddr|	잘못된 주소|
-|15	|ERR_SockDataNotAvailable	|사용가능한 데이터가 없음|
+| Code | Error Name               | Description                       |
+| ---- | ------------------------ | --------------------------------- |
+| 10   | ERR_SockNotAvail         | 소켓이 가용하지 않음              |
+| 11   | ERR_SockClosed           | 소켓이 닫힘                       |
+| 12   | ERR_SockPortNumNotAvail  | 지정된 포트 넘버가 사용할 수 없음 |
+| 13   | ERR_SockNotConnected     | 연결되지 않음                     |
+| 14   | ERR_SockWrongAddr        | 잘못된 주소                       |
+| 15   | ERR_SockDataNotAvailable | 사용가능한 데이터가 없음          |
 
 #### Other Error Code
 
-|Code	|Error Name	|Description|
-|-------|----------|-------------|
-|20|	ERR_NoFreeMem	|No Free Memory|
+| Code | Error Name    | Description    |
+| ---- | ------------- | -------------- |
+| 20   | ERR_NoFreeMem | No Free Memory |
 
 #### Event Code
 
 **Socket Event Code**
 
-|Code	|Socket Event Name|	Description|
-|-------|-----------------|-------------|
-|0|	EVENT_SockConnected|	연결됨. 소켓 상태가 Listen 상태에서 연결상태로 변경됨|
-|1|	EVENT_SockDisconnected	|연결해제됨. 소켓 상태가 연결상태에서 연결해제상태로 변경됨|
-|2	|EVENT_SockClosed	|소켓 닫힘. 소켓 상태가 닫힘으로 바뀜|
-|3|	EVENT_SockDataRcvd	|데이터를 수신함. 연관됨 소켓이 상대방으로부터 데이터를 수신함|
+| Code | Socket Event Name      | Description                                                   |
+| ---- | ---------------------- | ------------------------------------------------------------- |
+| 0    | EVENT_SockConnected    | 연결됨. 소켓 상태가 Listen 상태에서 연결상태로 변경됨         |
+| 1    | EVENT_SockDisconnected | 연결해제됨. 소켓 상태가 연결상태에서 연결해제상태로 변경됨    |
+| 2    | EVENT_SockClosed       | 소켓 닫힘. 소켓 상태가 닫힘으로 바뀜                          |
+| 3    | EVENT_SockDataRcvd     | 데이터를 수신함. 연관됨 소켓이 상대방으로부터 데이터를 수신함 |
 
 ### Network Commands
 
-|Command	|Prop.|	Input Parameter|	Response|
-|---------|-----|----------------|----------|
-|[AT+NSET](#atnset)	|None or ?	|	|[S,,S,(IP),(SN),(GW),(DNS)][S,,D]|
-||=|	S,(IP),(SN),(GW),(DNS)|	[S]|
-|||D|	[S]|
-||-	|num,Param	|[S]|
-|[AT+NSTAT](#atnstat)|	None or ?||		[S,,S/D,(IP),(SN),(GW),(DNS)]|
-|[AT+NMAC](#atnmac)|	None or ?||		[S,,(MAC)]|
-||=	|(MAC)|	[S]|
+| Command              | Prop.     | Input Parameter        | Response                          |
+| -------------------- | --------- | ---------------------- | --------------------------------- |
+| [AT+NSET](#atnset)   | None or ? |                        | [S,,S,(IP),(SN),(GW),(DNS)][S,,D] |
+|                      | =         | S,(IP),(SN),(GW),(DNS) | [S]                               |
+|                      |           | D                      | [S]                               |
+|                      | -         | num,Param              | [S]                               |
+| [AT+NSTAT](#atnstat) | None or ? |                        | [S,,S/D,(IP),(SN),(GW),(DNS)]     |
+| [AT+NMAC](#atnmac)   | None or ? |                        | [S,,(MAC)]                        |
+|                      | =         | (MAC)                  | [S]                               |
 
 #### AT+NSET
 
@@ -238,10 +238,10 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
  
 < DHCP>: 정적 IP / 유동 IP 사용 지정
 
-|Parameter|	Meaning|
-|---------|---------|
-|S|	DHCP Off, Static|
-|D	|DHCP On, DHCP Client|
+| Parameter | Meaning              |
+| --------- | -------------------- |
+| S         | DHCP Off, Static     |
+| D         | DHCP On, DHCP Client |
 
 < IP>: IP 주소 (Optional)
 < SN>: 서브넷 마스크 (Optional)
@@ -340,20 +340,20 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 ### Management Commands
 
-|Command|	Prop.|	Input Parameter|	Response|
-|--------|-------|-----------------|-------------|
-|[AT](#at)	|None|		|[S]|
-||?|	|[D,,(Size)]↓(Data)|
-|[AT+MSTAT](#atmstat)	|None or ?	|	|[S,,(Version)]|
-|[AT+MUSART1](#atmusart1)|	None or ?	|	[S,,(BR),(W),(P),(S),(F)]|
-||=	|(BR),(W),(P),(S),(F)|	[S]|
-||-|	num,Param|	[S]|
-|[AT+MUSART2](#atmusart2)	|None or ?|		|[S,,(BR),(W),(P),(S),(F)]|
-||=|	(BR),(W),(P),(S),(F)|	[S]|
-||-|	num,Param	|[S]|
-|[AT+MSAVE](#atmsave)|	None|	|	[S]|
-|[AT+MRST](#atmrst)|	None|		|[S]|
-||=	|F|	[S]|
+| Command                  | Prop.     | Input Parameter           | Response                  |
+| ------------------------ | --------- | ------------------------- | ------------------------- |
+| [AT](#at)                | None      |                           | [S]                       |
+|                          | ?         |                           | [D,,(Size)]↓(Data)        |
+| [AT+MSTAT](#atmstat)     | None or ? |                           | [S,,(Version)]            |
+| [AT+MUSART1](#atmusart1) | None or ? | [S,,(BR),(W),(P),(S),(F)] |
+|                          | =         | (BR),(W),(P),(S),(F)      | [S]                       |
+|                          | -         | num,Param                 | [S]                       |
+| [AT+MUSART2](#atmusart2) | None or ? |                           | [S,,(BR),(W),(P),(S),(F)] |
+|                          | =         | (BR),(W),(P),(S),(F)      | [S]                       |
+|                          | -         | num,Param                 | [S]                       |
+| [AT+MSAVE](#atmsave)     | None      |                           | [S]                       |
+| [AT+MRST](#atmrst)       | None      |                           | [S]                       |
+|                          | =         | F                         | [S]                       |
 
 #### AT
 
@@ -395,49 +395,49 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
   
 &#60;BR&#62;: Baud rate
 
-|Parameter|	Meaning|
-|---------|--------|
-|300	|300bps|
-|600	|600bps|
-|1200	|1200bps|
-|2400	|2400bps|
-|4800	|4800bps|
-|9600	|9600bps|
-|19200|	19200bps|
-|38400|	38400bps|
-|57600|	57600bps|
-|115200|	115200bps|
-|230400	|230400bps|
+| Parameter | Meaning   |
+| --------- | --------- |
+| 300       | 300bps    |
+| 600       | 600bps    |
+| 1200      | 1200bps   |
+| 2400      | 2400bps   |
+| 4800      | 4800bps   |
+| 9600      | 9600bps   |
+| 19200     | 19200bps  |
+| 38400     | 38400bps  |
+| 57600     | 57600bps  |
+| 115200    | 115200bps |
+| 230400    | 230400bps |
 
 &#60;W&#62;: Word length
 
-|Parameter|	Meaning|
-|---------|---------|
-|8|	8 bits|
-|9|	9 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 8         | 8 bits  |
+| 9         | 9 bits  |
 
 &#60;P&#62;: Parity bit
 
-|Parameter	|Meaning|
-|-----------|-------|
-|N	|NONE|
-|O	|ODD|
-|E	|EVEN|
+| Parameter | Meaning |
+| --------- | ------- |
+| N         | NONE    |
+| O         | ODD     |
+| E         | EVEN    |
 
 
 &#60;S&#62;: Stop bit
 
-|Parameter|	Meaning|
-|---------|--------|
-|1|	1 bits|
-|2|	2 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 1         | 1 bits  |
+| 2         | 2 bits  |
 
 &#60;F&#62;: Flow Control
 
-|Parameter|	Meaning|
-|----------|--------|
-|0	|NONE|
-|1	|RTS/CTS|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | NONE    |
+| 1         | RTS/CTS |
 
 - **Response:**
 
@@ -476,48 +476,48 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 &#60;BR&#62;: Baud rate
 
-|Parameter	|Meaning|
-|------------|-------|
-|300	|300bps|
-|600|	600bps|
-|1200|	1200bps|
-|2400|	2400bps|
-|4800	|4800bps|
-|9600|	9600bps|
-|19200|	19200bps|
-|38400	|38400bps|
-|57600|	57600bps|
-|115200|	115200bps|
-|230400|	230400bps|
+| Parameter | Meaning   |
+| --------- | --------- |
+| 300       | 300bps    |
+| 600       | 600bps    |
+| 1200      | 1200bps   |
+| 2400      | 2400bps   |
+| 4800      | 4800bps   |
+| 9600      | 9600bps   |
+| 19200     | 19200bps  |
+| 38400     | 38400bps  |
+| 57600     | 57600bps  |
+| 115200    | 115200bps |
+| 230400    | 230400bps |
 
 &#60;W&#62;: Word length
 
-|Parameter|	Meaning|
-|----------|-------|
-|8	|8 bits|
-|9|	9 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 8         | 8 bits  |
+| 9         | 9 bits  |
 
 &#60;P&#62;: Parity bit
 
-|Parameter|	Meaning|
-|---------|--------|
-|N	|NONE|
-|O|	ODD|
-|E	|EVEN|
+| Parameter | Meaning |
+| --------- | ------- |
+| N         | NONE    |
+| O         | ODD     |
+| E         | EVEN    |
 
 &#60;S&#62;: Stop bit
 
-|Parameter|	Meaning|
-|---------|--------|
-|1	|1 bits|
-|2|	2 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 1         | 1 bits  |
+| 2         | 2 bits  |
 
 &#60;F&#62;: Flow Control
 
-|Parameter|	Meaning|
-|----------|-------|
-|0	|NONE|
-|1	|RTS/CTS|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | NONE    |
+| 1         | RTS/CTS |
 
 - **Response:**
 
@@ -574,12 +574,12 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 
 ### Function Commands
 
-|Command|	Prop.|	Input Parameter|	Response|
-|-------|------|-----------------|----------|
-|[AT+FIODIR](#atfiodir)|	=	|(PIN)|	[S,,(Direction)]|
-||=	|(PIN),(Direction)|	[S]|
-|[AT+FIOVAL](#atfioval)|	=|	(PIN)|	[S,,(VAL)]|
-||=	|(PIN),(VAL)|	[S]|
+| Command                | Prop. | Input Parameter   | Response         |
+| ---------------------- | ----- | ----------------- | ---------------- |
+| [AT+FIODIR](#atfiodir) | =     | (PIN)             | [S,,(Direction)] |
+|                        | =     | (PIN),(Direction) | [S]              |
+| [AT+FIOVAL](#atfioval) | =     | (PIN)             | [S,,(VAL)]       |
+|                        | =     | (PIN),(VAL)       | [S]              |
 
 ---
 
@@ -595,11 +595,11 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 < PIN> : GPIO Pin Number (1 ~ 16)
 < Direction> : GPIO Pin Direction
 
-|Parameter|	Meaning|
-|----------|-------|
-|0|	Not Used (Read Only)|
-|1	|Input|
-|2|	Output|
+| Parameter | Meaning              |
+| --------- | -------------------- |
+| 0         | Not Used (Read Only) |
+| 1         | Input                |
+| 2         | Output               |
 
 - **Response:**
 
@@ -641,10 +641,10 @@ Setting Password : "Setting", "F/W Uploading", "Reset", "Factory Reset" 시 인�
 < PIN> : GPIO Pin Number (1 ~ 16)
 < VAL> : GPIO Pin Output Value
 
-|Parameter|	Meaning|
-|---------|---------|
-|0	|Low|
-|1|	High|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | Low     |
+| 1         | High    |
 
 - **Response:**
 

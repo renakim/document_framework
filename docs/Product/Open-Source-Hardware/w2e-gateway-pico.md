@@ -12,7 +12,7 @@ W2E-Gateway-Pico is an evaluation board based on Raspberry Pi RP2040; it support
 - Wi-Fi (WizFi360)
 - Ethernet (W5100S)
 
-![](/img/osh/w2e-gateway-pico/w2e-gateway-pico-blockdiagram.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w2e-gateway-pico/w2e-gateway-pico-blockdiagram.png)
 
 ## Features
 

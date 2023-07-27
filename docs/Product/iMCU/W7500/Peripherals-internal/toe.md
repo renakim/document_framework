@@ -23,7 +23,7 @@ TOE also provides WOL (Wake on LAN) to reduce power consumption of the system.
 
 The below Figure shows the TOE block diagram.
 
-![](/img/products/w7500p/peripheral/wztoe_diagram.gif "Figure 1 TOE block diagram")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/wztoe_diagram.gif "Figure 1 TOE block diagram")
 
 ## TOE Memory map
 
@@ -31,7 +31,7 @@ TOE has one Common Register Block, eight Socket Register Blocks, and TX/RX Buffe
 Regardless of the allocated size of each Socket TX/RX Buffer, it can be accessible within the 16 bits offset address range (From 0x0000 to 0xFFFF).
 Refer to [Memory](toe.md#memory) for more information about 16KB TX/RX Memory organization and access method.
 
-![](/img/products/w7500p/peripheral/wztoe_memory_map.jpg "Figure 2 TOE memory map ")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/wztoe_memory_map.jpg "Figure 2 TOE memory map ")
 
 ### Common register map
 

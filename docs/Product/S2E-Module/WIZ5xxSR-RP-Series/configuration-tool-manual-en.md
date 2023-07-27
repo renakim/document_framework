@@ -21,10 +21,10 @@ The WIZ5xxSR-RP configuration tool is published on the Github under the name of 
 
 The following screen will appear once the program is installed and opened.
 
-|                                                                                                            |
-| :--------------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
-|                               Figure: **Configuration Tool for WIZ5xxSR-RP**                               |
+|                                                                                                                                                     |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
+|                                                   Figure: **Configuration Tool for WIZ5xxSR-RP**                                                    |
 
   - WIZnet-S2E-Tool-GUI is Python interpreter based and it is platform-independent.
   - If user has used one of WIZ107SR / WIZ108SR, WIZ750SR / WIZ750SR-1xx / WIZ750SR-12x or WIZ510SSL, the same program can be used for WIZ5xxSR-RP.
@@ -47,10 +47,10 @@ Refer to the link below for a list of supported devices.
 
 ## Configuration Tool Layout
 
-|                                                                                                   |
-| :-----------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
-|                               Figure: **Configuration Tool layout**                               |
+|                                                                                                                                            |
+| :----------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_layout.png) |
+|                                                   Figure: **Configuration Tool layout**                                                    |
 
 The configuration tool is composed of four sections. Details of each section are available below.
 
@@ -110,10 +110,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 1. Icon Menu
 
-|                                                                                    |
-| :--------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png) |
-|                               Figure: **Menu icons**                               |
+|                                                                                                                             |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/menu_icons.png) |
+|                                                   Figure: **Menu icons**                                                    |
 
 
 
@@ -189,10 +189,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 2\. Network Interface configuration
 
-|                                                                                          |
-| :--------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/network_adapters.png) |
-|                               Figure: **Network adapters**                               |
+|                                                                                                                                   |
+| :-------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/network_adapters.png) |
+|                                                   Figure: **Network adapters**                                                    |
 
   - If using multiple types of network adapters, a list of adapters and the bands in use are displayed and can be selected according to your environment.
     - Example 1) If your laptop is using both Ethernet and Wi-Fi
@@ -202,10 +202,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 3\. Device List
 
-|                                                                                     |
-| :---------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/device_list.png) |
-|                              Figure: ***Device list**                               |
+|                                                                                                                              |
+| :--------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/device_list.png) |
+|                                                   Figure: ***Device list**                                                   |
 
   - List of devices searched will appears.
     - **Searched results** shows the number of devices searched.
@@ -242,10 +242,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 6-1. Basic settings Tab
 
-|                                                                                            |
-| :----------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
-|                               Figure: **Basic settings tab**                               |
+|                                                                                                                                     |
+| :---------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/basic_settings_tab.png) |
+|                                                   Figure: **Basic settings tab**                                                    |
 
 
 
@@ -277,10 +277,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 6-2. Options Tab
 
-|                                                                                     |
-| :---------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/options_tab.png) |
-|                               Figure: **Options tab**                               |
+|                                                                                                                              |
+| :--------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/options_tab.png) |
+|                                                   Figure: **Options tab**                                                    |
 
 
 
@@ -345,10 +345,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 6-3. MQTT Options Tab
 
-|                                                                                          |
-| :--------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/mqtt_options_tab.png) |
-|                               Figure: **MQTT options tab**                               |
+|                                                                                                                                   |
+| :-------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/mqtt_options_tab.png) |
+|                                                   Figure: **MQTT options tab**                                                    |
 
 
 
@@ -385,10 +385,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 6-4. Certificate Manager Tab
 
-|                                                                                                 |
-| :---------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/certificate_manager_tab.png) |
-|                               Figure: **Certificate manager tab**                               |
+|                                                                                                                                          |
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/certificate_manager_tab.png) |
+|                                                   Figure: **Certificate manager tab**                                                    |
 
 
 
@@ -417,10 +417,10 @@ The configuration tool is composed of four sections. Details of each section are
 
 ### 7\. Channel Tab
 
-|                                                                                     |
-| :---------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
-|                               Figure: **Channel tab**                               |
+|                                                                                                                              |
+| :--------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/channel_tab.png) |
+|                                                   Figure: **Channel tab**                                                    |
 
   - The serial command after switching modes must end with CR and LF.
 

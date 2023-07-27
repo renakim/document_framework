@@ -70,29 +70,29 @@ s_server -accept 443 -cert server.crt -key server.key
 
   - Select **SSL TCP client** mode in the **Operation mode** setting section
 
-|                                                               |
-| --------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
-| Figure: ***Select SSL TCP client mode***                      |
+|                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
+| Figure: ***Select SSL TCP client mode***                                                                                  |
 
   - Input the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
 
-|                                                                             |
-| ----------------------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/input_the_remote_host_ip_and_remote_port.png) |
-| Figure: ***Input the remote host IP and remote port***                      |
+|                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/input_the_remote_host_ip_and_remote_port.png) |
+| Figure: ***Input the remote host IP and remote port***                                                                                  |
 
   - Click the **Apply Settings** button to save the settings
 
-|                                                        			 |
-| -------------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/click_the_apply_settings_button.png) |
-| Figure: ***Click the Apply Settings button***                      |
+|                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/click_the_apply_settings_button.png) |
+| Figure: ***Click the Apply Settings button***                                                                                  |
 
-|                                                        			 |
-| -------------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png) |
-| Figure: ***Saved settings***
+|                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/saved_settings.png) |
+| Figure: ***Saved settings***                                                                                  |
 
 ※ **Note**: If you need certificates to connect to SSL server, please refer to the [**'Upload Certificates'**](#upload_certificates) section below.
 
@@ -100,15 +100,15 @@ s_server -accept 443 -cert server.crt -key server.key
 
 WIZ510SSL is successfully connected to SSL server through OpenSSL!
 
-|                                           |
-| ------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/status.png) |
-| Figure: ***Status***                      |
+|                                                                                                       |
+| ----------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/status.png) |
+| Figure: ***Status***                                                                                  |
 
-|                                                              |
-| -------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/connect_to_the_ssl_server.png) |
-| Figure: ***Connect to the SSL server***                      |
+|                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/connect_to_the_ssl_server.png) |
+| Figure: ***Connect to the SSL server***                                                                                  |
 
 
 #### Upload Certificates
@@ -122,7 +122,7 @@ Upload and set up the certificates required by the SSL server you want to connec
 
 After loading the certificate by clicking the '**Load file**' button, be sure to save it by clicking the '**Save to device**' button.
 
-|                                                        |
-| -------------------------------------------------------|
-| ![](/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png) |
-| Figure: ***Upload Certificates***                      |
+|                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/ssl_connection_guide/upload_certificates.png) |
+| Figure: ***Upload Certificates***                                                                                  |

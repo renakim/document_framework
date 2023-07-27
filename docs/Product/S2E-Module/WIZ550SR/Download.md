@@ -14,13 +14,13 @@ date: 2020-04-16
 
   - **Full Binary (App Boot + App)**
 
-<a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip" target="_blank">Download (Boot + App)</a>  
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550sr/wiz550sr_download/wiz550sr_160531.zip" target="_blank">Download (Boot + App)</a>  
 
   - **App Binary (App), Uesing the WIZnet Configuration Tool**
 
 **App Binary (App)**  
 
-<a href="/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip" target="_blank">Download (App)</a>  
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550sr/wiz550sr_download/wiz550sr_app_160531.zip" target="_blank">Download (App)</a>  
 
 
 ### Source code (with web pages)
@@ -47,14 +47,14 @@ Install JAVA Runtime Environment
 
 **WIZnet Configuration Tool Version 1.0.3**  
 
-<a href="/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Download (zip)</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550sr/wiz550sr_download/wiznet_configuration_tool_ver1.03.zip" target="_blank">Download (zip)</a>
 
 
 -----
 
 **Configuration Tool Firmware Upload Guide(TFTP)**  
 
-<a href="/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550sr/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Configuration Tool Fw upload guide(TFTP)</a>
 
 -----
 

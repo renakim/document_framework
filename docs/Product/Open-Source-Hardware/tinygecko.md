@@ -8,7 +8,7 @@ Tiny GECKO Starter Kit STK3300 is a prototyping and application
 development tool for the EFM32TG MCU family with the ARM Cortex-M3 CPU
 core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
-![](/img/osh/energymicro/tg840_spec.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/energymicro/tg840_spec.png)
 
 #### Features
 
@@ -28,7 +28,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Hardware Layout
 
-![](/img/osh/energymicro/tinygecko_hw_layout.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/energymicro/tinygecko_hw_layout.png)
 
 -----
 
@@ -65,7 +65,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 | UART RX | \#14 (PD5)                              | Yours                                |
 | Power   | 3.3V/VMCU/5V & GND                      | VDD & GND(J1:7-8/J2:1 & J1:1-2/J2:6) |
 
-![](/img/osh/energymicro/tg840_wiz550io.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/energymicro/tg840_wiz550io.jpg)
 
 -----
 
@@ -73,7 +73,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
 
 #### Download IAR project for example (Loopback/DHCP/DNS)
 
-  - <a href="/img/osh/energymicro/efm32tg840f32_w5500_20131220.zip" target="_blank">efm32tg840f32\_w5500\_20131220.zip</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/energymicro/efm32tg840f32_w5500_20131220.zip" target="_blank">efm32tg840f32\_w5500\_20131220.zip</a>
   - Extract the downloaded zip file on your PC.
 
 #### Install the latest ioLibrary BSD
@@ -87,7 +87,7 @@ core. We use EMF32TG840F32 in EFM32TG family. Its SPEC is as follows.
         \[ioLibrary\]
       - Copy the previous downloaded ioLibrary\_bsd \[Internet\] into
         \[ioLibrary\]
-      - ![](/img/osh/energymicro/iar_project_directory.png)
+      - ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/energymicro/iar_project_directory.png)
 
 #### Open Project & Make image
 

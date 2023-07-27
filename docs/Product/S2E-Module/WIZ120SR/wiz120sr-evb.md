@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-![](/img/products/wiz120sr/ShopDtl_1054_20150108164456.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/ShopDtl_1054_20150108164456.jpg)
 
 WIZ120SR-EVB is a evaluation board for WIZ120SR.
 
@@ -34,4 +34,4 @@ WIZ120SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ120SR 
 
 ## Base Board Interface
 
-![](/img/products/wiz120sr/140627_7350.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/140627_7350.jpg)

@@ -31,7 +31,7 @@ date: 2020-04-08
 
 ### 연결도
 
-![](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ## 소프트웨어
 ### Example Code

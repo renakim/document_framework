@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-![](/img/products/wiz145sr/ShopEtc1_1106_20150123161907_.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz145sr/ShopEtc1_1106_20150123161907_.jpg)
 
 WIZ145SR-EVB is a evaluation board for WIZ145SR.
 
@@ -34,7 +34,7 @@ WIZ145SR is an embedded module mounting RJ-45 and is based on WIZnet W5300 & ARM
 
 ## Base Board Interface
 
-![](/img/products/wiz145sr/140701_7350.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz145sr/140701_7350.jpg)
 
 ## Download
 
@@ -44,5 +44,5 @@ WIZ145SR-EVB (WIZ140SR-EVB) Dimension
 
 Last Update: 2015.08.03
 
-<a href="/img/products/wiz145sr/WIZ140_145SR_EVB_DIMENSION.pdf" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz145sr/WIZ140_145SR_EVB_DIMENSION.pdf" target="_blank">Download</a>
 

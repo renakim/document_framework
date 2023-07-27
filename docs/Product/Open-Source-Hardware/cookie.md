@@ -26,7 +26,7 @@ Cookie is an open-source Arduino™ form-factor compatible
 ARM prototyping platform based on 32-bit ARM Cortex M0/3/4 MCUs plus
 hardware and software building blocks.
 
-![](/img/osh/cookie/cookie_numicro_v1_s.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/cookie_numicro_v1_s.png)
 
 [Learn more](<http://www.coocox.org/Cookie.html>)
 
@@ -106,7 +106,7 @@ or EVB-boards.
 
 ### Before Tutorial
 
-![](/img/osh/cookie/0.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/0.jpg)
 
 -----
 
@@ -119,37 +119,37 @@ or EVB-boards.
 
  - Click the CoIDE icon
 
- ![](/img/osh/cookie/1.jpg)
+ ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/1.jpg)
 
  - The welcome page is a convenient entry for “Browse in Repository”,
 “Create a New Project”, “Open a Project”, refer to “User Guide” and go
 to “Forum"
 
-![](/img/osh/cookie/2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/2.jpg)
 
  - A wizard window will pop up, enter a name for the project (my project
 name: LoopbackTest)),You can also modify the Project Path.
 
-![](/img/osh/cookie/4.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/4.jpg)
 
  - Choose a model. For example, select ''Chip Model', then click “Next”.
 
- ![](/img/osh/cookie/5_chip.jpg)
+ ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/5_chip.jpg)
 
  - Select a chip. For example, select "M0516LBN"
 
-  ![](/img/osh/cookie/6_chip.jpg)
+  ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/6_chip.jpg)
 
   - Click "Finish". CoIDE automatically generates LoopbackTest.coproj
 file and one configuration: "LoopbackTest".
 
   - Click the Repository Button 
 
- ![](/img/osh/cookie/7.jpg)
+ ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/7.jpg)
 
   - Check a component; for example, select 'GPIO`SPI`UART`CoX.cookie.M051.config`C library''Retarget printf'. CoIDE will automatically check the components, which are depended by the checked component. 
 
-![](/img/osh/cookie/7_2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/7_2.jpg)
 
 ### Tutorial Using W5500
 
@@ -190,44 +190,44 @@ should select interface mode and kind of chip.
 #define WIZ_LOG_LEVEL   2       // 0: No print,  1: Error,  2: Error+Log,  3: Error+Log+Debug
 ```
 
-**<a href="/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Download:</a>
+**<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Download:</a>
 
  - Enter the menu (view \> Configuration)
 
-![](/img/osh/cookie/7_3.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/7_3.jpg)
 
  - You can select the Hardware Adapter type(Colink EX)
 
-![](/img/osh/cookie/7_4.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/7_4.jpg)
 
  - In the project view, select the parent directory in which you want to
 create the Group (If you do not select the parent directory, the default
 is the root directory of the project), select Add Group and Add file in
 context menu
 
-![](/img/osh/cookie/8.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/8.jpg)
 
  - You should make up same file path
 
-![](/img/osh/cookie/9.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/9.jpg)
 
  - Select the complie button. If necessary, you can select Rebuild to
 recompile your project or select Clean to clean-up the project that has
 been compiled.
 
-![](/img/osh/cookie/9_1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/9_1.jpg)
 
  - compile result
 
- ![](/img/osh/cookie/10.jpg)
+ ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/10.jpg)
 
  - Click the "Download" button to download code to flash
 
-![](/img/osh/cookie/10_1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/10_1.jpg)
 
  - download result
 
- ![](/img/osh/cookie/11.jpg)
+ ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/11.jpg)
 
  - You can confirm the serial value through terminal program
 
@@ -247,24 +247,24 @@ need to configure your PC network setting.
   - Enter to'Network and Internet' and enter to Network and Sharing Center.
   - Click'Change adapter settings at left side.
 
-![](/img/osh/cookie/sharing_center.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/sharing_center.jpg)
 
   - Double click Local Area Connection icon and click Properties and
 enter IPv4 Properties.
 
-![](/img/osh/cookie/sharing_center2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/sharing_center2.png)
 
   - Then, set your IP address and subnet mask as same as WIZ550io's IP
 address and subnet mask. 
   - Or, you can add IP address by setting
 Advanced. Click Advanced.. button.
 
-![](/img/osh/cookie/sharing_center3.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/sharing_center3.jpg)
 
 
   - Click Add... button and add IP address and subnet mask.
 
-![](/img/osh/cookie/sharing_center4.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/sharing_center4.png)
 
 
 ----
@@ -272,25 +272,25 @@ Advanced. Click Advanced.. button.
 ## TCP Server Loopback
 
 -----
-** Download : <a href="/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Project download</a>,[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html) **
+** Download : <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/w5500_cookie_v100.zip" target="_blank">Project download</a>,[Hercules test program](http://www.hw-group.com/products/hercules/index_en.html) **
 
  - Select TCP Client tab in Hercules and type Server IP address
 displaying in Tera Term at Module IP and port number box.
 
-![](/img/osh/cookie/loopback2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/loopback2.jpg)
 
  - Click Connect. 
  - If connection is done successfully, you can see
 message as follows.
 
-![](/img/osh/cookie/loopback4.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/loopback4.jpg)
 
  - Type data you want to send and click Send button. If you want to send
 string data, uncheck HEX checkbox. 
  - After send data, you can see sent
 data and received data.
 
-![](/img/osh/cookie/loopback5.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/loopback5.jpg)
 
 ## UDP Loopback
 
@@ -298,9 +298,9 @@ data and received data.
 
  - Select UDP tab in Hercules and type IP address and port number displaying in Tera Term at Module IP and Port box in Hercules. And then, type port number you want in Local port box and click Listen button. Now, UDP socket opened.
 
-![](/img/osh/cookie/loopback7.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/loopback7.jpg)
 
  - Type data you want to send and click Send button. If you want to send string data, uncheck HEX checkbox. 
  - After send data, you can see sent data and received data.
 
-![](/img/osh/cookie/loopback8.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/cookie/loopback8.jpg)

@@ -8,7 +8,7 @@ date: 2020-04-15
 * [English](./Getting-Started-EN.md) (current page)  
 * [Korean](./Getting-Started-KO.md)
 
-![](/img/products/wiz750sr/docs_icon.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -69,9 +69,9 @@ page.
 | :::              | :::    | Port0 number    | 5000          | \-                |
 | :::              | :::    | Port1 number    | 5001          | \-                |
 
-| Serial Port Settings | RS-232C-1 | 115200-8-N-1 / Flow Control: None | \- |
-| -------------------- | --------- | --------------------------------- | -- |
-| :::                  | RS-232C-2 | 115200-8-N-1 / Flow Control: None | \- |
+| Serial Port Settings | RS-232C-1 | 115200-8-N-1 / Flow Control: None | \-  |
+| -------------------- | --------- | --------------------------------- | --- |
+| :::                  | RS-232C-2 | 115200-8-N-1 / Flow Control: None | \-  |
 
 | User's I/O Settings | UserIO A | Analog / Input   | Read only    |
 | ------------------- | -------- | ---------------- | ------------ |
@@ -181,7 +181,7 @@ below.
 <!--
 |                                           |
 | ----------------------------------------- |
-| ![](/)                                     |
+| ![](/)                                    |
 | Figure: **Combining WIZ752SR-125 module** |
 -->
 
@@ -199,10 +199,10 @@ If the board is turned on and connected to the same network, the MAC
 address or settings of the WIZ752SR-125 module can be checked using the
 configuration tool.
 
-|                                                                     |
-| ------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
-| Figure: **WIZnet Configuration Tool**                               |
+|                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz752sr-120/gettingstarted/01_search.png) |
+| Figure: **WIZnet Configuration Tool**                                                                            |
 
 #### Step 4: Set up your WIZ752SR-125
 
@@ -225,10 +225,10 @@ below.
 
   - Control Panel \> System \> Device Manager
 
-|                                                                  |
-| ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
-| Figure: Device Manager                                           |
+|                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| Figure: Device Manager                                                                                        |
 
 #### Step 6: Verify
 

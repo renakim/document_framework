@@ -53,84 +53,84 @@ supports generic SPI, UART interface to connect WLAN to the host
 processor. A simplified block diagram of the WizFi250 module is depicted
 in the Fig. below.
 
-![](/img/products/wizfi250/wifi250ds-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wifi250ds-1.png)
 
 
 ## 4. Pin description
 
 ### Pin map
 
-![](/img/products/wizfi250/wizfi250_pin_map.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250_pin_map.png)
 
 ### Pin description
 
-| Pin Number | Pin Define     | Type | Description                                                          |
-| ---------- | -------------- | ---- | -------------------------------------------------------------------- |
-| 1          | GND            | \-   | Groud                                                                |
-| 2          | VBAT\_WL       | I    | Battery supply input                                                 |
-| 3          | VBAT\_WL       | I    | Battery supply input                                                 |
-| 4          | GND            | \-   | Ground                                                               |
-| 5          | VDDIO\_3V3\_WL | I    | Digital I/O supply.                                                  |
-| 6          | GND            | \-   | Ground                                                               |
-| 7          | NC             | \-   | \--                                                                  |
-| 8          | NC             | \-   | \--                                                                  |
-| 9          | NC             | \-   | \--                                                                  |
-| 10         | NC             | \-   | \--                                                                  |
-| 11         | NC             | \-   | \--                                                                  |
-| 12         | NC             | \-   | \--                                                                  |
-| 13         | GND            | \-   | Ground                                                               |
-| 14         | NC             | \-   | \--                                                                  |
-| 15         | GND            | \-   | Ground                                                               |
-| 16         | NC             | \-   | \--                                                                  |
-| 17         | NC             | \-   | \--                                                                  |
-| 18         | NC             | \-   | \--                                                                  |
-| 19         | NC             | \-   | \--                                                                  |
-| 20         | NC             | \-   | \--                                                                  |
-| 21         | SPI\_MISO      | I/O  | SPI Master In Slave Out                                              |
-| 22         | SPI\_SCK       | I/O  | SPI Clock                                                            |
-| 23         | SPI\_MOSI      | I/O  | SPI Master Out Slave In                                              |
-| 24         | SPI\_SS        | I/O  | SPI Slave Select                                                     |
-| 25         | GND            | \-   | Ground                                                               |
-| 26         | VDD\_3V3       | I    | Power supply for I/O and the internal regulator                      |
-| 27         | VDD\_3V3       | I    | Power supply for I/O and the internal regulator                      |
-| 28         | GND            | \-   | Ground                                                               |
-| 29         | UART2\_RTS     | I/O  | Active-low request-to-send signal for UART2 interface **(Not Used)** |
-| 30         | UART2\_CTS     | I/O  | Active-low clear-to-send signal for UART2 interface **(Not Used)**   |
-| 31         | UART2\_RXD     | I    | Serial data input for UART2 interface **(Not Used)**                 |
-| 32         | UART2\_TXD     | O    | Serial data output for UART2 interface **(Not Used)**                |
-| 33         | NC             | \-   | \--                                                                  |
-| 34         | RESET          | I    | RESET pin (Active Low)                                               |
-| 35         | NC             | \-   | \--                                                                  |
-| 36     | NC                           | \-  | \--                                                                              |
-| 37     | GND                          | \-  | Ground                                                                           |
-| 38     | VBAT                         | I   | Power supply when VDD\_3V3 is not present.                                       |
-| 39     | GND                          | \-  | Ground                                                                           |
-| 40     | GPIO1                        | I/O | GPIO1 pin                                                                        |
-| 41     | BOOT                         | I   | BOOT MODE pin (Active low)                                                       |
-| 42     | FUNCTION                     | I   | FUNCTION pin (Active Low)                                                        |
-| 43     | GPIO5                        | I/O | GPIO5 pin                                                                        |
-| 44     | GPIO6                        | I/O | GPIO6 pin                                                                        |
-| 45     | GPIO7                        | I/O | GPIO7 pin                                                                        |
-| 46     | GPIO8                        | I/O | GPIO8 pin                                                                        |
-| 47     | GPIO9                        | I/O | GPIO9 pin                                                                        |
-| 48     | Wi-Fi\_STATUS                | I/O | Wi-Fi Status pin                                                                 |
-| 49     | MODE\_STATUS                 | I/O | MODE Status pin                                                                  |
-| 50     | **SPI\_Data\_Ready**(GPIO14) | I/O | **In SPI Mode, It is used to SPI\_Data Ready Pin**                               |
-| 51     | JTAG\_TRST                   | I   | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
-| 52     | JTAG\_TDO                    | I/O | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
-| 53     | JTAG\_TDI                    | I/O | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
-| 54     | JTAG\_TMS                    | I   | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
-| 55     | JTAG\_TCK                    | I   | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
-| 56     | GND                          | \-  | Ground                                                                           |
-| 57     | GND                          | \-  | Ground                                                                           |
-| 58     | GND                          | \-  | Ground                                                                           |
-| 59     | GND                          | \-  | Ground                                                                           |
-| 60     | NC                           | \-  | \--                                                                              |
-| 61     | UART1\_RTS                   | I/O | Active-low request-to-send signal for UART1 interface **(Use)**                  |
-| 62     | UART1\_CTS                   | I/O | Active-low clear-to-send signal for UART1 interface **(Use)**                    |
-| 63     | UART1\_RXD                   | I   | Serial data input for UART1 interface **(Use)**                                  |
-| 64     | UART1\_TXD                   | O   | Serial data output for UART1 interface **(Use)**                                 |
-| 65\~73 | GND                          | \-  | Ground                                                                           |
+| Pin Number | Pin Define                   | Type | Description                                                                      |
+| ---------- | ---------------------------- | ---- | -------------------------------------------------------------------------------- |
+| 1          | GND                          | \-   | Groud                                                                            |
+| 2          | VBAT\_WL                     | I    | Battery supply input                                                             |
+| 3          | VBAT\_WL                     | I    | Battery supply input                                                             |
+| 4          | GND                          | \-   | Ground                                                                           |
+| 5          | VDDIO\_3V3\_WL               | I    | Digital I/O supply.                                                              |
+| 6          | GND                          | \-   | Ground                                                                           |
+| 7          | NC                           | \-   | \--                                                                              |
+| 8          | NC                           | \-   | \--                                                                              |
+| 9          | NC                           | \-   | \--                                                                              |
+| 10         | NC                           | \-   | \--                                                                              |
+| 11         | NC                           | \-   | \--                                                                              |
+| 12         | NC                           | \-   | \--                                                                              |
+| 13         | GND                          | \-   | Ground                                                                           |
+| 14         | NC                           | \-   | \--                                                                              |
+| 15         | GND                          | \-   | Ground                                                                           |
+| 16         | NC                           | \-   | \--                                                                              |
+| 17         | NC                           | \-   | \--                                                                              |
+| 18         | NC                           | \-   | \--                                                                              |
+| 19         | NC                           | \-   | \--                                                                              |
+| 20         | NC                           | \-   | \--                                                                              |
+| 21         | SPI\_MISO                    | I/O  | SPI Master In Slave Out                                                          |
+| 22         | SPI\_SCK                     | I/O  | SPI Clock                                                                        |
+| 23         | SPI\_MOSI                    | I/O  | SPI Master Out Slave In                                                          |
+| 24         | SPI\_SS                      | I/O  | SPI Slave Select                                                                 |
+| 25         | GND                          | \-   | Ground                                                                           |
+| 26         | VDD\_3V3                     | I    | Power supply for I/O and the internal regulator                                  |
+| 27         | VDD\_3V3                     | I    | Power supply for I/O and the internal regulator                                  |
+| 28         | GND                          | \-   | Ground                                                                           |
+| 29         | UART2\_RTS                   | I/O  | Active-low request-to-send signal for UART2 interface **(Not Used)**             |
+| 30         | UART2\_CTS                   | I/O  | Active-low clear-to-send signal for UART2 interface **(Not Used)**               |
+| 31         | UART2\_RXD                   | I    | Serial data input for UART2 interface **(Not Used)**                             |
+| 32         | UART2\_TXD                   | O    | Serial data output for UART2 interface **(Not Used)**                            |
+| 33         | NC                           | \-   | \--                                                                              |
+| 34         | RESET                        | I    | RESET pin (Active Low)                                                           |
+| 35         | NC                           | \-   | \--                                                                              |
+| 36         | NC                           | \-   | \--                                                                              |
+| 37         | GND                          | \-   | Ground                                                                           |
+| 38         | VBAT                         | I    | Power supply when VDD\_3V3 is not present.                                       |
+| 39         | GND                          | \-   | Ground                                                                           |
+| 40         | GPIO1                        | I/O  | GPIO1 pin                                                                        |
+| 41         | BOOT                         | I    | BOOT MODE pin (Active low)                                                       |
+| 42         | FUNCTION                     | I    | FUNCTION pin (Active Low)                                                        |
+| 43         | GPIO5                        | I/O  | GPIO5 pin                                                                        |
+| 44         | GPIO6                        | I/O  | GPIO6 pin                                                                        |
+| 45         | GPIO7                        | I/O  | GPIO7 pin                                                                        |
+| 46         | GPIO8                        | I/O  | GPIO8 pin                                                                        |
+| 47         | GPIO9                        | I/O  | GPIO9 pin                                                                        |
+| 48         | Wi-Fi\_STATUS                | I/O  | Wi-Fi Status pin                                                                 |
+| 49         | MODE\_STATUS                 | I/O  | MODE Status pin                                                                  |
+| 50         | **SPI\_Data\_Ready**(GPIO14) | I/O  | **In SPI Mode, It is used to SPI\_Data Ready Pin**                               |
+| 51         | JTAG\_TRST                   | I    | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
+| 52         | JTAG\_TDO                    | I/O  | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
+| 53         | JTAG\_TDI                    | I/O  | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
+| 54         | JTAG\_TMS                    | I    | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
+| 55         | JTAG\_TCK                    | I    | For normal operation, if JTAG is not used, this pin can be left unconnected (NC) |
+| 56         | GND                          | \-   | Ground                                                                           |
+| 57         | GND                          | \-   | Ground                                                                           |
+| 58         | GND                          | \-   | Ground                                                                           |
+| 59         | GND                          | \-   | Ground                                                                           |
+| 60         | NC                           | \-   | \--                                                                              |
+| 61         | UART1\_RTS                   | I/O  | Active-low request-to-send signal for UART1 interface **(Use)**                  |
+| 62         | UART1\_CTS                   | I/O  | Active-low clear-to-send signal for UART1 interface **(Use)**                    |
+| 63         | UART1\_RXD                   | I    | Serial data input for UART1 interface **(Use)**                                  |
+| 64         | UART1\_TXD                   | O    | Serial data output for UART1 interface **(Use)**                                 |
+| 65\~73     | GND                          | \-   | Ground                                                                           |
 
 ## 5. Technical Specification
 
@@ -173,8 +173,8 @@ power pins.
 
 The WizFi250 on operation output current consumption :  
 
-| MCU mode | WiFi mode  (802.11n) | Typ.  (RMS) | Max.   |
-|----------|----------------------|-------------|--------|
+| MCU mode | WiFi mode  (802.11n) | Typ.  (RMS) | Max. |
+| -------- | -------------------- | ----------- | ---- |
 
 <table>
  
@@ -279,8 +279,8 @@ WiFi TX EVM following the IEEE spec as listed in the table below:
 
 The WizFi250 Wi-Fi sensitivity as listed in the table below:
 
-| Receiver Characteristics            | Typ. | Max. | Unit |
-| ----------------------------------- | ---- | ---- | ---- |
+| Receiver Characteristics           | Typ. | Max. | Unit |
+| ---------------------------------- | ---- | ---- | ---- |
 | PER <8%, Rx Sensitivity @ 1 Mbps   | \-96 | \-89 | dBm  |
 | PER <8%, Rx Sensitivity @ 11 Mbps  | \-88 | \-84 | dBm  |
 | PER <10%, Rx Sensitivity @ 6 Mbps  | \-90 | \-83 | dBm  |
@@ -434,11 +434,11 @@ Including metal shielding)
 **WizFi250-CON**  
 \- 17 mm (W) x 20 mm (L) x 1.9 mm (H) (+/- 0.1mm)
 
-![](/img/products/wizfi250/wifi250ds-3.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wifi250ds-3.png)  
 **Pin out and pin description**
-![](/img/products/wizfi250/wifi250ds-4.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wifi250ds-4.png)  
 **Recommend footprint**
-![](/img/products/wizfi250/wifi250ds-5.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wifi250ds-5.png)
 
 ## 8. Design Guide
 
@@ -448,10 +448,10 @@ Including metal shielding)
 
 To get better antenna performance, the following two module locations
 are advised.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_1.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_1.png)  
 \-Location 1: Module is recommended to be on the upper right corner of
 main board.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_2.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_2.png)  
 \-Location 2: Module is recommended to be on the upper left corner of
 main board.  
   
@@ -465,31 +465,31 @@ each layers of the main board.
 \- Any mental lids, power traces or metal components should be placed
 far away from the antenna area on the main board.  
 \- Keep GND plane as large as you can on main board.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_3.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_3.png)  
   
   
 #### Antenna Simulation Result 
 
-|               | Ant. on right-up corner                                   | Ant. on left-up corner                                     |
-| ------------- | --------------------------------------------------------- | ---------------------------------------------------------- |
-| Configuration | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_4.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_8.png)  |
-| S11           | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_5.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_9.png)  |
-| Gain          | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_6.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_10.png) |
-| 3D Pattern    | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_7.png) | ![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_11.png) |
+|               | Ant. on right-up corner                                                                                | Ant. on left-up corner                                                                                  |
+| ------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Configuration | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_4.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_8.png)  |
+| S11           | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_5.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_9.png)  |
+| Gain          | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_6.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_10.png) |
+| 3D Pattern    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_7.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_11.png) |
 
   
   
 #### Antenna Measurement Setup 
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_12.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_12.png)  
 Module is on the upper right corner of main board for performance
 measurement.  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_13.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_13.png)  
 Antenna measurement setup as the figure.  
   
   
 #### Antenna Measurement Results 
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_14.png)  
-![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_15.png)![](/img/products/wizfi250/wizfi250ds/pcb_design_guide_16.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_14.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_15.png)![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/pcb_design_guide_16.png)  
   
   
 #### Firmware Update - Circuit Guide 
@@ -517,7 +517,7 @@ Please stop the UART communication between your MCU and the WizFi250
 when the BOOT input value is “LOW”. After that detection of a "LOW" BOOT
 signal you can succeed firmware update.  
   
-![](/img/products/wizfi250/wizfi250ds/firmware_1.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/firmware_1.png)  
 
 #### Case 2
 
@@ -529,15 +529,15 @@ so firmware updates are made possible. The UART signal of the WizFi250
 is only connected on your MCU if the BOOT signal is "High" and WizFi250
 goes into the RUN Mode.  
   
-![](/img/products/wizfi250/wizfi250ds/boot_mode.png)  
-![](/img/products/wizfi250/wizfi250ds/run_mode.png)  
-![](/img/products/wizfi250/wizfi250ds/firmware_2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/boot_mode.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/run_mode.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/firmware_2.png)
 
 ## 9. Recommended reflow profile
 
 The following paragraphs provide the requirements for the size, weight and mounting of the WizFi250.
 
-![](/img/products/wizfi250/wizfi250ds/wifi250ds-6.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/wifi250ds-6.png)  
 
 A-B. Temp.: 150-200℃; soak time:60-120sec.  
 C. Peak temp: 235\~245℃.  
@@ -546,7 +546,7 @@ Suggestion: Optimal cooling rate is \<1℃/sec. from peak to 220 ℃.
 
 ## 10. WizFi250 Ref. Schematic
 
-<a href="/img/products/wizfi250/wizfi250ds/wizfi250_ref_schematic_140729.pdf" target="_blank">Ref Schematic</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250ds/wizfi250_ref_schematic_140729.pdf" target="_blank">Ref Schematic</a>
 
 ## Instruction to OEM
 

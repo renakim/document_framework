@@ -52,9 +52,9 @@ These are some examples of setting multi devices.
 
 First, search devices on the network. If there is old mac\_list.txt, use -c option or delete the file.
 
-![](/img/products/wiz750sr/clitool/multi/01.clear.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/01.clear.png)
 
-![](/img/products/wiz750sr/clitool/multi/02.search.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/02.search.png)
 
 Next, use the --baud0 option to set the channel 0 serial baud rate.  
 Since WIZ750SR is a 1 port device, use '--baud0' option of Channel \#0
@@ -70,7 +70,7 @@ To set the baud rate to 9600 of searched devices, set like this.
 python wizconfig.py -a --baud0 230400
 ```
 
-![](/img/products/wiz750sr/clitool/multi/multi_setbaud.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/multi_setbaud.png)
 
 You can check the configuration complete message.
 
@@ -102,7 +102,7 @@ python wizconfig.py -m 192.168.50.100
 
 The parameter can be set to the random IP that not used.
 
-![](/img/products/wiz750sr/clitool/multi/multi_fw_m.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/multi_fw_m.png)
 
 -----
 
@@ -115,8 +115,8 @@ python wizconfig.py -a -u W7500x_S2E_App.bin
 If the firmware file is in the project directory, set the parameter to file name like this.  
 Otherwise, enter the full path.
 
-![](/img/products/wiz750sr/clitool/multi/multi_fw_1.png) Start to update.  
-![](/img/products/wiz750sr/clitool/multi/multi_fw_2.png) TCP connection for
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/multi_fw_1.png) Start to update.  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/multi_fw_2.png) TCP connection for
 each device.  
-![](/img/products/wiz750sr/clitool/multi/multi_fw_3.png) Firmware upload
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/multi/multi_fw_3.png) Firmware upload
 success about multiple devices.

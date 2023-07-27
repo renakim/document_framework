@@ -540,10 +540,10 @@ Connector</td>
 
 ### WIZ752SR-125
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.zip" target="_blank"> Download</a>
     
--   ![](/img/products/w5500/w5500_evb/icons/download.png) 
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) 
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Schematic/WIZ7525SR-125_SCH_V100.pdf" target="_blank"> Download</a>
 
 ------------------------------------------------------------------------
@@ -552,9 +552,9 @@ Connector</td>
 
 ### WIZ752SR-125
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls" target="_blank"> Download</a>
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/blob/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.xls" target="_blank"> Download</a>
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf" target="_blank"> Download</a>
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-125/WIZ752SR-125_V100/Partlist/WIZ752SR-125_V100_BOM_180112.pdf" target="_blank"> Download</a>
 
 ------------------------------------------------------------------------
 
@@ -675,7 +675,7 @@ Connector</td>
 ### Ethernet Power Dissipation
 
 | Condition                      | Min | Typ | Max | Tol | Unit |
-|--------------------------------|-----|-----|-----|-----|------|
+| ------------------------------ | --- | --- | --- | --- | ---- |
 | 100M Link                      | \-  | TBD | \-  |     | mA   |
 | 10M Link                       | \-  | TBD | \-  |     | mA   |
 | Unlink (Auto-negotiation mode) |     | TBD |     |     | mA   |

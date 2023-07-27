@@ -102,12 +102,12 @@ Not Mount Connector<br />
 
 ### WIZ750SR-100 Callout
 
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
 | <img src="/img/products/wiz750sr-100/datasheet/wiz750sr_callout_rev1.1_top_v2.png" width="600" />    |
-| TOP                                                                                              |
+| TOP                                                                                                  |
 | <img src="/img/products/wiz750sr-100/datasheet/wiz750sr_callout_rev1.1_bottom_v2.png" width="600" /> |
-| BOTTOM                                                                                           |
+| BOTTOM                                                                                               |
 
 ------------------------------------------------------------------------
 
@@ -200,7 +200,7 @@ TCP connection indicate</td>
 <img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_pinout.png" width="400" />
 
 | Pin Number | Signal | Description                  |
-|------------|--------|------------------------------|
+| ---------- | ------ | ---------------------------- |
 | 1          | DCD    | NC                           |
 | 2          | RXD    | Receive Data                 |
 | 3          | TXD    | Transmit Data                |
@@ -225,19 +225,19 @@ TCP connection indicate</td>
 
 ### WIZ750SR-100
 
-| H/W version | Type | Filetype | Download Link | Remarks |
-|-------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.0_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v2.pdf" target="_blank">Download</a>    | \-      |
-| 1.1         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_rev1.1.pdf" target="_blank">Download</a>               | \-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                               | Remarks |
+| ----------- | ---- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.0_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v2.pdf" target="_blank">Download</a>                     | \-      |
+| 1.1         | TTL  | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_wiki_upload_files.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_rev1.1.pdf" target="_blank">Download</a>                 | \-      |
 
 ### WIZ750SR-EVB
 
-| H/W version | Type  | Filetype | Download Link                                                                                                                                         | Remarks |
-|-------------|-------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type  | Filetype | Download Link                                                                                                                                                                                                                                     | Remarks |
+| ----------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | RS232 | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb_sch_v1.0.zip" target="_blank">Download</a> | \-      |
+| :::         | :::   | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100-evb.pdf" target="_blank">Download</a>          | \-      |
 
 ------------------------------------------------------------------------
 
@@ -245,19 +245,19 @@ TCP connection indicate</td>
 
 ### WIZ750SR-100
 
-| H/W version | Type | Filetype | Download Link | Remarks |
-|-------------|------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
-| 1.1         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.pdf" target="_blank">Download</a> |         |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                         | Remarks |
+| ----------- | ---- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
+| 1.1         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_v110_pl_20180417.pdf" target="_blank">Download</a> |         |
 
 ### WIZ750SR-100-EVB
 
-| H/W version | Type | Filetype | Download Link                                                                                                                                                 | Remarks |
-|-------------|------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                             | Remarks |
+| ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.xls" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-100/datasheet/wiz750sr-100_evb_v1.1_pl_20171215.pdf" target="_blank">Download</a> |         |
 
 ------------------------------------------------------------------------
 
@@ -378,14 +378,14 @@ TCP connection indicate</td>
 ### Flash Memory
 
 | Symbol | Parameter            | Min    | Unit   |
-|--------|----------------------|--------|--------|
+| ------ | -------------------- | ------ | ------ |
 | N*END* | **Sector Endurance** | 10,000 | Cycles |
 | T*DR*  | **Data Retention**   | 10     | Years  |
 
 ### EEPROM
 
 | Symbol | Parameter            | Min | Unit   |
-|--------|----------------------|-----|--------|
+| ------ | -------------------- | --- | ------ |
 | N*END* | **Sector Endurance** | 1M  | Cycles |
 | T*DR*  | **Data Retention**   | 200 | Years  |
 
@@ -658,7 +658,7 @@ ISP mode firmware downloader port</td>
 <img src="/img/products/wiz750sr-100/datasheet/wiz750sr-100_pinout_swd.png" width="600" />
 
 | Pin Number | Signal     | Description                             |
-|------------|------------|-----------------------------------------|
+| ---------- | ---------- | --------------------------------------- |
 | 1          | VCC        | System Power input (3.3V)               |
 | 2          | SWDIO      | SWD(JTAG) Data I/O pin                  |
 | 3          | SWCLK      | SWD(JTAG) Clock pin                     |
@@ -734,7 +734,7 @@ was connected to MCU directly.**
 <img src="/img/products/wiz750sr/clitool/datasheet/wiz750sr_magjack.png" class="align-center" width="300" />
 
 | Pin Number | Pin              | Signal              |
-|------------|------------------|---------------------|
+| ---------- | ---------------- | ------------------- |
 | 1          | R1               | TX+                 |
 | 2          | R2               | TX-                 |
 | 3          | R3               | TCT/RCT(Center tap) |

@@ -128,20 +128,20 @@ CMSIS-DAP for debugging and ethernet-phy.
 **Datasheet**
 
    * [W7500 Documents](./../iMCU/W7500/Documents.md)
-   * <a href="/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GRI Datasheet</a>
-   * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500/overview/IP101G_DS_R01_20121224.pdf" target="_blank">IP101GRI Datasheet</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 
 **Schematic**
 
   - **Schematic Version 1.1**
 
-   * <a href="/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1.zip" target="_blank">WIZwiki-W7500eco V1.1 Schematic (Altium Designer)</a>
-   * <a href="/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf" target="_blank">WIZwiki-W7500eco V1.1 Schematic (PDF)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_v1.1.zip" target="_blank">WIZwiki-W7500eco V1.1 Schematic (Altium Designer)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki-w7500eco/wizwiki-w7500eco.pdf" target="_blank">WIZwiki-W7500eco V1.1 Schematic (PDF)</a>
 
 **Part list**
 
-   * <a href="/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf" target="_blank">WIZwiki-W7500eco V1.1 BOM (PDF)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki-w7500eco/wizwiki_w7500eco_v1.1_partlist.pdf" target="_blank">WIZwiki-W7500eco V1.1 BOM (PDF)</a>
 
 **Dimension**
 

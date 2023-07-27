@@ -20,27 +20,27 @@ As WIZ510SR-RP already has Serial and Ethernet port, no separate evaluation boar
 
 ### Device Layout
 
-|                                                                       |
-| --------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-callout-top.png) |
-| Figure: ***WIZ510SR-RP Revision 1.0 Top***                            |
+|                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-callout-top.png) |
+| Figure: ***WIZ510SR-RP Revision 1.0 Top***                                                                     |
 
 
 ### Parts
 
-| Item | Description  |
-| ---- | ------------ |
-| U1 | RP2040 MCU |
-| U2 | W5100S |
-| U4 | RS232 IC |
-| U6 | Flash memory |
-| J1 | Debug |
-| J3 | Boot Mode |
-| J4 | FACT RST |
-| J5 | DP/DM Header |
-| SW1 | Reset |
-| SW2 | BOOTSEL |
-| SW3 | HW TRIG |
+| Item  | Description    |
+| ----- | -------------- |
+| U1    | RP2040 MCU     |
+| U2    | W5100S         |
+| U4    | RS232 IC       |
+| U6    | Flash memory   |
+| J1    | Debug          |
+| J3    | Boot Mode      |
+| J4    | FACT RST       |
+| J5    | DP/DM Header   |
+| SW1   | Reset          |
+| SW2   | BOOTSEL        |
+| SW3   | HW TRIG        |
 | LD1~4 | LED indicators |
 
 -----
@@ -169,10 +169,10 @@ Connect the 5V power adaptor or USB cable to the evaluation board and turn on th
 
 Open the configuration tool and click the search button. If the board is turned on and connected to the same network, the MAC address or settings of the WIZ510SR-RP module can be checked using the configuration tool.
 
-|                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
-| Figure: **WIZnet Configuration Tool**                                                                      |
+|                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
+| Figure: **WIZnet Configuration Tool**                                                                                                               |
 
 #### Step 4: Set up your WIZ510SR-RP
 
@@ -193,10 +193,10 @@ The COM port for serial terminal program connection can be checked as below.
 
 - Control Panel -> System -> Device Manager
 
-|                                                                  |
-| ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
-| Figure: Device Manager                                           |
+|                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| Figure: Device Manager                                                                                        |
 
 #### Step 6: Verify
 

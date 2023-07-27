@@ -102,10 +102,10 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 #### Rev1.0
 
-|                                                                      |                                                                         |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) | ![](/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
-| **TOP**                                                              | **BOTTOM**                                                              |
+|                                                                                                                      |                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
+| **TOP**                                                                                                              | **BOTTOM**                                                                                                              |
 
 -----
 
@@ -133,7 +133,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="" /> <a href="/img/products/wiz510ssl/static/WIZ510SSL_schematic.pdf" target="_blank">Download</a></td>
+<td><img src="" /> <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/WIZ510SSL_schematic.pdf" target="_blank">Download</a></td>
 <td>-</td>
 </tr>
 </tbody>
@@ -143,10 +143,10 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ## Part list
 
-| H/W version | Filetype | Download Link      | Remarks |
-| ----------- | -------- | ------------------ | ------- |
-| 1.0         | Excel    | <a href="/img/products/wiz510ssl/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a>|         |
-|         | PDF  |  <a href="/img/products/wiz510ssl/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a> |         |
+| H/W version | Filetype | Download Link                                                                                                                                   | Remarks |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | Excel    | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/Bill-of-Materials-WIZ510SSL.xlsx" target="_blank">Download</a> |         |
+|             | PDF      | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/WIZ510SSL_partlist.pdf" target="_blank">Download</a>           |         |
 
 -----
 
@@ -456,9 +456,9 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### Flash Memory
 
-| Symbol | Parameter            |Conditions| Min(1) | Unit   |
-| ------ | -------------------- | ---------| ------ | ------ |
-| N*END* | **Sector Endurance** | TA = –40 to +105 °C| 10,000 | Cycles |
+| Symbol | Parameter            | Conditions                                                                                                                                                                                | Min(1)                                          | Unit   |
+| ------ | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------ |
+| N*END* | **Sector Endurance** | TA = –40 to +105 °C                                                                                                                                                                       | 10,000                                          | Cycles |
 | T*DR*  | **Data Retention**   | 1 kcycle(2) at TA = 85 °C <br /> 1 kcycle(2) at TA = 105 °C<br />1 kcycle(2) at TA = 125 °C<br />1 kcycle(2) at TA = 55 °C<br />1 kcycle(2) at TA = 85 °C<br />1 kcycle(2) at TA = 105 °C | 30<br />15<br />7<br />30<br />15<br />10<br /> | Years  |
 
 (1) - Guaranteed by characterization results.
@@ -482,90 +482,90 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### 1x6 Pin Header
 
-![](/img/products/wiz510ssl/datasheet/W510SSL_pinout_2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/datasheet/W510SSL_pinout_2.png)
 
 #### J1 Pin
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  3V3D                |
-| 2          |  SWDIO               |
-| 3          |  SWCLK               |
-| 4          |  NRST                |
-| 5          |  GND                 |
+| Pin Number | Signal |
+| ---------- | ------ |
+| 1          | 3V3D   |
+| 2          | SWDIO  |
+| 3          | SWCLK  |
+| 4          | NRST   |
+| 5          | GND    |
 
 #### J2 Pin
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  3V3D                |
-| 2          |  BOOT0               |
-| 3          |  UART2_TX            |
-| 4          |  UART2_RX            |
-| 5          |  NRST                |
-| 6          |  GND                 |
+| Pin Number | Signal   |
+| ---------- | -------- |
+| 1          | 3V3D     |
+| 2          | BOOT0    |
+| 3          | UART2_TX |
+| 4          | UART2_RX |
+| 5          | NRST     |
+| 6          | GND      |
 
 #### J3 Pin
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  3V3D                |
-| 2          |  BOOT0               |
+| Pin Number | Signal |
+| ---------- | ------ |
+| 1          | 3V3D   |
+| 2          | BOOT0  |
 
 ### 1x12 Pin Header
 
-![](/img/products/wiz510ssl/datasheet/W510SSL_pinout_1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/datasheet/W510SSL_pinout_1.png)
 
 #### J4 Ethernet Line
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  3V3A                |
-| 2          |  RX N                |
-| 3          |  RX P                |
-| 4          |  GND                 |
-| 5          |  TX N                |
-| 6          |  TX P                |
-| 7          |  GND                 |
-| 8          |  LINKn               |
-| 9          |  SPDn                |
-| 10         |  ACTn                |
-| 11         |  COLn                |
-| 12         |  3V3D                |
+| Pin Number | Signal |
+| ---------- | ------ |
+| 1          | 3V3A   |
+| 2          | RX N   |
+| 3          | RX P   |
+| 4          | GND    |
+| 5          | TX N   |
+| 6          | TX P   |
+| 7          | GND    |
+| 8          | LINKn  |
+| 9          | SPDn   |
+| 10         | ACTn   |
+| 11         | COLn   |
+| 12         | 3V3D   |
 
 #### J5 Data Line
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  3V3D                |
-| 2          |  NRST                |
-| 3          |  GND                 |
-| 4          |  USART1_TX           |
-| 5          |  USART1_RTS          |
-| 6          |  DTR                 |
-| 7          |  GND                 |
-| 8          |  USART1_RX           |
-| 9          |  USART1_CTS          |
-| 10         |  DSR                 |
-| 11         |  GND                 |
-| 12         |  STATUS              |
+| Pin Number | Signal     |
+| ---------- | ---------- |
+| 1          | 3V3D       |
+| 2          | NRST       |
+| 3          | GND        |
+| 4          | USART1_TX  |
+| 5          | USART1_RTS |
+| 6          | DTR        |
+| 7          | GND        |
+| 8          | USART1_RX  |
+| 9          | USART1_CTS |
+| 10         | DSR        |
+| 11         | GND        |
+| 12         | STATUS     |
 
 #### J6 Debug Line
 
-| Pin Number |  Signal              |
-| ---------- |  ------------------- |
-| 1          |  GND                 |
-| 2          |  STATUS LED0         |
-| 3          |  STATUS LED1         |
-| 4          |  BOOT00              |
-| 5          |  UART2 TX            |
-| 6          |  UART2 RX            |
-| 7          |  PB3                 |
-| 8          |  PB4                 |
-| 9          |  PB5                 |
-| 10         |  PB6                 |
-| 11         |  PB7                 |
-| 12         |  GND                 |
+| Pin Number | Signal      |
+| ---------- | ----------- |
+| 1          | GND         |
+| 2          | STATUS LED0 |
+| 3          | STATUS LED1 |
+| 4          | BOOT00      |
+| 5          | UART2 TX    |
+| 6          | UART2 RX    |
+| 7          | PB3         |
+| 8          | PB4         |
+| 9          | PB5         |
+| 10         | PB6         |
+| 11         | PB7         |
+| 12         | GND         |
 
 -----
 
@@ -575,8 +575,8 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
       - 50mm x 30mm ( PCB board size )
 
 
-|                                                          |
-| -------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png) |
-| **Rev0.1**                                               |
+|                                                                                                          |
+| -------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/datasheet/wiz510ssl-dimensions.png) |
+| **Rev0.1**                                                                                               |
 

@@ -6,7 +6,7 @@ date: 2021-07-22
 
 ## Overview
 
-![](/img/products/wiz145sr/wiz145sr-2-300.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz145sr/wiz145sr-2-300.jpg)
 
 WIZ145SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ145SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment.
 
@@ -35,7 +35,7 @@ WIZ145SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ145SR 
 
 ## Pin Assignment
 
-![](/img/products/wiz145sr/pin_map.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz145sr/pin_map.jpg)
 
 ## Download
 
@@ -45,13 +45,13 @@ WIZ145SR is an embedded module based on WIZnet W5300 &  ARM Cortex-M3. WIZ145SR 
 
 Last Update: 2013.07.13
 
-<a href="/img/products/wiz140sr/WIZ14xSR_UM_v201e.pdf" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ14xSR_UM_v201e.pdf" target="_blank">Download</a>
 
 #### WIZ140SR & WIZ145SR Datasheet v1.1.0
 
 Last Update: 2020.11.17
 
-<a href="/img/products/wiz140sr/WIZ140SR_WIZ145SR_DS_V110e.pdf" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ140SR_WIZ145SR_DS_V110e.pdf" target="_blank">Download</a>
 
 ### Firmware
 
@@ -60,21 +60,21 @@ Last Update: 2020.11.17
 - Last Update: 2021.04.20
 - Update buffer management
 
-<a href="/img/products/wiz140sr/WIZ140v1_7_0_210209.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ140v1_7_0_210209.zip" target="_blank">Download</a>
 
 #### Firmware v1.6.8
 
 - Last Update: 2019.03.29
 - Update buffer management
 
-<a href="/img/products/wiz140sr/WIZ140v1_6_8_190209.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ140v1_6_8_190209.zip" target="_blank">Download</a>
 
 #### Firmware v1.6.5
 
 - Last Update: 2015.06.10
 - Update buffer management
 
-<a href="/img/products/wiz140sr/WIZ140v1_6_5_150610.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ140v1_6_5_150610.zip" target="_blank">Download</a>
 
 #### Old firmware
 
@@ -86,7 +86,7 @@ Last Update: 2020.11.17
 | Firmware v1.5.2 | - Last Update: 2013.06.11<br />- Bug fixed : When transmitting to WIZ140/145SR more than  8K bytes data continuously, some data is lost                                                                                                 |
 | Firmware v1.5   | - Last Update: 2013.04.18<br />- Optimize the code by reflecting W5300 erratum4 & erratum5                                                                                                                                              |
 
-<a href="/img/products/wiz140sr/WIZ14x_old_FW.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ14x_old_FW.zip" target="_blank">Download</a>
 
 ### Utilities
 
@@ -94,14 +94,14 @@ Last Update: 2020.11.17
 
 - Last Update: 2015.01.07
 
-<a href="/img/products/wiz140sr/WIZ14xSRConfig_Rev1_7.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ14xSRConfig_Rev1_7.zip" target="_blank">Download</a>
 
 #### Device Terminal Program for Windows
 
 - Last Update: 2015.08.05
 - Simple Configuration & Testing for WIZnet Serial to Ethernet Modules
 
-<a href="/img/products/wiz100sr/Device_Terminal.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz100sr/Device_Terminal.zip" target="_blank">Download</a>
 
 #### WIZVSP Program for Windows
 
@@ -113,4 +113,4 @@ Last Update: 2020.11.17
 
 Last Update: 2010.04.27
 
-<a href="/img/products/wiz140sr/WIZ14xSR_Ref_Schematic.pdf" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz140sr/WIZ14xSR_Ref_Schematic.pdf" target="_blank">Download</a>

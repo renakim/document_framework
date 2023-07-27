@@ -52,28 +52,28 @@ Follow below steps to recover your board:
 1. Connect to debug UART (UART2) either by USB-cable or using J6 pins. Open any Terminal and connect by following settings: Speed-115200, Data-8bit, Parity-N, Stopbit-1, Flow Control-N
 2. Confirm firmware bank by board reset. You should be able to see following messages in terminal.
 
-![](/img/products/wiz510ssl/troubleshooting_guide/debug_uart.PNG) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/debug_uart.PNG) |
 
 3. Set BOOT0 to HIGH (insert jumper to J3) and reset board.
 
-![](/img/products/wiz510ssl/troubleshooting_guide/J3_pin.png) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/J3_pin.png) |
 
 4. Connect to your board using CubeProgrammer by UART using following settings: Speed-115200, Data-8bit, Parity-EVEN
 
-![](/img/products/wiz510ssl/troubleshooting_guide/cubeprogrammer_uart.PNG) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/cubeprogrammer_uart.PNG) |
 
 5. Open necessary file, select appropriate memory address and download firmware. Please refer to below table to find bank version and address.
 
-| Bank      | Address   |
-|-----------|-----------|
-| Bank 0    | 0x08010000 |
-| Bank 1    | 0x08040000 |
+| Bank   | Address    |
+| ------ | ---------- |
+| Bank 0 | 0x08010000 |
+| Bank 1 | 0x08040000 |
 
-![](/img/products/wiz510ssl/troubleshooting_guide/cube_open.png) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/cube_open.png) |
 
-![](/img/products/wiz510ssl/troubleshooting_guide/cube_memory.png) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/cube_memory.png) |
 
-![](/img/products/wiz510ssl/troubleshooting_guide/cube_done.PNG) |
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/troubleshooting_guide/cube_done.PNG) |
 
 It is recommended to upload firmware for both banks to prevent board becoming unresponsive again.
 

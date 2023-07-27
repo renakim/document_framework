@@ -18,29 +18,29 @@ Ethernet Shield is compatible with Arduino and ARM mbed Platform. The
 W5100S Ethernet shield is compatible with the Arduino Ethernet Shield
 (W5100).
 
-|                                                                                          |
-| ---------------------------------------------------------------------------------------- |
+|                                                                                              |
+| -------------------------------------------------------------------------------------------- |
 | ![W5100S Ethernet Shield](/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield1.png) |
-| Figure: ***W5100S Ethernet Shield***                                                     |
+| Figure: ***W5100S Ethernet Shield***                                                         |
 
-|                                                                                                  |
-| ------------------------------------------------------------------------------------------------ |
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
 | ![W5100S MKR-Ethernet Shield](/img/osh/w5100s_ethernet_shield/start/w5100s_mkr-ethernet_shield1.png) |
-| Figure: ***W5100S MKR-Ethernet Shield***                                                         |
+| Figure: ***W5100S MKR-Ethernet Shield***                                                             |
 
 -----
 
 ## Getting Started
 
   - User Guide.
-       - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002k.pdf" target="_blank">Korean</a>
-       - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002e.pdf" target="_blank">English</a>
+       - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002k.pdf" target="_blank">Korean</a>
+       - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ug_v002e.pdf" target="_blank">English</a>
 
 -----
 
 ## Datasheet
 
-  - <a href="/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w5100s_ethernet_shield/start/w5100s_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
 
 -----
 

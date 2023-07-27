@@ -16,10 +16,10 @@ date: 2021-05-10
 
 ### What's in the Box?
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png)       |
-| Figure: ***WIZ510SSL Rev. 1.0 evaluation board package*** |
+|                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl-evb_package.png) |
+| Figure: ***WIZ510SSL Rev. 1.0 evaluation board package***                                                       |
 
 The WIZ510SSL evaluation board package contains the following parts.
 
@@ -33,15 +33,15 @@ The entire list of parts of the board is available at the [WIZ510SSL Overview: P
 
 ### Device Layout
 
-|                                                          |
-| -------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) |
-| Figure: ***WIZ510SSL Rev. 1.0 top***                 |
+|                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl_top_parts_rev1.0.png) |
+| Figure: ***WIZ510SSL Rev. 1.0 top***                                                                                 |
 
-|                                                             |
-| ------------------------------------------------------------|
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
-| Figure: ***WIZ510SSL Rev. 1.0 bottom***                 |
+|                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl_bottom_parts_rev1.0.png) |
+| Figure: ***WIZ510SSL Rev. 1.0 bottom***                                                                                 |
 
 
 
@@ -133,10 +133,10 @@ Double check that the WIZ510SSL and the PC, or laptop you are using to set up WI
 
 \* When the WIZ510SSL's settings are factory default,
 
-| Network Settings | PC or laptop(= destination) | IP address      | 192.168.11.3 | \- |
-| ---------------- | --------------------------- | --------------- | ------------ | -- |
-| :::              | :::                         | Gateway address | 192.168.11.1 | \- |
-| :::              | :::                         | Port number     | 5000         | \- |
+| Network Settings | PC or laptop(= destination) | IP address      | 192.168.11.3 | \-  |
+| ---------------- | --------------------------- | --------------- | ------------ | --- |
+| :::              | :::                         | Gateway address | 192.168.11.1 | \-  |
+| :::              | :::                         | Port number     | 5000         | \-  |
 
   - User should match the network settings of 'WIZ510SSL's remote host' and 'PC (or laptop)' for testing TCP client/mixed mode.
 
@@ -165,15 +165,15 @@ Connect the WIZ510SSL module to evaluation board and also the cable as shown in 
   - Optional: USB type B cable (for debug message)
     - Used to connect the evaluation board’s USB connector and the PC’s USB connector.
 
-|                                                               |
-| ------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png)                 |
-| Figure: ***Combining WIZ510SSL module and evaluation board*** |
+|                                                                                                           |
+| --------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl-evb_1.png) |
+| Figure: ***Combining WIZ510SSL module and evaluation board***                                             |
 
-|                                                    |
-| -------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png)      |
-| Figure: ***WIZ510SSL evaluation board side view*** |
+|                                                                                                           |
+| --------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiz510ssl-evb_2.png) |
+| Figure: ***WIZ510SSL evaluation board side view***                                                        |
 
 
 
@@ -195,10 +195,10 @@ Open the configuration tool and click the **Device Search** button. If the board
   - [Download the older versions](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI/releases)
   - [GitHub Repository](https://github.com/Wiznet/WIZnet-S2E-Tool-GUI)
 
-|                                                               |
-| ------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png)   |
-| Figure: ***WIZnet S2E Configuration Tool***                   |
+|                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/wiznet_s2e_configuration_tool.png) |
+| Figure: ***WIZnet S2E Configuration Tool***                                                                             |
 
 
 
@@ -221,10 +221,10 @@ The COM port for serial terminal program connection can be checked as below.
 
   - Control Panel \> System \> Device Manager
 
-|                                                     |
-| ----------------------------------------------------|
-| ![](/img/products/wiz510ssl/getting_started/windows_devicemanager.png) |
-| Figure: ***Device Manager***                        |
+|                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/getting_started/windows_devicemanager.png) |
+| Figure: ***Device Manager***                                                                                    |
 
 
 

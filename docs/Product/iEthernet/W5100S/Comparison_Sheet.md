@@ -27,8 +27,8 @@ described in the document titled "Comparison Sheet" below.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/w5100s_cp_v100k.pdf" target="_blank">Comparison Sheet (Korean)</a><br />
-  <a href="/img/products/w5100s/w5100s_cp_v100e.pdf" target="_blank">Comparison Sheet (English)</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/w5100s_cp_v100k.pdf" target="_blank">Comparison Sheet (Korean)</a><br />
+  <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/w5100s_cp_v100e.pdf" target="_blank">Comparison Sheet (English)</a></td>
 </tr>
 </tbody>
 </table>

@@ -25,7 +25,7 @@ In this tutorial, will use command prompt.
 
 You can go to the path where config tool is located after running cmd.exe, but if you go into the tool directory and run cmd, you can start from that path.
 
-![](/img/products/configtool/option/cmd_direct.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/option/cmd_direct.png)
 
 -----
 
@@ -37,7 +37,7 @@ You can see available options and detail description as following command.
 python wizconfig.py -h
 ```
 
-![](/img/products/configtool/option/option_help.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/option/option_help.png)
 
 **optional arguments:**
 
@@ -168,10 +168,10 @@ searched devices is recorded in **mac\_list.txt** file.
 If new device is found, it is displayed as 'New Device', and this is
 determined by whether it is recorded in mac\_list.txt.
 
-![](/img/products/configtool/option/option_search_new.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/option/option_search_new.png)
 
 If you search for the same device again, you can see that 'New device'
 is not displayed.
 
-![](/img/products/configtool/option/option_search_old.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/option/option_search_old.png)
 

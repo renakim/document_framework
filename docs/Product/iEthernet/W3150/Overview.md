@@ -11,7 +11,7 @@ We do not recommend using it in new design.
 
 :::
 
-![](/img/products/w3150/photo_w3150A-1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w3150/photo_w3150A-1.jpg)
 
 **Hardwired Dual TCP/IP Stack Controller**
 
@@ -25,7 +25,7 @@ It is possible to use 4 independent hardware sockets simultaneously. BUS & SPI (
 
 As it doesn’t have the PHY, users can interface any external PHY such as switching PHY according to their requirement.
 
-![](/img/products/w3150/3150A-Block.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w3150/3150A-Block.jpg)
 
 -----
 

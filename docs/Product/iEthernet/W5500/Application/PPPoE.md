@@ -49,13 +49,13 @@ is used widely.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2014-02</td>
-<td><a href="/img/products/w5500/application/an_macrawpppoe_v100k.pdf" target="_blank">an_macrawpppoe_v100k.pdf</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/application/an_macrawpppoe_v100k.pdf" target="_blank">an_macrawpppoe_v100k.pdf</a></td>
 </tr>
 <tr class="even">
 <td>1.0.1</td>
 <td>2014-04</td>
-<td><a href="/img/products/w5500/application/an_macrawpppoe_v101k.pdf" target="_blank">an_macrawpppoe_v101k.pdf</a><br />
-<a href="/img/products/w5500/application/an_macrawpppoe_v101e.pdf" target="_blank">an_macrawpppoe_v101e.pdf</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/application/an_macrawpppoe_v101k.pdf" target="_blank">an_macrawpppoe_v101k.pdf</a><br />
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/application/an_macrawpppoe_v101e.pdf" target="_blank">an_macrawpppoe_v101e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -73,6 +73,6 @@ W5200, W5300, W7100, W7200) can use this application.
 - 1.0.0 First Release  
 - 1.0.1 Change timer function to delay function
 
-| Version | Date    | Download                                                                       |
-| ------- | ------- | ------------------------------------------------------------------------------ |
-| 1.0.1   | 2014-04 | <a href="/img/products/w5500/application/w5500_example_pppoe_stm32f103x_coide_v101.zip" target="_blank"></a> |
+| Version | Date    | Download                                                                                                                                              |
+| ------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0.1   | 2014-04 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/application/w5500_example_pppoe_stm32f103x_coide_v101.zip" target="_blank"></a> |

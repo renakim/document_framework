@@ -20,22 +20,22 @@ As WIZ500SR-RP does not have Serial and Ethernet port, two evaluation boards are
 
 ### Device Layout
 
-|                                                                       |
-| --------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-top.png) |
-| Figure: ***WIZ500SR-RP Revision 1.0 Top***                            |
+|                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-top.png) |
+| Figure: ***WIZ500SR-RP Revision 1.0 Top***                                                                     |
 
 
 ### Parts
 
-| Item | Description  |
-| ---- | ------------ |
-| U1 | RP2040 MCU |
-| U2 | W5100S |
-| U6 | Flash memory |
-| J1 | Debug |
-| SW1 | Reset |
-| SW2 | BOOTSEL |
+| Item  | Description    |
+| ----- | -------------- |
+| U1    | RP2040 MCU     |
+| U2    | W5100S         |
+| U6    | Flash memory   |
+| J1    | Debug          |
+| SW1   | Reset          |
+| SW2   | BOOTSEL        |
 | LD1~4 | LED indicators |
 
 -----
@@ -163,10 +163,10 @@ Connect the 5V power adaptor or USB cable to the evaluation board and turn on th
 
 Open the configuration tool and click the search button. If the board is turned on and connected to the same network, the MAC address or settings of the WIZ500SR-RP module can be checked using the configuration tool.
 
-|                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------- |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
-| Figure: **WIZnet Configuration Tool**                                                                      |
+|                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/configuration_tool_manual/configuration_tool_for_wiz5xxsr-rp.png) |
+| Figure: **WIZnet Configuration Tool**                                                                                                               |
 
 #### Step 4: Set up your WIZ500SR-RP
 
@@ -187,10 +187,10 @@ The COM port for serial terminal program connection can be checked as below.
 
 - Control Panel -> System -> Device Manager
 
-|                                                                  |
-| ---------------------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
-| Figure: Device Manager                                           |
+|                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/gettingstarted/windows_devicemanager.png) |
+| Figure: Device Manager                                                                                        |
 
 #### Step 6: Verify
 

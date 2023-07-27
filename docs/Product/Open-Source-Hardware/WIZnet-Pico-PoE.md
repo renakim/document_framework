@@ -41,12 +41,12 @@ It combines with the W5500, W5100S, and W6100 Io Module to provide Ethernet as w
 |  No   | Value                 | Specification  |
 | :---: | --------------------- | -------------- |
 |   1   | Input Voltage         | 37 ~ 57V       |
-|   2   | Output Voltage        | 5V (1.6A)     |
-|      |                        | 3.3V  (1A LDO) |
-|   3   | Power                 | 8W           |
+|   2   | Output Voltage        | 5V (1.6A)      |
+|       |                       | 3.3V  (1A LDO) |
+|   3   | Power                 | 8W             |
 |   4   | Switching Frequency   | 400kHz fixed   |
 |   5   | Isolation             | 2kVrms         |
-|   6   | Operating Temperature | -20 ~ 85℃     |
+|   6   | Operating Temperature | -20 ~ 85℃      |
 
 ### WIZnet IO Module
 - **W5100S-IO**
@@ -152,10 +152,10 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 
 ### Recommended operating conditions
 
-| Item                          | Description                  |
-| ----------------------------- | ---------------------------- |
-| Operation Temperature MAX     | 70℃                        |
-| Input Volatge                 | 48 ~ 57V                    |
+| Item                      | Description |
+| ------------------------- | ----------- |
+| Operation Temperature MAX | 70℃         |
+| Input Volatge             | 48 ~ 57V    |
 
 
 
@@ -173,7 +173,7 @@ WIZnet IO Module pinout is directly connected to the GPIO of Pico Board as shown
 ### Schematic V100
 
 <a target="_blank" href={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default}><img src={require('/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN_1.png').default} alt="Sch_WIZnet_Pico_PoE_FIN_1"/></a>
-- <a href="/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN.pdf" target="_blank">Sch_WIZnet_Pico_PoE_FIN</a>
+- <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/WIZnet_Pico_PoE/Sch_WIZnet_Pico_PoE_FIN.pdf" target="_blank">Sch_WIZnet_Pico_PoE_FIN</a>
 
 ### Schematic & Partlist & Gerber File
 

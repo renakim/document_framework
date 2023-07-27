@@ -103,15 +103,15 @@ date: 2020-04-13
 WIZ550web Baseboard에는 8개(D0\~D7)의 릴레이 출력단이 있다. 기본 적인 내부 회로는 아래 사진과 같고
 Jumper를 통해 릴레이의 NC(Normal close), NO(Normal Open)를 설정할수 있다. ![WIZ550WEB Digital Output Port](/img/products/wiz550web/wiz550web_bb_output.png) 동작 상태는 아래 표와 같다.
 
-| 입력 값 | 릴레이 상태  | NC 출력 값   | NO 출력 값   |
-| ---- | ------- | --------- | --------- |
-| 0    | **OFF** | **Close** | **Open**  |
-| 1    | **ON**  | **Open**  | **Close** |
+| 입력 값 | 릴레이 상태 | NC 출력 값 | NO 출력 값 |
+| ------- | ----------- | ---------- | ---------- |
+| 0       | **OFF**     | **Close**  | **Open**   |
+| 1       | **ON**      | **Open**   | **Close**  |
 출력 포트의 전압에 따른 허용 전류는 아래 표와 같다.
 
-| NO | **5A 28VDC** | **10A 125VAC** | **5A 250VAC** |
-| -- | ------------ | -------------- | ------------- |
-| NC | **3A 28VAC** | **5A 125VDC**  | **3A 250VDC** |
+| NO  | **5A 28VDC** | **10A 125VAC** | **5A 250VAC** |
+| --- | ------------ | -------------- | ------------- |
+| NC  | **3A 28VAC** | **5A 125VDC**  | **3A 250VDC** |
 
 ### Digital Input Port
 
@@ -119,10 +119,10 @@ WIZ550web Baseboard에는 8개(D8\~D15)의 포토커플러를 통한 디지털 �
 사진과 같다. 입력에는 극성이 없고 입력 두신호의 전위차로 ON/OFF를 구별한다. ![WIZ550WEB Digital Input Port](/img/products/wiz550web/wiz550web_bb_input.png) 입력의 전기적
 특성은 아래와 같다.
 
-| 1.4V 이하 | **Low**                        |
-| ------- | ------------------------------ |
-| 2.1V 이상 | **High**                       |
-| 최대 전압   | **24V**                        |
+| 1.4V 이하 | **Low**                                      |
+| --------- | -------------------------------------------- |
+| 2.1V 이상 | **High**                                     |
+| 최대 전압 | **24V**                                      |
 | 극성      | **없음. 입력되는 두 신호의 전위차로 On/Off** |
 
 Digital Input 8개중에 4개(D8\~D11)는 Baseboard 내부의 택트 스위치와 같이 연결 되어 있고, 이 연결은
@@ -184,39 +184,39 @@ Analog Input은 4개중에 2개(A0,A1)는 Baseboard 내부의 가변저항(10K)�
 <tr class="odd">
 <td>WIZ550web</td>
 <td><strong>1.1 / 1.2</strong></td>
-<td><a href="/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf">Download</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/wiz550web_v1.1_20151217.pdf">Download</a></td>
 </tr>
 <tr class="even">
 <td>WIZ550web Baseboard</td>
 <td><strong>1.0</strong></td>
-<td><a href="/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf">Download</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/wiz550web-bb_v100_140925.pdf">Download</a></td>
 </tr>
 </tbody>
 </table>
 
 ## Parts Datasheet
 
-| Parts         | Descripsion                                   | Datasheet                                                                    |
-| ------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
-| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | <a href="/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf" target="_blank">STM32F103RCT6</a> |
-| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](./../../iEthernet/W5500/Datasheet.md) |
-| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | <a href="/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf" target="_blank">AT45DB081D-SU</a>       |
-| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | <a href="/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf" target="_blank">24AA64T-I/OT</a>         |
-| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | <a href="/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf" target="_blank">J1B1211CCD</a>             |
-| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | <a href="/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf" target="_blank">HR91C-05</a>                 |
-| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | <a href="/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf" target="_blank">SP3485EN</a>                 |
-| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | <a href="/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf" target="_blank">SP3232EBEY</a>             |
-| TC1047AVNB    | **Temperature to Voltage Sensor**             | <a href="/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf" target="_blank">TC1047AVNB</a>             |
-| LM358APWR     | **Dual Operational Amplifiers**               | <a href="/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf" target="_blank">LM358APWR</a>               |
-| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | <a href="/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf" target="_blank">TLP290-4</a>                 |
-| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | <a href="/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf" target="_blank">AOZ1210AI</a>               |
+| Parts         | Descripsion                                   | Datasheet                                                                                                                                           |
+| ------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| STM32F103RCT6 | **ARM 32-bit Cortex™-M3 CPU Core**            | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/stm32f103rct6_256kb.pdf" target="_blank">STM32F103RCT6</a> |
+| W5500         | **WIZnet TCP/IP Chip**                        | [W5500](./../../iEthernet/W5500/Datasheet.md)                                                                                                       |
+| AT45DB081D-SU | **8-Megabit Serial Flash Memory**             | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/at45db081d-su.pdf" target="_blank">AT45DB081D-SU</a>       |
+| 24AA64T-I/OT  | **64K I2C™ Serial EEPROM**                    | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/24aa64t-i_ot.pdf" target="_blank">24AA64T-I/OT</a>         |
+| J1B1211CCD    | **Transformer + RJ45 + LED, Industrial**      | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/j1b1211ccd.pdf" target="_blank">J1B1211CCD</a>             |
+| HR91C-05      | **1 pole, 3-10A Relay, 1c(SPDT)**             | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/hr91c-05.pdf" target="_blank">HR91C-05</a>                 |
+| SP3485EN      | **Low Power Half-Duplex RS-485 Transceivers** | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/sp3485en.pdf" target="_blank">SP3485EN</a>                 |
+| SP3232EBEY    | **True +3.0V to +5.5V RS-232 Transceivers**   | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/sp3232ebey.pdf" target="_blank">SP3232EBEY</a>             |
+| TC1047AVNB    | **Temperature to Voltage Sensor**             | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/tc1047avnb.pdf" target="_blank">TC1047AVNB</a>             |
+| LM358APWR     | **Dual Operational Amplifiers**               | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/lm358apwr.pdf" target="_blank">LM358APWR</a>               |
+| TLP290-4      | **4-Channel Transistor-Output Photocouplers** | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/tlp290-4.pdf" target="_blank">TLP290-4</a>                 |
+| AOZ1210AI     | **EZBuck 2A Simple Buck Regulator**           | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webds_kr/aoz1210ai.pdf" target="_blank">AOZ1210AI</a>               |
 
 -----
 
 ## WIZ550web V1.1/V1.2
 
 74.95mm(W) x 30mm(L) x 24mm(H) (±0.5)
-![](/img/products/wiz550web/wiz550web_v1.2_dimension.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550web_v1.2_dimension.png)
 
 ## WIZ550web Baseboard
 

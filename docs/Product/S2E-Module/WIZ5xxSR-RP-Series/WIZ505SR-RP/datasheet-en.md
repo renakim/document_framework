@@ -79,12 +79,12 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### WIZ505SR-RP Callout
 
-|                                                              |
-| ------------------------------------------------------------ |
+|                                                                                              |
+| -------------------------------------------------------------------------------------------- |
 | ![WIZ505SR-RP Callout top](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-callout-top.png) |
-| TOP                                                          |
-| ![WIZ505SR-RP callout bottom](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-3d-bot.png) |
-| BOTTOM                                                       |
+| TOP                                                                                          |
+| ![WIZ505SR-RP callout bottom](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-3d-bot.png)   |
+| BOTTOM                                                                                       |
 
 
 
@@ -333,28 +333,28 @@ When Module working well Blinking every 1.0s </td>
 
 To utilize the [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md), connect the J1 connector of the WIZ505SR-RP to the J6 connector of the EVB.  
 
-|                                                              |
-| ------------------------------------------------------------ |
-| ![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-evb-top.png) |
-| TOP                                                          |
+|                                                                                                |
+| ---------------------------------------------------------------------------------------------- |
+| ![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-evb-top.png)    |
+| TOP                                                                                            |
 | ![WIZ505SR-RP LED indicators](/img/products/s2e_module/wiz505sr-rp/wiz505sr-rp-evb-bottom.png) |
-| BOTTOM    |
+| BOTTOM                                                                                         |
 
 ----------------------------------------------------------------------
   
 ## Schematic & Artwork
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                      | Remarks |
+| ----------- | ---- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.zip" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Schematic/WIZ505SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 ## Part list
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> |\-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.pdf" target="_blank">Download</a> |\-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                     | Remarks |
+| ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.xlsx" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ505SR-RP/WIZ505SR-RP_V100/Partlist/WIZ505SR-RP_PL_V100.pdf" target="_blank">Download</a>  | \-      |
 
 ------------------------------------------------------------------------
 
@@ -456,9 +456,9 @@ To utilize the [WIZ505SR-RP EVB](../wiz505sr-rp-evb-en.md), connect the J1 conne
 
 ### Ethernet Power Dissipation
 
-| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
-| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Transmitting              | \-   |      | 125  |      | mA   |
+| Condition         | Min | Typ | Max | Tol | Unit |
+| ----------------- | --- | --- | --- | --- | ---- |
+| 100M Transmitting | \-  |     | 125 |     | mA   |
 
 
 

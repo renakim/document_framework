@@ -8,7 +8,7 @@ date: 2020-05-13
 
 ### Hardware dimension
 
-![](/img/products/wizfi310/wizfi310evbdimension/wizfi310_module.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310evbdimension/wizfi310_module.png)
 
 ### External pin description
 

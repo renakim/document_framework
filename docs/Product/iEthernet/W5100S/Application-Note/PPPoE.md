@@ -41,8 +41,8 @@ Communication by Telephone Line, it is used widely.
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/application/w5100s_an_pppoe_v100k.pdf" target="_blank">w5100s_an_pppoe_v100k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf" target="_blank">w5100s_an_pppoe_v100e.pdf</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_pppoe_v100k.pdf" target="_blank">w5100s_an_pppoe_v100k.pdf</a><br />
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_pppoe_v100e.pdf" target="_blank">w5100s_an_pppoe_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -57,6 +57,6 @@ W5100S, W5200, W5300, W5500, W7100, W7200) can use this application.
 
 ### Revision history
 
-| Version | Date       | Download                                                                                                    | ETC             |
-| ------- | ---------- | ----------------------------------------------------------------------------------------------------------- | --------------- |
-| 1.0.0   | 2018-05-25 | <a href="/img/products/w5100s/application/w5100s_evb_an_coide_pppoe_v100.zip" target="_blank">W5100S\_EVB\_AN\_CoIDE\_PPPoE\_V100.zip</a> | Initial Version |
+| Version | Date       | Download                                                                                                                                                                           | ETC             |
+| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 1.0.0   | 2018-05-25 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_evb_an_coide_pppoe_v100.zip" target="_blank">W5100S\_EVB\_AN\_CoIDE\_PPPoE\_V100.zip</a> | Initial Version |

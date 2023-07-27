@@ -80,12 +80,12 @@ Flow control: None, RTS / CTS </td>
 
 ### WIZ510SR-RP Callout
 
-|                                                              |
-| ------------------------------------------------------------ |
+|                                                                                          |
+| ---------------------------------------------------------------------------------------- |
 | ![WIZ510SR-RP Callout](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-callout-top.png) |
-| TOP                                                          |
-| ![WIZ510SR-RP Bottom](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-3d-bottom.png) |
-| BOTTOM                                                       |
+| TOP                                                                                      |
+| ![WIZ510SR-RP Bottom](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-3d-bottom.png)    |
+| BOTTOM                                                                                   |
 
 
 
@@ -147,18 +147,18 @@ When Module working well Blinking every 1.0s </td>
 
 ## Schematic & Artwork
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_V100.zip" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                      | Remarks |
+| ----------- | ---- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_V100.zip" target="_blank">Download</a>     | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Schematic/WIZ510SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 ------------------------------------------------------------------------
 
 ## Part list
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                     | Remarks |
+| ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.xlsx" target="_blank">Download</a> | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ510SR-RP/WIZ510SR-RP_V100/Partlist/WIZ510SR-RP_PL_V100.pdf" target="_blank">Download</a>  | \-      |
 ------------------------------------------------------------------------
 
 ## Electrical Characteristics
@@ -259,9 +259,9 @@ When Module working well Blinking every 1.0s </td>
 
 ### Ethernet Power Dissipation
 
-| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
-| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Transmitting              | \-   |      | 130  |      | mA   |
+| Condition         | Min | Typ | Max | Tol | Unit |
+| ----------------- | --- | --- | --- | --- | ---- |
+| 100M Transmitting | \-  |     | 130 |     | mA   |
 
 
 
@@ -432,10 +432,10 @@ Drive this pin low and reset(or power on),then WIZ510SR-RP will enter Boot mode<
 
 ![WIZ510SR-RP 1x2 FACT RST (J4)](/img/products/s2e_module/wiz510sr-rp/wiz510sr-rp-j4-pinmap.png)
 
-| Pin Number | Signal   | Description                                                  |
-| ---------- | -------- | ------------------------------------------------------------ |
+| Pin Number | Signal   | Description                                                                                                                |
+| ---------- | -------- | -------------------------------------------------------------------------------------------------------------------------- |
 | 1          | FACT RST | Factory Reset Signal input<br />Drive this pin to Low for at least 5.0s then WIZ510SR-RP will be reset to factory settings |
-| 2          | GND      | System Ground                                                |
+| 2          | GND      | System Ground                                                                                                              |
 
 -   J4 is not mounted
 

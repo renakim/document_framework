@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-![](/img/products/wiz107sr/wiz107sr-evb-3.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz107sr/wiz107sr-evb-3.png)
 
 WIZ107SR-EVB is a evaluation board for WIZ107SR.
 
@@ -37,15 +37,15 @@ It complies with industrial temperature standard and supports the serial interfa
 
 ## Base Board Type
 
-| To test WIZ107SR-232 version | To test WIZ107SR-TTL version |
-|------------------------------|------------------------------|
-|![](/img/products/wiz107sr/140626_73503.jpg)|![](/img/products/wiz107sr/140626_73504.jpg)|
+| To test WIZ107SR-232 version                                                          | To test WIZ107SR-TTL version                                                          |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz107sr/140626_73503.jpg) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz107sr/140626_73504.jpg) |
 
 ## WIZ107SR Ordering Information
 
-| Part No | Description |
-|---------|-------------|
-| WIZ107SR-232 | Serial : RS-232 (RS-232 transceiver mounted) <br /> Network : RJ-45 (Transformer integrated) |
-| WIZ107SR-TTL | Serial : TTL <br /> Network : RJ-45 (Transformer integrated) |
-| WIZ107SR-232-EVB | Evaluation Board for WIZ107SR-232 board |
-| WIZ107SR-TTL-EVB | Evaluation Board for WIZ107SR-TTL board |
+| Part No          | Description                                                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+| WIZ107SR-232     | Serial : RS-232 (RS-232 transceiver mounted) <br /> Network : RJ-45 (Transformer integrated) |
+| WIZ107SR-TTL     | Serial : TTL <br /> Network : RJ-45 (Transformer integrated)                                 |
+| WIZ107SR-232-EVB | Evaluation Board for WIZ107SR-232 board                                                      |
+| WIZ107SR-TTL-EVB | Evaluation Board for WIZ107SR-TTL board                                                      |

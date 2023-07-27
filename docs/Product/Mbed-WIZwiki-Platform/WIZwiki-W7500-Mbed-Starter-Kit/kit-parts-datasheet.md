@@ -32,7 +32,7 @@ date: 2020-04-08
 
 #### LED (RGB)
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/rgb_led_common_anode.jpg)
 
   * Common Anode type
   * There are three LEDs (RED, GREEN, BLUE) in a part.
@@ -44,14 +44,14 @@ date: 2020-04-08
 
 #### DHT11 (Humidity & Temperature Sensor)
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/dht-11.png)
 
 
   * Measure Temperature and Humiditiy
   * Humidity Measurement Range: 20 - 90%, 0 - 50 ℃
   * Humidity Accuarcy : +/- 5% RH
   * Temperature Accuarcy : +/- 2 ℃
-  * Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/datasheet-dht11.pdf" target="_blank">Download</a>
+  * Datasheet: <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/datasheet-dht11.pdf" target="_blank">Download</a>
   * Reference: https://learn.adafruit.com/downloads/pdf/dht.pdf
 
 
@@ -59,14 +59,14 @@ date: 2020-04-08
 
 #### Temperature Sensor TMP36GT9 (Low Voltage Temperature Sensor)
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg)
-![](/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/tmp36gt9_pin.png)
 
 
 * Vs : 3.3V Power Supply
 * Vout : It should connected to ADC input
 * GND : It should connected to Ground.
-* Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/tmp35_36_37.pdf" target="_blank">Download</a>
+* Datasheet: <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/tmp35_36_37.pdf" target="_blank">Download</a>
 * Reference: http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
 
 
@@ -74,11 +74,11 @@ date: 2020-04-08
 
 #### Photo Resistor PGM5537D (CDS Photo Resistor)
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/light-detecting-resistor.jpg)
 
   * A photoresistor or light-dependent resistor (LDR) or photocell is a light-controlled variable resistor.
   * The resistance of a photoresistor decreases with increasing incident light intensity; in other words, it exhibits photoconductivity.
   * A photoresistor can be applied in light-sensitive detector circuits, and light- and dark-activated switching circuits.
-  * Datasheet: <a href="/img/products/wizwiki_mbed_kit/kit_kr/cds-resistor-pgm.pdf" target="_blank">Download</a>
+  * Datasheet: <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/cds-resistor-pgm.pdf" target="_blank">Download</a>
 
 -----

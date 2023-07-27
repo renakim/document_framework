@@ -150,7 +150,7 @@ Update History [(English)](../../S2E-Module/WIZ750SR/Series-Update-History-EN.md
 
 WIZnet offers **Customization services** for your specific needs.
 
-![](/img/products/w7500-s2e/wiznet-partners_relationship.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500-s2e/wiznet-partners_relationship.png)
 
 We can provide customization services based on W7500(P)-S2E chip
 products: Depending on the customer application, it is possible to
@@ -166,7 +166,7 @@ references for customer's **quick product design-win**.
 
 ### What We Offer
 
-![](/img/products/w7500-s2e/what-we-offer.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500-s2e/what-we-offer.png)
 
 
 #### Addable features

@@ -4,7 +4,7 @@ title: WizArduino MEGA WIFI (KOR)
 date: 2020-04-03
 ---
 
-![](/img/osh/wizarduino_mega_wifi/1st_1894_1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/1st_1894_1.png)
 
 -----
 
@@ -12,7 +12,7 @@ date: 2020-04-03
 
 WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/products/boards/arduino-mega-2560) 를 기반으로 [WizFi310](./../Wi-Fi-Module/WizFi310/WizFi310.md) 가 추가되어 Arduino UNO 플랫폼처럼 간단하면서도 IoT기능 구현을 위한 기본 기능을 가지고 있습니다.
 
-![](/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/mega2560_wizfi310_1.png)
 
 **Arduino MEGA 2560과 WizFi310 이 합쳐진**
 
@@ -50,7 +50,7 @@ WizArduino MEGA WIFI는 Arduino의 🌎[MEGA 2560 board](http://www.arduino.org/
 
 ### Pinout
 
-![](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_pinout_170316.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_pinout_170316.png)
 
 -----
 ## Getting Started
@@ -66,7 +66,7 @@ WizArduino MEGA WIFI는 Arduino 의 MEGA 2560 board와 호환 됩니다. Arduino
 
 🌎 [Arduino cc](https://www.arduino.cc/en/Guide/HomePage)  
 
-![](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_jumper_cap_170320.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_jumper_cap_170320.png)
 
 ### WiFi
 
@@ -105,28 +105,28 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 ### GitHub
 
 1.  Download 🌎[WizFi310 Arduino Library](https://github.com/Wiznet/WizFi310_arduino_library)
-    ![](/img/osh/wizarduino_mega_wifi/github_1.png)
-    ![](/img/osh/wizarduino_mega_wifi/github_2.png)
+    ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/github_1.png)
+    ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/github_2.png)
 
 2.  다운로드 받은 zip파일을 압축을 풀어서 해당 폴더를 **내문서/Arduino/Libraries**에 복사합니다. 
       - 압축을 풀면 하나의 폴더가 더 있습니다. 그 폴더를 복사 해야함을 주의 합니다.
       - \WizFi310\arduino\library-master\ **WizFi310_arduino_library-master**
 
 3.  sketch에서 아래 사진과 같이 WizFi310 예제가 나온다면 정상적으로 설치 된 것입니다.
-    ![](/img/osh/wizarduino_mega_wifi/github3.png)
+    ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/github3.png)
 
 ### Sketch
 
 1.  메뉴탭의 스케치 - 라이브러리 포함하기 - **라이브러리 관리**
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager1.png)
 2.  검색란에서 **wizfi** 검색
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager3.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager3.png)
 3.  검색된 WizFi310 라이브러리 **설치**
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager4.png)
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager5.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager4.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager5.png)
 4.  설치완료 및 예제 확인
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager6.png)
-![](/img/osh/wizarduino_mega_wifi/wizfi310_library_manager7.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager6.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizfi310_library_manager7.png)
 
 -----
 
@@ -154,16 +154,16 @@ GitHub와 아두이노 스케치에서 다운로드 및 설치 하는 방법에 
 
 ### Schematic & Reference Design
 
-  - <a href="/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf" target="_blank">schematic.pdf</a>
-  - <a href="/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_design_170314.zip" target="_blank">reference design.zip</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_sch_170314.pdf" target="_blank">schematic.pdf</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_design_170314.zip" target="_blank">reference design.zip</a>
 
 ### Dimension
 
-![](/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_dimension_170315.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_o_ver1.0_dimension_170315.png)
 
 ### Part List
 
-  - <a href="/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf" target="_blank">Part List</a>  
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizarduino_mega_wifi/wizarduino_mega_wifi_ver1.0_pl_170320.pdf" target="_blank">Part List</a>  
 
 -----
 

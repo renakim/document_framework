@@ -6,7 +6,7 @@ keywords: [w6100,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico eth
 description: W6100 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
-![](/img/products/w6100/w6100_4.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w6100/w6100_4.jpg)
 **Hardwired Dual TCP/IP Stack Controller**
 
 W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual
@@ -28,7 +28,7 @@ Ethernet PHY power down mode and etc. W6100 has two package types, 48
 LQFP and 48 QFN lead-free. Both versions are PIN-2-PIN compatible with
 W5100S.
 
-![](/img/products/w6100/w6100_block_diagram.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w6100/w6100_block_diagram.png)
 
 -----
 

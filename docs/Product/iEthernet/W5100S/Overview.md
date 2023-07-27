@@ -9,7 +9,7 @@ description: W5100S chip is a Hardwired Internet controller designed as a full h
 # W5100S
 
 
-![](/img/products/w5100s/w5100s_pm.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/w5100s_pm.png)
 
 W5100S is an embedded Internet controller designed as a full hardwired
 TCP/IP with WIZnet technology. W5100S provides internet connectivity to

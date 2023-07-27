@@ -14,7 +14,7 @@ document, we describe what AT commands are used, how each command
 operates and how programmers have to handle those commands to get the
 expected response.  
   
-![](/img/products/wizfi250/wizfi250pg/wizfi250_module.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250_module.jpg)
 
 ## AT Command Set
 
@@ -38,9 +38,9 @@ Below is a possible example which users can input. As you can see,
 WizFi250 return "\\r\\n" back instead of "\\r", which means user (host
 system) always handle '\\r\\n' as a only delimiter.
 
-|**input by user**|AT\r (0x61 0x74 0x0d)|
-|-------|---|
-|**Output from WizFi250**|AT\r\n[OK]\r\n (0x0d 0x0a 0x5b 0x4f 0x4b 0x5d 0x0d 0x0a)(* “AT\r\n” is Echo back of user input)|
+| **input by user**        | AT\r (0x61 0x74 0x0d)                                                                           |
+| ------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Output from WizFi250** | AT\r\n[OK]\r\n (0x0d 0x0a 0x5b 0x4f 0x4b 0x5d 0x0d 0x0a)(* “AT\r\n” is Echo back of user input) |
 
 ### Responses
 
@@ -64,7 +64,7 @@ Responses are listed below.
 ### Command list
 
 | [Basic Commands](#basic-commands)     |                                                          |
-| -------------------------------- | ---- |
+| ------------------------------------- | -------------------------------------------------------- |
 | [AT](#at)                             | Terminal Check                                           |
 | [WiFi Commands](#wifi-commands)       |                                                          |
 | [AT+WJOIN](#atwjoin)                  | WiFi Association                                         |
@@ -83,41 +83,41 @@ Responses are listed below.
 | [AT+WP2P\_INVITE](#atwp2p_invite)     | Invite WiFi Direct peer ID                               |
 | [AT+WCHECK](#atwcheck)                | Check Wi-Fi status using Ping and Re-association with AP |
 
-| [Network Commands](#network-commands)  |                                 |
-| ---------------------------------------------------------------------------------- | ------------------------------- |
-| [AT+SCON](#atscon)   | Socket Open/Connect             |
-| [AT+SMGMT](#atsmgmt) | Socket Management               |
-| [AT+SSEND](#atssend) | Data Send                       |
-| [AT+SDATA](#atsdata) | Return to Data Mode             |
-| [AT+SFORM](#atsform) | Define Data Receive Header Form |
+| [Network Commands](#network-commands) |                                 |
+| ------------------------------------- | ------------------------------- |
+| [AT+SCON](#atscon)                    | Socket Open/Connect             |
+| [AT+SMGMT](#atsmgmt)                  | Socket Management               |
+| [AT+SSEND](#atssend)                  | Data Send                       |
+| [AT+SDATA](#atsdata)                  | Return to Data Mode             |
+| [AT+SFORM](#atsform)                  | Define Data Receive Header Form |
 
-| [Management Commands](#management-commands)   |                                                                        |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [AT+MPROF](#atmprof)     | Profile Management                                                     |
-| [AT+MFDEF](#atmfdef)     | Perform Factory Reset                                                  |
-| [AT+MRESET](#atmreset)   | Perform System Reset                                                   |
-| [AT+MMSG](#atmmsg)       | Set Message Print Level                                                |
-| [AT+MMAC](#atmmac)       | Set MAC Address                                                        |
-| [AT+MINFO](#atminfo)     | Get System Information                                                 |
-| [AT+MECHO](#atmecho)     | Set Echo Mode                                                          |
-| [AT+MHELP](#atmhelp)     | Print Command Description and Usage                                    |
-| [AT+MMCUPS](#atmmcups)   | MCU Power Save Enable/Disable                                          |
-| [AT+MWIFIPS](#atmwifips) | Wi-Fi Power Save Enable/Disable                                        |
-| [AT+MCWUI](#atmcwui)     | Change WebServer User Information                                      |
-| [AT+USET](#atuset)       | UART Configuration                                                     |
-| [AT+MSPI](#atmspi)       | SPI Configuration                                                      |
-| [AT+MAIRCMD](#atmaircmd) | Air Command Configuration                                              |
-| [AT+MEVTMSG](#atmevtmsg)  | Print \[Listen x\] as soon as it opens up a socket through TCP server. |
-| [AT+MEVTFORM](#atmevtform)                   | Event Message Form  |
+| [Management Commands](#management-commands) |                                                                        |
+| ------------------------------------------- | ---------------------------------------------------------------------- |
+| [AT+MPROF](#atmprof)                        | Profile Management                                                     |
+| [AT+MFDEF](#atmfdef)                        | Perform Factory Reset                                                  |
+| [AT+MRESET](#atmreset)                      | Perform System Reset                                                   |
+| [AT+MMSG](#atmmsg)                          | Set Message Print Level                                                |
+| [AT+MMAC](#atmmac)                          | Set MAC Address                                                        |
+| [AT+MINFO](#atminfo)                        | Get System Information                                                 |
+| [AT+MECHO](#atmecho)                        | Set Echo Mode                                                          |
+| [AT+MHELP](#atmhelp)                        | Print Command Description and Usage                                    |
+| [AT+MMCUPS](#atmmcups)                      | MCU Power Save Enable/Disable                                          |
+| [AT+MWIFIPS](#atmwifips)                    | Wi-Fi Power Save Enable/Disable                                        |
+| [AT+MCWUI](#atmcwui)                        | Change WebServer User Information                                      |
+| [AT+USET](#atuset)                          | UART Configuration                                                     |
+| [AT+MSPI](#atmspi)                          | SPI Configuration                                                      |
+| [AT+MAIRCMD](#atmaircmd)                    | Air Command Configuration                                              |
+| [AT+MEVTMSG](#atmevtmsg)                    | Print \[Listen x\] as soon as it opens up a socket through TCP server. |
+| [AT+MEVTFORM](#atmevtform)                  | Event Message Form                                                     |
 
 | [Function Commands](#function-commands) |                         |
-| -------------------- | ----------------------- |
-| [AT+FPING](#atfping) | PING Test               |
-| [AT+FDNS](#atfdns)   | DNS Query               |
-| [AT+FWEBS](#atfwebs) | Launch Web Server       |
-| [AT+FGPIO](#atfgpio) | GPIO Control            |
-| [AT+FSOCK](#atfsock) | SOCKET Extension Option |
-| [AT+FOTA](#atfota)   | Launch OTA Mode         |
+| --------------------------------------- | ----------------------- |
+| [AT+FPING](#atfping)                    | PING Test               |
+| [AT+FDNS](#atfdns)                      | DNS Query               |
+| [AT+FWEBS](#atfwebs)                    | Launch Web Server       |
+| [AT+FGPIO](#atfgpio)                    | GPIO Control            |
+| [AT+FSOCK](#atfsock)                    | SOCKET Extension Option |
+| [AT+FOTA](#atfota)                      | Launch OTA Mode         |
 
 ### Basic Commands
 
@@ -845,11 +845,11 @@ This is used only in command mode, not in data mode. It is not required in data 
 &lt;RemoteIP&gt;: Remote IP Address  
 
 | Protocol   | Parameter Application |
-| ---------- | -------- |
-| TCP Server | N/A      |
-| TCP Client | N/A      |
-| UDP Server | Optional |
-| UDP Client | Optional |
+| ---------- | --------------------- |
+| TCP Server | N/A                   |
+| TCP Client | N/A                   |
+| UDP Server | Optional              |
+| UDP Client | Optional              |
 
 \* In case of TCP Server waiting for a client on listen state or in case of undecided remote address of the UDP Server (meaning its remote address is 0.0.0.0:0), this command will fail.
   
@@ -906,17 +906,17 @@ This means ASCII code "hello" was received from 192.168.0.216:59834 by socket ID
 &lt;Format&gt;: Decide each of header items to use. (Required)  
 If you want to set it to active, input '1', if not, input '0'.  
 
-| Order  |  Meaning      |
-| - | ------------------ |
-| 0 | Header Start       |
-| 1 | Socket ID          |
-| 2 | Delimiter          |
-| 3 | Remote IP Address  |
-| 4 | Remote Port Number |
-| 5 | Data Length        |
-| 6 | Header End         |
-| 7 | Data End 1/2       |
-| 8 | Data End 2/2       |
+| Order | Meaning            |
+| ----- | ------------------ |
+| 0     | Header Start       |
+| 1     | Socket ID          |
+| 2     | Delimiter          |
+| 3     | Remote IP Address  |
+| 4     | Remote Port Number |
+| 5     | Data Length        |
+| 6     | Header End         |
+| 7     | Data End 1/2       |
+| 8     | Data End 2/2       |
 
 \* At default format, '{' '}' is header start and end, ',' is delimiter,
 0xd,0xa is data end 1,2.  
@@ -999,12 +999,12 @@ AT+MPROF=<Action>
   
 &lt;Action&gt;: The action to perform (Required)  
 
-| Parameter   |  Meaning   |
-| -- | ------------------- |
-| VD | Get saved profile   |
-| VG | Get current profile |
-| L  | Load profile        |
-| S  | Save profile        |
+| Parameter | Meaning             |
+| --------- | ------------------- |
+| VD        | Get saved profile   |
+| VG        | Get current profile |
+| L         | Load profile        |
+| S         | Save profile        |
 
 \* There is no '?' option at this command.  
   
@@ -1172,10 +1172,10 @@ If you turn the echo mode off, you cannot see the characters that you inputted r
   
 &lt;Action&gt;: Echo Mode (Required)  
 
-| Parameter | Meaning   |
-| - | ----------------- |
-| 0 | Echo Off          |
-| 1 | Echo On (Default) |
+| Parameter | Meaning           |
+| --------- | ----------------- |
+| 0         | Echo Off          |
+| 1         | Echo On (Default) |
 
 Examples)
 
@@ -1465,10 +1465,10 @@ If &lt;Interface&gt; set 0, WizFi250 Will set the interface it received first. F
   
 &lt;SPI Option&gt;: Configure SPI Option (Optional when use SPI)  
 
-| Value |  Bit3   | Bit2 |  Bit1     |  Bit0      |
-| ---- | ---------- | --- | ----------------- | -------------------- |
-| 0 | LSB_FIRST |  | CLOCK_IDLE_LOW  | CLOCK_FALLING_EDGE |
-| 1 | MSB_FIRST |  | CLOCK_IDLE_HIGH | CLOCK_RISING_EDGE  |
+| Value | Bit3      | Bit2 | Bit1            | Bit0               |
+| ----- | --------- | ---- | --------------- | ------------------ |
+| 0     | LSB_FIRST |      | CLOCK_IDLE_LOW  | CLOCK_FALLING_EDGE |
+| 1     | MSB_FIRST |      | CLOCK_IDLE_HIGH | CLOCK_RISING_EDGE  |
 
   
 Examples(Received through UART interface):
@@ -1617,10 +1617,10 @@ Uses 1 Parameter and set status of socket as 0,1 for each relevant below table.
   
 &lt;Status&gt;: Printing status (Required)  
 
-| Parameter  |       Meaning          |
-| - | ------------------------------- |
-| 0 | No display \[Listen x\] message |
-| 1 | Display \[Listen x\] message    |
+| Parameter | Meaning                         |
+| --------- | ------------------------------- |
+| 0         | No display \[Listen x\] message |
+| 1         | Display \[Listen x\] message    |
 
   
 Examples)
@@ -1889,11 +1889,11 @@ AT+FGPIO=<action:2>,<gpio_number>,<config_value>
 GPIO can be set through this command.  
 &lt;action&gt;: The action to perform (Required)
 
-| Return value | Meaning                           |
-| ------------ | --------------------------------- |
+| Return value | Meaning                               |
+| ------------ | ------------------------------------- |
 | 0            | Get GPIO value when &lt;mode&gt; is 0 |
 | 1            | Set GPIO value when &lt;mode&gt; is 1 |
-| 2            | GPIO Initialize                   |
+| 2            | GPIO Initialize                       |
   
 &lt;gpio_number&gt;: Available GPIO number (Required)
 
@@ -1907,14 +1907,14 @@ GPIO can be set through this command.
   
 &lt;config\_value&gt;: Current GPIO Configuration Value (It can be used when action is 2)
 
-| Return value | Meaning                                                     |
-| ------------ | ----------------------------------------------------------- |
-| 0            | INPUT\_PULL\_UP (Input with an internal pull-up resistor)   |
-| 1            | INPUT\_PULL\_DOWN (Input with an internal pull-down resistor) |
-| 2            | INPUT\_HIGH\_IMPEDANCE (Input - must always be driven, either actively or by an external pullup resistor) |
-| 3            | OUTPUT\_PUSH\_PULL (Output actively driven high and actively driven low - must not be connected to other active outputs) |
+| Return value | Meaning                                                                                                                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0            | INPUT\_PULL\_UP (Input with an internal pull-up resistor)                                                                                                                                        |
+| 1            | INPUT\_PULL\_DOWN (Input with an internal pull-down resistor)                                                                                                                                    |
+| 2            | INPUT\_HIGH\_IMPEDANCE (Input - must always be driven, either actively or by an external pullup resistor)                                                                                        |
+| 3            | OUTPUT\_PUSH\_PULL (Output actively driven high and actively driven low - must not be connected to other active outputs)                                                                         |
 | 4            | OUTPUT\_OPEN\_DRAIN\_NO\_PULL (Output actively driven low but is high-impedance when set high - can be connected to other open-drain/open-collector outputs. Needs an external pull-up resistor) |
-| 5            | OUTPUT\_OPEN\_DRAIN\_PULL\_UP (Output actively driven low and is pulled high with an internal resistor when set high - can be connected to other open-drain/open-collector outputs) |
+| 5            | OUTPUT\_OPEN\_DRAIN\_PULL\_UP (Output actively driven low and is pulled high with an internal resistor when set high - can be connected to other open-drain/open-collector outputs)              |
 
 &lt;gpio\_value&gt;: Current GPIO Value (It can be used when action is 1)
 
@@ -2006,11 +2006,11 @@ This is for extended options of Socket. It will be added continuously.
 
 &lt;Option&gt;: Extended options of Socket (Required)
 
-| Parameter | Meaning                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------ |
-| 1         | TCP Send error timeout (value : 2000\~20000ms)                                             |
+| Parameter | Meaning                                                                                        |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| 1         | TCP Send error timeout (value : 2000\~20000ms)                                                 |
 | 6         | Recreates Socket then attempts Auto-Reconnection after &lt;Value&gt; seconds (value: 10\~1000) |
-| 8         | Automatically resets WizFi250 module. when there is no socket connected (value: 5\~1000)   |
+| 8         | Automatically resets WizFi250 module. when there is no socket connected (value: 5\~1000)       |
 
 &lt;Value&gt; : Value of extended option (Required)
   
@@ -2094,39 +2094,39 @@ In Command mode, you can make more than one socket, and you can send/receive dat
 
 ### PIN Description
 
-|**Pin Name**|**Direction**|**Description**|
-|------------|-------------|---------------|
-|BOOT|IN|Enter into boot mode When boot or reset is performed, if this pin is tied low, it will enter into boot mode. Users can do APP/DCT(DCT : Device Configuration Table for WizFi250-Configuration-Data) upload or factory recovery in the boot mode through UART.* LOW : Start as boot mode *  HIGH: Start as application mode|
-|FUNCTION|IN|Perform pre-defined action Perform pre-defined action at the booting or while running. This can be used when UART cannot be used.(Refer to [FUNCTION Pin Usage](#function-pin-usage))|
-|LED1|OUT|Indicate WiFi Association When WiFi is joined (associated) with router in STA mode or with station in AP mode, it will be changed to low state (LED On). And when left(disassociated), it will be returned to high state (LED Off).♦ LOW (LED ON) : WiFi is Associated ♦ HIGH(LED OFF): WiFi is Not associated|
-|LED2|OUT|	Indicate Data/Command Mode If serial (UART or SPI) interface mode is data mode, this pin will be tied low state (LED On). And if it is command mode, it will be tied high state (LED Off).♦ LOW (LED ON) : Data Mode ♦ HIGH(LED OFF): Command Mode|
-|SPI_DATA_READY|OUT|Indicates that there is data to send through SPI When WizFi250 has data to send in the SPI mode, this will be changed to high state. This pin can be used for awakening host MCU.|
-|GPIO 1|IN/OUT|User Defined GPIO 1 User can utilize this pin for GPIO through AT Command.|
-|GPIO 5	|IN/OUT|	User Defined GPIO 5 User can utilize this pin for GPIO through AT Command.|
-|GPIO 6	|IN/OUT|	User Defined GPIO 6 User can utilize this pin for GPIO through AT Command.|
-|GPIO 7	|IN/OUT|	User Defined GPIO 7 User can utilize this pin for GPIO through AT Command.|
-|GPIO 8	|IN/OUT|	User Defined GPIO 8 User can utilize this pin for GPIO through AT Command.|
-|Reserved	|-|	Reserved for future use|
+| **Pin Name**   | **Direction** | **Description**                                                                                                                                                                                                                                                                                                            |
+| -------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BOOT           | IN            | Enter into boot mode When boot or reset is performed, if this pin is tied low, it will enter into boot mode. Users can do APP/DCT(DCT : Device Configuration Table for WizFi250-Configuration-Data) upload or factory recovery in the boot mode through UART.* LOW : Start as boot mode *  HIGH: Start as application mode |
+| FUNCTION       | IN            | Perform pre-defined action Perform pre-defined action at the booting or while running. This can be used when UART cannot be used.(Refer to [FUNCTION Pin Usage](#function-pin-usage))                                                                                                                                      |
+| LED1           | OUT           | Indicate WiFi Association When WiFi is joined (associated) with router in STA mode or with station in AP mode, it will be changed to low state (LED On). And when left(disassociated), it will be returned to high state (LED Off).♦ LOW (LED ON) : WiFi is Associated ♦ HIGH(LED OFF): WiFi is Not associated             |
+| LED2           | OUT           | Indicate Data/Command Mode If serial (UART or SPI) interface mode is data mode, this pin will be tied low state (LED On). And if it is command mode, it will be tied high state (LED Off).♦ LOW (LED ON) : Data Mode ♦ HIGH(LED OFF): Command Mode                                                                         |
+| SPI_DATA_READY | OUT           | Indicates that there is data to send through SPI When WizFi250 has data to send in the SPI mode, this will be changed to high state. This pin can be used for awakening host MCU.                                                                                                                                          |
+| GPIO 1         | IN/OUT        | User Defined GPIO 1 User can utilize this pin for GPIO through AT Command.                                                                                                                                                                                                                                                 |
+| GPIO 5         | IN/OUT        | User Defined GPIO 5 User can utilize this pin for GPIO through AT Command.                                                                                                                                                                                                                                                 |
+| GPIO 6         | IN/OUT        | User Defined GPIO 6 User can utilize this pin for GPIO through AT Command.                                                                                                                                                                                                                                                 |
+| GPIO 7         | IN/OUT        | User Defined GPIO 7 User can utilize this pin for GPIO through AT Command.                                                                                                                                                                                                                                                 |
+| GPIO 8         | IN/OUT        | User Defined GPIO 8 User can utilize this pin for GPIO through AT Command.                                                                                                                                                                                                                                                 |
+| Reserved       | -             | Reserved for future use                                                                                                                                                                                                                                                                                                    |
 
 ### FUNCTION Pin Usage
 
 Through the function pin, users can perform specific actions without AT Command.
 
-|**Action**|**How to enter**|
-|----------|----------------|
-|Factory Recovery	|While booting or reset, keep low state (pressing the button) together with BOOT pin over 3.5 seconds|
-|AP Mode	|During running state, tie it to low state and release it for once.Refer to time diagram below.|
-|OTA Mode	|While running state, tie it to low state and release it for twice.Refer to time diagram below.|
-|Factory Default	|During running state, tie it to low state and release it for thrice.Refer to time diagram below.|
+| **Action**       | **How to enter**                                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------------------- |
+| Factory Recovery | While booting or reset, keep low state (pressing the button) together with BOOT pin over 3.5 seconds |
+| AP Mode          | During running state, tie it to low state and release it for once.Refer to time diagram below.       |
+| OTA Mode         | While running state, tie it to low state and release it for twice.Refer to time diagram below.       |
+| Factory Default  | During running state, tie it to low state and release it for thrice.Refer to time diagram below.     |
 
 
 Time sequence graph is as below.
-![](/img/products/wizfi250/wizfi250pg/function_button_time_diagram.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/function_button_time_diagram.jpg)
 
-|**Variable**|**Min**|	**Typ**|**Max**|
-|------------|-------|---------|-------|
-|t1|	100 ms|	-|	200 ms|
-|t2	|100 ms	|-	|200 ms|
+| **Variable** | **Min** | **Typ** | **Max** |
+| ------------ | ------- | ------- | ------- |
+| t1           | 100 ms  | -       | 200 ms  |
+| t2           | 100 ms  | -       | 200 ms  |
 
 ## How to Use Web Configuration
 
@@ -2135,11 +2135,11 @@ Time sequence graph is as below.
 This picture shows the main page of WizFi250’s web server. In order to enter this page, WizFi250 should operate as SoftAP mode or associate to target AP as STA mode.
 The web server is launched automatically when joined to target AP or operate SoftAP. If you do not want to operate the web server, you can use &#60;AT+FWEBS&#62; command. For detailed information about &#60;AT+FWEBS&#62; command, refer to AT+FWEBS. After entering this page, users have to input user id and user password. Its default value is admin. If you want to change user id or user password, you can use &#60;AT+MCWUI&#62; command. For detailed information about &#60;AT+MCWUI&#62; command, refer to AT+MCWUI.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-2-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-2-1.png)
 
 After input user information, user can choose an item to perform among below listed 5 items.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
 
 ### Serial to Wi-Fi Setting
 
@@ -2149,88 +2149,88 @@ If you select “S2W Setting & Scan Network” icon, you can enter into web page
 
 If you want to use AP Mode and TCP Server, you can select parameter as showm on picture. If you want to use TCP Server or UDP Server, you don't need to input &#60;Remote IP&#62; and &#60;Remote Port&#62;.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
 
 If WizFi250 was set successfully, you willsee the success message as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-4.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-4.png)
 
 And after checking success result, click the &#60;Next_Step&#62; button in order to move on to the next page. If wrong value was inputted, WizFi250 will return fail message like below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-5.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-5.png)
 
 On the next page users can set AP information like SSID, Security and Security Key value as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-5-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-5-1.png)
 
 If it finishes successfully, the user will see the message as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-5-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-5-2.png)
 
 #### Station Mode
 
 If the user seta Station Mode on this web page, the user can select protocol and other information as Remote IP, Remote Port and Local Port. In this example, we will explain how to set Station Mode and TCP Client.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-3-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-3-1.png)
 
 If WizFi250 was set successfully, you will see the success message as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-4-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-4-1.png)
 
 Then you can select DHCP mode or Static mode. In this example we chose DHCP mode. When using DHCP, it is not required to select IP information.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-6.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-6.png)
 
 Enter a Password and then Select the &#60;Join&#62; button you want to associate to SSID.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-6-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-6-1.png)
 
 If you can see “Device Started. Web server and access point stopped. See UART for further information.” message in the web browser and “Successfully joined” message in the serial terminal, WizFi250 is associated to AP successfully.
 This picture is serial message when WizFi250 is associated to AP successfully.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-7.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-7.png)
 
 ### WPS(Push Button)
 
 This section explains how to set the protocol as TCP or UDP and then associate to Access Point by WPS method. If you select „WPS(Push button)“, you can see the web page as on this picture. For more detailed information, refer to Serial to Wi-Fi Setting.
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
 
 If you click the next_step button after finishing the setting, the web page will be shown as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-8.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-8.png)
 
 If you click the &#60;Go&#62; button on this web page, WizFi250 will scan the Access-Point in order to connect to it. The Access-Point must be set with &#60;WPS-PBC&#62; function as in this picture.
 ( In this example, we used LINKSYS Access-Point )
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-9.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-9.png)
 
 This picture shows the log message stating that WizFi250 finished the WPS function successfully.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
 
 ### WPS(PIN)
 
 This section explains how to set the protocol as TCP or UDP and then associate it to the Access Point by WPS method. If you select “WPS(PIN)“, you will see the webpage as shown in this picture. For detailed information, refer to [Serial to Wi-Fi Setting](/).
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-4-2.png)
 
 If you click the next_step button after finishing the setting, the web page will be shown as below.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-11.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-11.png)
 
 If you enter PIN number and click &#60;Go&#62; button, WizFi250 will scan the Access-Point in order to connect to it. Access-Point must be set as &#60;WPS-PIN&#62; function as below. ( In this example, we used LINKSYS Access-Point )
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-12.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-12.png)
 
 If the WPS-PIN function is successful, you will see a serial log message as on this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-10.png)
 
 ### Change to OTA Mode
 
 If you select “Change to OTA Mode” icon, you will see the web page as on this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
 
 If you click the &#60;Change to OTA mode&#62; button on this page, WizFi250 will run in OTA Mode. For detailed information about OTA Mode, refer to [Upload newest firmware in OTA mode](/)
 
@@ -2238,19 +2238,19 @@ If you click the &#60;Change to OTA mode&#62; button on this page, WizFi250 will
 
 If you select the “GPIO Control” icon you will see the web page as shown on this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-13-1.png)
 
 On this page, you can select “Get GPIO Status” menu or “Set GPIO Status” menu.
 
 If you click “Next” button after selecting “Get GPIO Status” menu, you can see the web page as this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-13-2.png)
 
 On this page, you can check the real time GPIO status of WizFi250.
 
 If you select “Set GPIO Status” menu, you will see the web page as on this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13-3.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-13-3.png)
 
 On this page, you can set gpio mode and gpio value of WizFi250.
 
@@ -2265,7 +2265,7 @@ For detailed information about it, refer to AT+FGPIO.
 
 If you select “Serial Setting” icon, you can see the web page as this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-23.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-23.png)
 
 On this page, you can set serial information. When you select the &#60;Set Serial Config&#62; button after your choice values, WizFi250 will be restarted in order to change serial information.
 For detailed information about it, refer to AT+USET.
@@ -2274,7 +2274,7 @@ For detailed information about it, refer to AT+USET.
 
 If you select the „User Information“ icon, you will see the web page as in this picture.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-24.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-24.png)
 
 On this page, you can change user id and user password. For changing user information, you have to input current id and password.
 
@@ -2290,13 +2290,13 @@ For detailed information about it, refer to AT+MCWUI.
 3. Run WIZSmartScript and fill in options(RED) as below. (COM Port should match yours)
 And Click the 'Start Script' buton (Yellow).
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-14.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-14.png)
 
 
 4. Check the log that shows up as below. After 4 seconds, download will be started. First, write the DCT, then write the WizFi250 application firmware. If it is a success step1 message and step2 message. ( execute “02-A. Flash Write(app) if step2 fails )
 ☞ If you want to change firmware binary file, just copy it to 'AppFWFile' folder.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-15.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-15.png)
 
 ### Wi-Fi OTA(Over the Air) - APP
 
@@ -2338,41 +2338,41 @@ Gateway    : 192.168.0.1
 
 2. Connect your PC Wi-Fi to the Wizfi250, open the web browser and enter the IP address of WizFi250 which you can find by using 'AT+WSTAT'
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-2.png)
 
 3. Click the 'Over the Air' icon
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-13.png)
 
 4. Click the 'Change to OTA mode' button, then WizFi250 will enter OTA mode.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-16.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-16.png)
 
 #### Start OTA mode using FUNCTION pin
 
 1. If entered the OTA Mode using FUNCTION pin, you will see messages as below. Refer to [FUNCTION Pin Usage](#function-pin-usage)
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-17.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-17.png)
 
 #### Upload newest firmware in OTA mode
 
 1. Now you can connect to the WizFi250 OTA Access Point from your PC. Connect your PC WLAN to the AP which the name WIZFI_OTA_(MAC-Address).
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-18.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-18.png)
 
 2. Open the WEB browser and go to 'wizfi250.wiznet.com'. (If the browser failed to find the page, disconnect the other network connections and try again). When successful, it should look like below.
 
 3. Click the 'Delete App' button, and wait until internal flash memory is erased.
 (Before writing firmware, internal flash must be erased. Otherwise it does not work properly.).
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-19.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-19.png)
 
 4. After erase, click the second button, ‘Choose File’, and select the firmware file you want to upload.
 
 5. Click the second button, 'Select file', and choose the FW file you want to upgrade. And finally, click the 'Upgrade' button to start upgrading. **( You have to use APP.bin file. This file is in WIZSmartScript\AppFWFile\Version\APP.bin )**
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-20.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-20.png)
 
 6. Wait for a second until upgrade is finished and check if it shows a complete message as below.
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-21.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-21.png)
 
 7. Check if WizFi250 is upgraded and works well.
 
@@ -2384,7 +2384,7 @@ This section explains how to recover firmware when a critical problem occurred i
 2. Reboot WizFi250
 3. If WizFi250 starts the firmware procedure you will see a serial message as below. If this procedure succeeds, WizFi250 will be reset to factory default firmware.
 
-![](/img/products/wizfi250/wizfi250pg/wizfi250pg-22.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/wizfi250pg-22.png)
 
 4. If you want to upload newest firmware to WizFi250, you have to use OTA mode.
 For detailed information for starting OTA mode, refer to Wi-Fi OTA.
@@ -2614,7 +2614,7 @@ This section explains how to open <  UDP Server Socket> and communicate to peer 
 #### Exchanging data with a peer system
 
 < UDP Server Mode> can connect UDP connection without peer systes information like IP address and port number. But before peer system is connected to WizFi250, WizFi250 does not send data to peer system because WizFi250 does not know its information. Thus peer system must send data to WizFi250 in order to know peer system’s information like below.
-![](/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/caution_when_using_udp_server_mode.png)
 The other information for exchanging data is same as [Exchanging data with a peer system.](/)
 
 #### Socket Close
@@ -3045,10 +3045,10 @@ STA MAC: CE:52:AF:C6:CF:B5
 
 To connect your smartphone to WizFi250 via < WiFi Direct>, select
 < WizFi250-P2P> in the list as below.  
-![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-31-05.png)  
 After a few seconds, your smartphone will connect to WizFi250 via
 < WiFi Direct >  
-![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-33-00.png)  
 And you can see the result of < WiFi Direct> in WizFi250.
 
     AT+WP2P_START
@@ -3079,10 +3079,10 @@ at+scon=o,tsn,,,4000,0
 
 And, I just used a general TCP client App in the smartphone for the
 test.  
-![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-34-14.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-34-14.png)
 
 Now, WizFi250 and smartphone can communicate each other via < WiFi Direct>.  
-![](/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-35-12.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/screenshot_2014-05-12-09-35-12.png)  
 
 ```
 at+scon=o,tsn,,,4000,0
@@ -3101,9 +3101,9 @@ at+scon=o,tsn,,,4000,0
 
 -----
 
-![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_1.png)  
 
-![](/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250pg/appendix/uart_throughput_2.png)  
 
 #### Test Result
 

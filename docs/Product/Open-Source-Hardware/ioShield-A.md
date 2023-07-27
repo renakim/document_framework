@@ -13,7 +13,7 @@ We do not recommend using it in new design.
 
 ## Overview
 
-![](/img/osh/ioshield-a/io_s_a.png) 
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/ioshield-a/io_s_a.png) 
 
 ioShield-A allows an Arduino board to connect to the Internet.
 
@@ -46,6 +46,6 @@ As ioShield uses W5500 chipset, instead of W5100 which was used before in the Ar
 
 All design files and source codes for the ioShield can be found on GitHub:
 
-  - Hardware Ver1.0: schematic(<a href="/img/osh/ioshield-a/ioshield-a.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List(<a href="/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf" target="_blank">PDF file</a>)
-  - Hardware Ver1.1: schematic(<a href="/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ver1_1.zip)), Part List(<a href="/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf" target="_blank">PDF file</a>)
+  - Hardware Ver1.0: schematic(<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/ioshield-a/ioshield-a.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ioshield-a_eaglecad.zip)), Part List(<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/ioshield-a/ioshield-a_v1_0_pl_130904.pdf" target="_blank">PDF file</a>)
+  - Hardware Ver1.1: schematic(<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/ioshield-a/ioshield-a_v1.1_sch.pdf" target="_blank">PDF file</a>), schematic & PCB file([Eagle CAD](/img/osh/ioshield-a/ver1_1.zip)), Part List(<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/ioshield-a/ioshield-a_v1_1_pl_140120.pdf" target="_blank">PDF file</a>)
   - Ethernet Library : 🌎<https://github.com/Wiznet/WIZ_Ethernet_Library>

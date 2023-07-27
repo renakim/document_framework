@@ -23,16 +23,16 @@ The DMA controller has up to 6 channels in total, each dedicated to managing mem
 
 ## Functional description
 
-![](/img/products/w7500p/peripheral/dma_block_diagram.jpg "Figure 1 DMA block diagram")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/dma_block_diagram.jpg "Figure 1 DMA block diagram")
 
 ### DMA request mapping
 
 The hardware requests from the peripherals (UART0, UART1, SSP0, SSP1) are simply connected to the DMA. Refer to the below Table Summary of the DMA requests for each channel which lists the DMA requests for each channel.
 
-|      | Channel 1 | Channel 2 | Channel 3 | Channel 4 | Channel 5 | Channel 6 |
-| ----| ----------| ----------| ---------- | ----------| ---------- | ---------- |
-|   Hardware request | SSP0_TX <br /> SSP0_RX | SSP1_TX <br /> SSP1_RX  | UART0_TX <br /> UART0_RX  | UART1_TX <br /> UART1_RX | Channel 5 | Channel 6 |
-|   Software request | Support | Support | Support | Support | Support | Support |
+|                  | Channel 1              | Channel 2              | Channel 3                | Channel 4                | Channel 5 | Channel 6 |
+| ---------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ | --------- | --------- |
+| Hardware request | SSP0_TX <br /> SSP0_RX | SSP1_TX <br /> SSP1_RX | UART0_TX <br /> UART0_RX | UART1_TX <br /> UART1_RX | Channel 5 | Channel 6 |
+| Software request | Support                | Support                | Support                  | Support                  | Support   | Support   |
 
 
 1.  Software request is only way to use DMA for memory-to-memory or TCP/IP-to-memory.
@@ -102,7 +102,7 @@ In ping-pong mode, the user can program or reprogram one of the two channel data
 The ping-pong cycle can be used for transfers to or from peripherals or for memory-to-memory transfers.
 
 
-![](/img/products/w7500p/peripheral/dma_ping_pong.jpg "Figure 2 DMA ping pong cycle")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/dma_ping_pong.jpg "Figure 2 DMA ping pong cycle")
 
 ------------------------------
 

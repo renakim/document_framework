@@ -29,14 +29,14 @@ analog output data.
 ### The Circuit
 
 This is the circuit for this example.
-![](/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/5_potentiometer_schem.png)
 
 
 ### Connections
 
 ![WIZwiki and a variable resistor](/img/products/wizwiki_mbed_kit/kit_en/5_board_all.jpg)
-![](/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
-![](/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/5_board_analog1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/5_board_analog2.jpg)
 
 
 ## Software
@@ -80,7 +80,7 @@ When you download the compiled binary to the WIZwiki board and push the
 reset button, check the serial port message as rotating the dial of
 potentiometer. You can see the measured value (mV unit) periodically.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/5_test_result.jpg)
 
 If user rotates the dial clock-wise, the measured value will increase.
 If the measured value is above than 2000mV, then the LED1 of WIZwiki

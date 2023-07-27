@@ -25,7 +25,7 @@ board.
   - Test S/W : In order to check serial data, terminal program is
     required on the PC. Tera Term is used in this exercise.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/2_teraterm.png)
 
 ## Hardware
 
@@ -38,7 +38,7 @@ in the red box in the cicuit below. ![RGB LED](/img/products/wizwiki_mbed_kit/ki
 
 ### Connections
 
-![](/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/3_board_all.png)
 
 ## Software
 

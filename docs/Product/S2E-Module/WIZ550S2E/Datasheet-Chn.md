@@ -27,20 +27,20 @@ date: 2020-05-08
    * RJ45(集成变压器)
    * 2.54mm 排针x2
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_pin.jpg)
 
 #### 引脚
 
-| 参考编号 | 引脚编号  | 符号          | 类型      | 描述             |
-| ---- | ----- | ----------- | ------- | -------------- |
-| J1   | **1** | **3V3D**    | **P**   | 提供 DC+3.3V     |
-| :::  | **2** | **RSVD1**   | **I/O** | 预留 I/O         |
-| :::  | **3** | **RSVD2**   | **I/O** | 预留 I/O         |
-| :::  | **4** | **nSYSRST** | **I**   | 系统复位输入. 低电平有效. |
-| :::  | **5** | **nFACRST** | **I**   | 恢复出厂输入. 低电平有效. |
-| :::  | **6** | **nHWTRIG** | **I**   | 硬件触发器输入.低电平有效  |
-| :::  | **7** | **GND**     | **P**   | 电源接地           |
-| :::  | **8** | **GND**     | **P**   | 电源接地           |
+| 参考编号 | 引脚编号 | 符号        | 类型    | 描述                      |
+| -------- | -------- | ----------- | ------- | ------------------------- |
+| J1       | **1**    | **3V3D**    | **P**   | 提供 DC+3.3V              |
+| :::      | **2**    | **RSVD1**   | **I/O** | 预留 I/O                  |
+| :::      | **3**    | **RSVD2**   | **I/O** | 预留 I/O                  |
+| :::      | **4**    | **nSYSRST** | **I**   | 系统复位输入. 低电平有效. |
+| :::      | **5**    | **nFACRST** | **I**   | 恢复出厂输入. 低电平有效. |
+| :::      | **6**    | **nHWTRIG** | **I**   | 硬件触发器输入.低电平有效 |
+| :::      | **7**    | **GND**     | **P**   | 电源接地                  |
+| :::      | **8**    | **GND**     | **P**   | 电源接地                  |
 
 <table>
 <thead>
@@ -131,8 +131,8 @@ date: 2020-05-08
    * LED状态灯
    * DC-Jack (用于+5V电源输入)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs232if_pin_20140729.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-232-evb.png)
 
 -----
 
@@ -145,8 +145,8 @@ date: 2020-05-08
    * LED状态灯
    * DC-Jack (用于+5V电源输出)
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
-![](/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs485-422if_pin_20140729.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/크기변환_wiz550s2e-485-evb.png)
 
 -----
 # 特性
@@ -154,38 +154,38 @@ date: 2020-05-08
 ### WIZ550S2E
 
 | 输入电源 | DC +3.3V     |
-| ---- | ------------ |
+| -------- | ------------ |
 | 电流消耗 | 140mA(Typ.)  |
 | 工作温度 | \-40 \~ 85 ℃ |
 
 ### WIZ550S2E-232-EVB
 
-| 输入电源              | DC +5V (插入类型: 外部尺寸 5.5Pi - 口径 2.1Pi) |
-| ----------------- | ------------------------------------ |
-| 电流消耗(连接WIZ550S2E) | 154mA(Max.)                          |
-| 工作电压              | \-40 \~ 85 ℃                         |
+| 输入电源                | DC +5V (插入类型: 外部尺寸 5.5Pi - 口径 2.1Pi) |
+| ----------------------- | ---------------------------------------------- |
+| 电流消耗(连接WIZ550S2E) | 154mA(Max.)                                    |
+| 工作电压                | \-40 \~ 85 ℃                                   |
 
 ### WIZ550S2E-485/422-EVB
 
-| 输入电源               | DC +5V (插入类型: 外部尺寸 5.5Pi - 口径 2.1Pi)         |
-| ------------------ | -------------------------------------------- |
-| 电源消耗(连接 WIZ550S2E) | 179mA(Max.)@RS422Mode, 157mA(Max.)@RS485Mode |
-| 工作温度               | \-40 \~ 85 ℃                                 |
+| 输入电源                 | DC +5V (插入类型: 外部尺寸 5.5Pi - 口径 2.1Pi) |
+| ------------------------ | ---------------------------------------------- |
+| 电源消耗(连接 WIZ550S2E) | 179mA(Max.)@RS422Mode, 157mA(Max.)@RS485Mode   |
+| 工作温度                 | \-40 \~ 85 ℃                                   |
 ## 原理图
 
-| 列表                    | 版本  | 原理图(PDF)                                                           | 原理图(CAD)                                                             |
-| --------------------- | --- | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| WIZ550S2E             | 1.1 | <a href="/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf" target="_blank">Schematic\_PDF</a> | [Schematic\_ORCAD](/img/products/wiz550s2e/wiz550s2e_v1.1_20150917.zip) |
-| WIZ550S2E-232 接口板     | 1.0 | <a href="/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf" target="_blank"></a>              | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.zip)                |
-| WIZ550S2E-485/422 接口板 | 1.0 | <a href="/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf" target="_blank"></a>          | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.zip)            |
+| 列表                     | 版本 | 原理图(PDF)                                                                                                                               | 原理图(CAD)                                                             |
+| ------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| WIZ550S2E                | 1.1  | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/schematic1_wiz550s2e_v1.pdf" target="_blank">Schematic\_PDF</a> | [Schematic\_ORCAD](/img/products/wiz550s2e/wiz550s2e_v1.1_20150917.zip) |
+| WIZ550S2E-232 接口板     | 1.0  | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.pdf" target="_blank"></a>              | [](/img/products/wiz550s2e/wiz550s2eds/rs232if_v1_0.zip)                |
+| WIZ550S2E-485/422 接口板 | 1.0  | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.pdf" target="_blank"></a>          | [](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_v1_0.zip)            |
 
-| 列表        | 版本  | Partlist                                                             | Gerber(Unit)                                            |
-| --------- | --- | -------------------------------------------------------------------- | ------------------------------------------------------- |
-| WIZ550S2E | 1.1 | <a href="/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf" target="_blank">Partlist\_PDF</a> | [Gerber](/img/products/wiz550s2e/wiz550s2e_v1.1.1_pcb.zip) |
+| 列表      | 版本 | Partlist                                                                                                                                    | Gerber(Unit)                                               |
+| --------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| WIZ550S2E | 1.1  | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2e_ver1.1_pl_150916.pdf" target="_blank">Partlist\_PDF</a> | [Gerber](/img/products/wiz550s2e/wiz550s2e_v1.1.1_pcb.zip) |
 
   - Rev 1.1 更新 原理图
 
-![](/img/products/wiz550s2e/wiz550s2e_rev.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2e_rev.png)
 
 -----
 ## 尺寸
@@ -194,18 +194,18 @@ date: 2020-05-08
 
 ### WIZ550S2E
 
-![](/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/wiz550s2e_dimension.jpg)
 
 -----
 
 ### WIZ550S2E-232 接口板
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs232if_dimension.jpg)
 
 -----
 
 ### WIZ550S2E-485/422 接口板
 
-![](/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2eds/rs485-422if_dimension.jpg)
 
 -----

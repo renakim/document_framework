@@ -24,29 +24,29 @@ Hardwired TCP/IP Stack supports TCP, UDP, IPv4, IPv6, ICMP, ARP, IGMP,
 and PPPoE etc which has been proven through various Applications over
 many years.
 
-|                                                                                  |
-| -------------------------------------------------------------------------------- |
+|                                                                                    |
+| ---------------------------------------------------------------------------------- |
 | ![W6100 Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_ethernet_sheild.png) |
-| Figure: ***W6100 Ethernet Shield***                                              |
+| Figure: ***W6100 Ethernet Shield***                                                |
 
-|                                                                                          |
-| ---------------------------------------------------------------------------------------- |
+|                                                                                              |
+| -------------------------------------------------------------------------------------------- |
 | ![W6100 MKR-Ethernet Shield](/img/osh/w6100_ethernet_shield/w6100_mkr_ethernet_sheild_1.png) |
-| Figure: ***W6100 MKR-Ethernet Shield***                                                  |
+| Figure: ***W6100 MKR-Ethernet Shield***                                                      |
 
 -----
 
 ## Getting Started
 
   - User Guide.
-      - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf" target="_blank">Korean</a>
-      - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf" target="_blank">English</a>
+      - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001k.pdf" target="_blank">Korean</a>
+      - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ug_v001e.pdf" target="_blank">English</a>
 
 -----
 
 ## Datasheet
 
-   - <a href="/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
+   - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/w6100_ethernet_shield/w6100_ethernet_shield_ds_v100e.pdf" target="_blank">Download</a>
 
 -----
 

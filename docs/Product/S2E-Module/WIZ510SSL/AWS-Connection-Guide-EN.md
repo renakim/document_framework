@@ -27,7 +27,7 @@ date: 2021-05-21
 
 :::important
  Save certificates and key during creation.
-![](/img/products/wiz510ssl/aws_connection_guide/sdk-attach-policy.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/sdk-attach-policy.png)
 AWS root CA can be downloaded from [**here**][link-aws-ca]
 :::
 
@@ -52,7 +52,7 @@ For this guide we used evaluation board **WIZ510SSL-EVB**
 
 Please check COM port number in Device Manager.
 
-![](/img/products/wiz510ssl/aws_connection_guide/DeviceManager.JPG)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/DeviceManager.JPG)
 
 :::tip
 If COM port cannot be found in Device Manager, please install drivers below.
@@ -68,24 +68,24 @@ There are two ways how to configure WIZ510SSL: using ConfigTool and using AT Com
 Please refer to [Command Manual] to find information about all AT Commands.
 Below we will describe commands created for AWS connection.
 
-|  Description | Command | Remark |
-|:--------|:--------|:--------|
-| Set network configuration to DHCP | IM1 |  |
-| Set operation mode to MQTTS client | OP6 |  |
-| Set remote host | RH&lt;parameter&gt; | Use AWS endpoint |
-| Set remote port to 8883 | RP8883 |  |
-| Set packing time | PT500 | 500 is given as example |
-| Set Client ID | QC&lt;parameter&gt; | Use Thing name |
-| Set Public Topic| PU&lt;parameter&gt; | $aws/things/&lt;Thing Name&gt;/shadow/update |
-| Set Subscribe Topic | U0&lt;parameter&gt; | $aws/things/&lt;Thing Name&gt;/shadow/update/accepted |
-| Set MQTT Keep Alive time | QK60 | 60 is given as example |
-| Set Root CA option | RC2 | 2 - required |
-| Enable Client Certificate | CE1 | 1 - enabled |
-| Save Root CA | OC |  |
-| Save Client certificate | LC |  |
-| Save Private Key | PK |  |
-| Save settings | SV |  |
-| Reboot device | RT |  |
+| Description                        | Command             | Remark                                                |
+| :--------------------------------- | :------------------ | :---------------------------------------------------- |
+| Set network configuration to DHCP  | IM1                 |                                                       |
+| Set operation mode to MQTTS client | OP6                 |                                                       |
+| Set remote host                    | RH&lt;parameter&gt; | Use AWS endpoint                                      |
+| Set remote port to 8883            | RP8883              |                                                       |
+| Set packing time                   | PT500               | 500 is given as example                               |
+| Set Client ID                      | QC&lt;parameter&gt; | Use Thing name                                        |
+| Set Public Topic                   | PU&lt;parameter&gt; | $aws/things/&lt;Thing Name&gt;/shadow/update          |
+| Set Subscribe Topic                | U0&lt;parameter&gt; | $aws/things/&lt;Thing Name&gt;/shadow/update/accepted |
+| Set MQTT Keep Alive time           | QK60                | 60 is given as example                                |
+| Set Root CA option                 | RC2                 | 2 - required                                          |
+| Enable Client Certificate          | CE1                 | 1 - enabled                                           |
+| Save Root CA                       | OC                  |                                                       |
+| Save Client certificate            | LC                  |                                                       |
+| Save Private Key                   | PK                  |                                                       |
+| Save settings                      | SV                  |                                                       |
+| Reboot device                      | RT                  |                                                       |
 
 
 Please note that WIZ510SSL supports multiple command setup.
@@ -100,11 +100,11 @@ First, add appropriate command name in the beginning of the file.
 
 Refer to below example:
 
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_with_command.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/certificate_with_command.png)
 
 Use following EOL settings:
 
-![](/img/products/wiz510ssl/aws_connection_guide/yat_settings.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/yat_settings.png)
 
 **Each certificate shall be sent separately.**
 
@@ -121,20 +121,20 @@ Below we will show configuration required for AWS connection.
 **Step 1.**
 
 Setup DHCP select following:
-![](/img/products/wiz510ssl/aws_connection_guide/basic_settings.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/basic_settings.png)
 
 Make settings in MQTT Options tab:
-![](/img/products/wiz510ssl/aws_connection_guide/mqtt_options_settings.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/mqtt_options_settings.png)
 
 Make settings in Certificate Manager tab:
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_manager_settings.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/certificate_manager_settings.png)
 
 **Step 2.**
 
 To load certificates/keys follow below steps:
 
 - Click "Load File" button. File explorer window will appear.
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_load.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/certificate_load.png)
 
 - Select file and click "Open"
 :::tip
@@ -142,7 +142,7 @@ Select original file, not the file with added AT command!
 :::
 
 - Click "Save to device" button. If succesful, "Upload Complete" pop-up window will appear.
-![](/img/products/wiz510ssl/aws_connection_guide/certificate_saved.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/certificate_saved.png)
 
 :::tip
 When saving certificate or key, "Save to device" button shall be pressed for each one.
@@ -158,13 +158,13 @@ Reboot device.
 
 1. Send test message using Terminal
 
-![](/img/products/wiz510ssl/aws_connection_guide/pub_message.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/pub_message.png)
 
 2. Since we subscribed to "updated" topic, when MQTT message is sent we can see reply message instantly.
 Also it is possible to check in AWS IoT -> Manage -> Things -> Shadow or Activity
 
-![](/img/products/wiz510ssl/aws_connection_guide/shadow_state_check.png)
-![](/img/products/wiz510ssl/aws_connection_guide/activity_check.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/shadow_state_check.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/aws_connection_guide/activity_check.png)
 
 
 **Congratulations**

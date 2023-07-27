@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](./Command-Manual-EN.md) (current page)  
   * [Korean](./Command-Manual-KO.md)
 
-![](/img/products/wiz750sr/docs_icon.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/docs_icon.png)
 
 -----
 

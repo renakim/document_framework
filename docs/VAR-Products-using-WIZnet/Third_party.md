@@ -12,14 +12,14 @@ date: 2020-04-02
 ### W5500CoB (ESoPe)
 
 ![oshw\_W5500CoB\_001](/img/var_products/third_party/w5500cob_top_002.jpg)
-![](/img/var_products/third_party/w5500cob_bottom_001.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/var_products/third_party/w5500cob_bottom_001.jpg)
 A small **"Connector-on-Board"** Plug-In Module with 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) + 100mil 8-Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available.
 Details:[ESoPe W5500CoB](./W5500CoB_ESoPe.md)
 
 ### W5500BoB (ESoPe)
 
 ![oshw\_W5500BoB\_001](/img/var_products/third_party/w5500bob_001.jpg)
-![](/img/var_products/third_party/w5500bob_002.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/var_products/third_party/w5500bob_002.jpg)
 A small 'stamp' sized “Break-out-Board” Module with 🌎[W5500 chip](../Product/iEthernet/W5500/Overview.md) + with 900mil distanced Pin-Headers 'Breadboard friendly' Footprint. The W5500's SPI I/F and PHY I/F is free available. [ESoPe W5500BoB](./W5500BoB_ESoPe.md).
 
 ### Netzwerk Adapter (eHaJo)

@@ -4,7 +4,7 @@ title: WIZ830MJ
 date: 2020-04-16
 ---
 
-![](/img/products/wiz830mj/wiz830_web_1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz830mj/wiz830_web_1.jpg)
 
 ## Overview
 
@@ -22,19 +22,19 @@ WIZ830MJ is the network module that includes W5300 (TCP/IP & Ethernet PHY) & MAG
 
 ## Block Diagram
 
-![](/img/products/wiz830mj/830MJ_Block.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz830mj/830MJ_Block.jpg)
 
 ## Download
 
 ### Datasheet
 
-<a href="/img/products/wiz830mj/WIZ830MJ_DS_V130E.pdf" target="_blank">WIZ830MJ Datasheet v1.3</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz830mj/WIZ830MJ_DS_V130E.pdf" target="_blank">WIZ830MJ Datasheet v1.3</a>
 
 Last Update: 2013.01.08
 
 ### Hardware Guide
 
-<a href="/img/products/wiz830mj/WIZ830MJ_Hardware.zip" target="_blank">WIZ830MJ Hardware Guide</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz830mj/WIZ830MJ_Hardware.zip" target="_blank">WIZ830MJ Hardware Guide</a>
 
 - WIZ830MJ  Schematic (V 1.1)
 - WIZ830MJ Part List (V1.1)
@@ -43,5 +43,5 @@ Last Update: 2013.01.08
 
 AX1 Loopback Test Program, Install version
 
-<a href="/img/products/wiz820io/AX1.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz820io/AX1.zip" target="_blank">Download</a>
 

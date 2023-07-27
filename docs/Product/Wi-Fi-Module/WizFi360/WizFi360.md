@@ -11,20 +11,20 @@ module. It is compatible with IEEE802.11 b/g/n standard and supports
 SoftAP, Station and SoftAP+Station modes. The serial port baud rate can
 be up to 2Mbps, which can meet the requirement of various applications.
 
-|                                                                   |
-| ----------------------------------------------------------------- |
+|                                                                    |
+| ------------------------------------------------------------------ |
 | ![WizFi360-PA(PCB Antena)](/img/products/wizfi360/wizfi360-pa.png) |
-| Figure: ***WizFi360-PA(PCB Antena)***                             |
+| Figure: ***WizFi360-PA(PCB Antena)***                              |
 
-|                                                                                |
-| ------------------------------------------------------------------------------ |
+|                                                                                 |
+| ------------------------------------------------------------------------------- |
 | ![WizFi360-CON(U.fl Connector Antena)](/img/products/wizfi360/wizfi360-con.png) |
-| Figure: ***WizFi360-CON(U.fl Connector Antena)***                              |
+| Figure: ***WizFi360-CON(U.fl Connector Antena)***                               |
 
-|                                                         |
-| ------------------------------------------------------- |
+|                                                          |
+| -------------------------------------------------------- |
 | ![WizFi360-EVB](/img/products/wizfi360/wizfi360-evb.jpg) |
-| Figure: ***WizFi360-EVB***                              |
+| Figure: ***WizFi360-EVB***                               |
 
 -----
 
@@ -87,6 +87,6 @@ For more information visit the 🌎[WizFi360 Github](https://github.com/WIZnet-W
 
 ## Q & A
 
-![](/img/link.png) 🌎[WizFi360 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/link.png) 🌎[WizFi360 Forum](https://forum.wiznet.io/c/wifi-module/wizfi360) : WIZnet Forum for Technical support and Project sharing
 
 -----

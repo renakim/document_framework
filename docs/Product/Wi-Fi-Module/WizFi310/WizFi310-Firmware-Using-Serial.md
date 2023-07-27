@@ -6,18 +6,18 @@ date: 2020-05-13
 
 ## Official Latest firmware release
 
-| FW Version | Hardware | Date       | Download                                                                                 | Description    |
-| ---------- | -------- | ---------- | ---------------------------------------------------------------------------------------- | -------------- |
-| 1.0.3.3    | Rev 1.0  | 2017-04-21 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
+| FW Version | Hardware | Date       | Download                                                                                                                                                        | Description    |
+| ---------- | -------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| 1.0.3.3    | Rev 1.0  | 2017-04-21 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
 
 -----
 
 ## Firmware history/Beta firmware
 
-| FW Version | Hardware | Date       | Download                                                                                 | Description    |
-| ---------- | -------- | ---------- | ---------------------------------------------------------------------------------------- | -------------- |
-| 1.0.0.0    | Rev 1.0  | 2016-06-17 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_0_0.zip" target="_blank">1.0.0.0</a>/Application |                |
-| 1.0.3.3    | Rev 1.0  | 2017-04-22 | <a href="/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
+| FW Version | Hardware | Date       | Download                                                                                                                                                        | Description    |
+| ---------- | -------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| 1.0.0.0    | Rev 1.0  | 2016-06-17 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_0_0.zip" target="_blank">1.0.0.0</a>/Application |                |
+| 1.0.3.3    | Rev 1.0  | 2017-04-22 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310firmware/firmware_serial_v1_0_3_3.zip" target="_blank">1.0.3.3</a>/Application | latest release |
 
 ## Update History
 
@@ -39,11 +39,11 @@ date: 2020-05-13
 
 ## WizFi310_Update_Tool(Serial)
 
-![](/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310firmware/upgrade_tool_6.png)
 
-| Version | Date       | Download                                                                                      | Description |
-| ------- | ---------- | --------------------------------------------------------------------------------------------- | ----------- |
-| 1.0.0.0 | 2016-06-17 | <a href="/img/products/wizfi310/wizfi310firmware/wizfi310_update_tool_v1.0.0.0.zip" target="_blank">1.0.0.0</a>/Application |             |
+| Version | Date       | Download                                                                                                                                                             | Description |
+| ------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1.0.0.0 | 2016-06-17 | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi310/wizfi310firmware/wizfi310_update_tool_v1.0.0.0.zip" target="_blank">1.0.0.0</a>/Application |             |
 
 ## Guide for using upgrade tool
 

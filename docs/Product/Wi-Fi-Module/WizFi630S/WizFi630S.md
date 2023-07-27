@@ -27,15 +27,15 @@ interface. WizFi630S can be tested with an evaluation board and all
 documents are available online.
 
 
-|                                                             |
-| ----------------------------------------------------------- |
+|                                                              |
+| ------------------------------------------------------------ |
 | ![WizFi630S](/img/products/wizfi630s/500k_wizfi630s_top.png) |
-| Figure: ***WizFi630S***                                     |
+| Figure: ***WizFi630S***                                      |
 
-|                                                                     |
-| ------------------------------------------------------------------- |
+|                                                                      |
+| -------------------------------------------------------------------- |
 | ![WizFi630S-EVB](/img/products/wizfi630s/500k_wizfi630s_evb_top.png) |
-| Figure: ***WizFi630S-EVB***                                         |
+| Figure: ***WizFi630S-EVB***                                          |
 
 -----
 
@@ -79,6 +79,6 @@ documents are available online.
 
 ## Q & A
 
-![](/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project sharing
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/link.png) [WizFi630S Forum](https://forum.wiznet.io/c/wifi-module) : WIZnet Forum for Technical support and Project sharing
 
 -----

@@ -131,7 +131,7 @@ module:
 
 ### Arduino WIFI shield from GE Tech
 
-![](/img/var_products/wifi_shield/edit_08.getech.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/var_products/wifi_shield/edit_08.getech.jpg)
 
 > 🌎[The Wifi
 > Shield](http://www.geeetech.com/wiki/index.php/Arduino_WIFI_shield) is

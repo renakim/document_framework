@@ -41,20 +41,20 @@ date: 2020-04-08
         2.  ping 192.168.xxx.xxx (enter the allocated IP address)
         3.  Check response
 
-|                                                         |
-| ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
-| Entering 'cmd' command on Windows Run                   |
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| Entering 'cmd' command on Windows Run                                                                |
 
-|                                                            |
-| ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
-| Ping request / reply success                               |
+|                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| Ping request / reply success                                                                            |
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
-| Ping request / reply failed                               |
+|                                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| Ping request / reply failed                                                                            |
 
   - Use **UDP broadcast, port 50001** in order to use the UDP
     Search from the configuration tool of WIZ750SR. Please test after
@@ -81,10 +81,10 @@ date: 2020-04-08
     the product setting; then the product will restart and the changes
     will be applied.
 
-|                                                       |
-| ----------------------------------------------------- |
-| ![](/img/products/wiz750sr/gettingstarted/configtool.png) |
-| WIZ107/108SR & **WIZ750SR** Configuration Tool        |
+|                                                                                                    |
+| -------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/gettingstarted/configtool.png) |
+| WIZ107/108SR & **WIZ750SR** Configuration Tool                                                     |
 
 </details>
 
@@ -110,20 +110,20 @@ date: 2020-04-08
         2.  ping 192.168.xxx.xxx (enter the allocated IP address)
         3.  Check response
 
-|                                                         |
-| ------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
-| Entering 'cmd' command on Windows Run                   |
+|                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/windows_cmd.png) |
+| Entering 'cmd' command on Windows Run                                                                |
 
-|                                                            |
-| ---------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
-| Ping request / reply success                               |
+|                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_success_0.png) |
+| Ping request / reply success                                                                            |
 
-|                                                           |
-| --------------------------------------------------------- |
-| ![](/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
-| Ping request / reply failed                               |
+|                                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/troubleshooting/ping_failed_0.png) |
+| Ping request / reply failed                                                                            |
 
   - The IP WIZ750SR and IP of the PC running the configuration tool must
     be identical in order to update the firmware.

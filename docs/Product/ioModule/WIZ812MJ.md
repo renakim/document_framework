@@ -4,7 +4,7 @@ title: WIZ812MJ
 date: 2020-04-16
 ---
 
-![](/img/products/wiz812mj/wiz812_web_280.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz812mj/wiz812_web_280.jpg)
 
 ## Overview
 
@@ -22,25 +22,25 @@ WIZ812MJ is the network module that includes W5100 (TCP/IP, MAC & PHY) & MAG-JAC
 
 ## Block Diagram
 
-![](/img/products/wiz812mj/WIZ812MJ_Block.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz812mj/WIZ812MJ_Block.jpg)
 
 ## Comparison Table
 
 Comparison Table (WIZ810MJ, WIZ811MJ, WIZ812MJ)
 
-![](/img/products/wiz810mj/comparison-table.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz810mj/comparison-table.jpg)
 
 ## Download
 
 ### Datasheet
 
-<a href="/img/products/wiz812mj/WIZ812MJ_DS_V120E.pdf" target="_blank">WIZ812MJ Datasheet v1.1</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz812mj/WIZ812MJ_DS_V120E.pdf" target="_blank">WIZ812MJ Datasheet v1.1</a>
 
 Last Update: 2013.06.08
 
 ### Hardware Guide
 
-<a href="/img/products/wiz810mj/WIZ8xx_MJ_Hardware.zip" target="_blank">WIZ810MJ, WIZ811MJ, WIZ812MJ Hardware Guide</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz810mj/WIZ8xx_MJ_Hardware.zip" target="_blank">WIZ810MJ, WIZ811MJ, WIZ812MJ Hardware Guide</a>
 
 - Reference Schematic (V 1.2)
 - Part List (V1.2)
@@ -49,5 +49,5 @@ Last Update: 2013.06.08
 
 AX1 Loopback Test Program, Install version
 
-<a href="/img/products/wiz820io/AX1.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz820io/AX1.zip" target="_blank">Download</a>
 

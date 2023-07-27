@@ -93,12 +93,12 @@ D-sub9 Connector(RS-232C)</td>
 
 ### WIZ750SR-110 Callout
 
-|                                                                                              |
-|----------------------------------------------------------------------------------------------|
+|                                                                                                  |
+| ------------------------------------------------------------------------------------------------ |
 | <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_callout_top_modi.png" width="600" /> |
-| TOP                                                                                          |
+| TOP                                                                                              |
 | <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_callout_bottom.png" width="600" />   |
-| BOTTOM                                                                                       |
+| BOTTOM                                                                                           |
 
 ------------------------------------------------------------------------
 
@@ -113,7 +113,7 @@ D-sub9 Connector(RS-232C)</td>
 <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_indicateled_pinout.png" width="800" />
 
 | Pin Number | Pin Name | Signal       | Description                       |
-|------------|----------|--------------|-----------------------------------|
+| ---------- | -------- | ------------ | --------------------------------- |
 | 1          | LD1      | UART0 RX     | UART receiver indicate            |
 | 2          | LD2      | UART0 TX     | UART Transceiver indicate         |
 | 3          | LD3      | Status\_LED0 | PHY LINK check or initialize done |
@@ -134,10 +134,10 @@ D-sub9 Connector(RS-232C)</td>
 
 ### WIZ750SR-110
 
-| H/W version | Type  | Filetype | Download Link                                                                                                                                        | Remarks |
-|-------------|-------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | RS232 | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_altium.zip" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-110/datasheet/wiz750sr-110.pdf" target="_blank">Download</a>     | \-      |
+| H/W version | Type  | Filetype | Download Link                                                                                                                                                                                                                                    | Remarks |
+| ----------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| 1.0         | RS232 | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_altium.zip" target="_blank">Download</a> | \-      |
+| :::         | :::   | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-110/datasheet/wiz750sr-110.pdf" target="_blank">Download</a>             | \-      |
 
 ------------------------------------------------------------------------
 
@@ -145,10 +145,10 @@ D-sub9 Connector(RS-232C)</td>
 
 ### WIZ750SR-110
 
-| H/W version | Type  | Filetype | Download Link                                                                                                                                             | Remarks |
-|-------------|-------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| 1.0         | RS232 | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.xls" target="_blank">Download</a> | \-      |
-| :::         | :::   | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type  | Filetype | Download Link                                                                                                                                                                                                                                         | Remarks |
+| ----------- | ----- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | RS232 | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.xls" target="_blank">Download</a> | \-      |
+| :::         | :::   | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr-110/datasheet/wiz750sr-110_v1.0_pl_20171227.pdf" target="_blank">Download</a> | \-      |
 
 ------------------------------------------------------------------------
 
@@ -269,14 +269,14 @@ D-sub9 Connector(RS-232C)</td>
 ### Flash Memory
 
 | Symbol | Parameter            | Min    | Unit   |
-|--------|----------------------|--------|--------|
+| ------ | -------------------- | ------ | ------ |
 | N*END* | **Sector Endurance** | 10,000 | Cycles |
 | T*DR*  | **Data Retention**   | 10     | Years  |
 
 ### EEPROM
 
 | Symbol | Parameter            | Min | Unit   |
-|--------|----------------------|-----|--------|
+| ------ | -------------------- | --- | ------ |
 | N*END* | **Sector Endurance** | 1M  | Cycles |
 | T*DR*  | **Data Retention**   | 200 | Years  |
 
@@ -289,7 +289,7 @@ D-sub9 Connector(RS-232C)</td>
 <img src="/img/products/wiz750sr-105/datasheet/wiz750sr-105-evb_pinout.png" width="400" />
 
 | Pin Number | Signal | Description                  |
-|------------|--------|------------------------------|
+| ---------- | ------ | ---------------------------- |
 | 1          | DCD    | NC                           |
 | 2          | RXD    | Receive Data                 |
 | 3          | TXD    | Transmit Data                |
@@ -331,12 +331,12 @@ D-sub9 Connector(RS-232C)</td>
 <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_pinout_boot.png" width="600" />
 
 | Parts | Pin Number | Signal   | Description                   |
-|-------|------------|----------|-------------------------------|
+| ----- | ---------- | -------- | ----------------------------- |
 | J4    | 1          | APP BOOT | Application Jump at BOOT mode |
 | :::   | 2          | GND      | System Ground                 |
 
 | Parts | Pin Number | Signal | Description         |
-|-------|------------|--------|---------------------|
+| ----- | ---------- | ------ | ------------------- |
 | J5    | 1          | BOOT   | System Ground       |
 | :::   | 2          | VCC    | System Power (3.3V) |
 
@@ -347,7 +347,7 @@ D-sub9 Connector(RS-232C)</td>
 <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_pinout_swd.png" width="600" />
 
 | Pin Number | Signal | Description                      |
-|------------|--------|----------------------------------|
+| ---------- | ------ | -------------------------------- |
 | 1          | VCC    | System Power (3.3V)              |
 | 2          | SWDIO  | SWD(JTAG) Data I/O pin           |
 | 3          | SWCLK  | SWD(JTAG) Clock pin              |
@@ -361,7 +361,7 @@ D-sub9 Connector(RS-232C)</td>
 <img src="/img/products/wiz750sr-110/datasheet/wiz750sr-110_pinout_expansion.png" width="600" />
 
 | Parts | Pin Number | Signal          | Description                          |
-|-------|------------|-----------------|--------------------------------------|
+| ----- | ---------- | --------------- | ------------------------------------ |
 | J1    | 1          | VCC             | System Power (3.3V)                  |
 | :::   | 2          | Expansion GPIOD | Expansion User's depend on GPIO port |
 | :::   | 3          | Expansion GPIOC | :::                                  |
@@ -427,7 +427,7 @@ ISP mode firmware downloader port</td>
 <img src="/img/products/wiz750sr/clitool/datasheet/wiz750sr_magjack.png" class="align-center" width="300" />
 
 | Pin Number | Pin              | Signal              |
-|------------|------------------|---------------------|
+| ---------- | ---------------- | ------------------- |
 | 1          | R1               | TX+                 |
 | 2          | R2               | TX-                 |
 | 3          | R3               | TCT/RCT(Center tap) |

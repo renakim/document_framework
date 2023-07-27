@@ -36,7 +36,7 @@ Follow the procedure below to manually generate a random number.
 
 The below Figure show the flowchart of RNG operation. 
 
-![](/img/products/w7500p/peripheral/rng_flow_chart.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/rng_flow_chart.jpg)
 
 
 ------------------------------

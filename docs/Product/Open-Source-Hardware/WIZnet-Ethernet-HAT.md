@@ -23,7 +23,7 @@ Please refer to this link to find more information about [W5100S](./../../Produc
 - Raspberry Pi Pico Pin-Compatible
 - Ethernet (W5100S Hardwired TCP/IP CHIP)
 
-![](/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wiznet-ethernet-hat/wiznet-ethernet-hat.png)
 
 ## Features
 
@@ -49,17 +49,17 @@ Please refer to this link to find more information about [W5100S](./../../Produc
 
 ### Pin Description
 
-| I/O  | Pin Name | Description                      |
-| ---- | -------- | -------------------------------- |
-| P    | VBUS     | Power supply, 4.3~5.5 Voltage    |
-| P    | 3V3      | Power supply, 3.3 Voltage        |
-| P    | GND      | Power ground                     |
-| I    | INTn     | W5100S Interrupt : Low activity. |
-| I    | RSTn     | W5100S Reset : Low activity      |
-| I    | SPI0 TX  | SPI MOSI (Master Out Slave In)   |
-| I    | SPI0 SCK | SPI Clock                        |
-| I    | SPI0 CSn | SPI Slave Select                 |
-| O    | SPI0 RX  | SPI MISO(Master In Slave Out)    |
+| I/O | Pin Name | Description                      |
+| --- | -------- | -------------------------------- |
+| P   | VBUS     | Power supply, 4.3~5.5 Voltage    |
+| P   | 3V3      | Power supply, 3.3 Voltage        |
+| P   | GND      | Power ground                     |
+| I   | INTn     | W5100S Interrupt : Low activity. |
+| I   | RSTn     | W5100S Reset : Low activity      |
+| I   | SPI0 TX  | SPI MOSI (Master Out Slave In)   |
+| I   | SPI0 SCK | SPI Clock                        |
+| I   | SPI0 CSn | SPI Slave Select                 |
+| O   | SPI0 RX  | SPI MISO(Master In Slave Out)    |
 
 
 
@@ -71,7 +71,7 @@ TBA
 
 ### W5100S Datasheet
 
-- <a href="/img/products/w5100s/w5100s_ds_v125e.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
+- <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/w5100s_ds_v125e.pdf" target="_blank">W5100S Datasheet v1.2.5</a>
 
 ### Schematic & Part list & Gerber File
 

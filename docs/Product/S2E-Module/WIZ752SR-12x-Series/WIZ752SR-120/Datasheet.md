@@ -126,9 +126,9 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### WIZ752SR-120
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.zip" target="_blank"> Download</a>
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Schematic/WIZ752SR-120_SCH_V100.pdf" target="_blank"> Download</a>
 
 ------------------------------------------------------------------------
@@ -137,10 +137,10 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### WIZ752SR-120
 
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.xls" target="_blank"> Download</a>
     
--   ![](/img/products/w5500/w5500_evb/icons/download.png)
+-   ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/master/04_Serial_to_Ethernet_Module/WIZ752SR-120/WIZ752SR-120_V100/Partlist/WIZ752SR-120_BOM_V100_180112.pdf" target="_blank"> Download</a>
 
 ------------------------------------------------------------------------
@@ -262,7 +262,7 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 ### Ethernet Power Dissipation
 
 | Condition                      | Min | Typ | Max | Tol | Unit |
-|--------------------------------|-----|-----|-----|-----|------|
+| ------------------------------ | --- | --- | --- | --- | ---- |
 | 100M Link                      | \-  | TBD | \-  |     | mA   |
 | 10M Link                       | \-  | TBD | \-  |     | mA   |
 | Unlink (Auto-negotiation mode) |     | TBD |     |     | mA   |

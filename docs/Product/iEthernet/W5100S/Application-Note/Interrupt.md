@@ -36,8 +36,8 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 <tr class="odd">
 <td>1.0.0</td>
 <td>2018-04-01</td>
-<td><a href="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">w5100s_an_interrupt_v110k.pdf</a><br />
-<a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">w5100s_an_interrupt_v100e.pdf</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">w5100s_an_interrupt_v110k.pdf</a><br />
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">w5100s_an_interrupt_v100e.pdf</a></td>
 </tr>
 </tbody>
 </table>
@@ -48,9 +48,9 @@ SOCKET, etc.) occurs, the **INTn** is asserted low
 
 ### Revision history
 
-| Version | Date | Download                    | ETC             |
-| ------- | ---- | --------------------------- | --------------- |
-| 1.0.0   |      | <a href="/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">w5100s_an_interrupt_v110k.pdf</a> <br /><a href="/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">w5100s_an_interrupt_v100e.pdf</a>| Initial Version |
+| Version | Date | Download                                                                                                                                                                                                                                                                                                                                      | ETC             |
+| ------- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 1.0.0   |      | <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_interrupt_v110k.pdf" target="_blank">w5100s_an_interrupt_v110k.pdf</a> <br /><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100s/application/w5100s_an_interrupt_v100e.pdf" target="_blank">w5100s_an_interrupt_v100e.pdf</a> | Initial Version |
 
 For more information [W5100s](../document) chip please
 also refer to the chip's datasheet:

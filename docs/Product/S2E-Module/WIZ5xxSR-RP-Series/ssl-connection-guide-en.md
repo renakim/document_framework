@@ -99,29 +99,29 @@ s_server -accept 443 -cert server.crt -key server.key
 
 1. Select **SSL TCP client** mode in the **Operation mode** setting section
 
-|                                                                                               |
-| :-------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
-| Figure: **Select SSL TCP client mode**                                                        |
+|                                                                                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/select_ssl_tcp_client_mode.png) |
+|                                                 Figure: **Select SSL TCP client mode**                                                 |
 
 2. Setup the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
 
-|                                                                                                         |
-| :-----------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/setup_remote_host_ip_and_remote_port.png) |
-| Figure: **Setup remote host IP and remote port**                                                        |
+|                                                                                                                                                  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/setup_remote_host_ip_and_remote_port.png) |
+|                                                 Figure: **Setup remote host IP and remote port**                                                 |
 
 3. Click the **Apply Settings** button to save the settings
 
-|                                                                                                |
-| :--------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/click_apply_settings_button.png) |
-| Figure: **Click Apply Settings button**                                                        |
+|                                                                                                                                         |
+| :-------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/click_apply_settings_button.png) |
+|                                                 Figure: **Click Apply Settings button**                                                 |
 
-|                                                                                   |
-| :-------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/saved_settings.png) |
-| Figure: **Saved settings**                                                        |
+|                                                                                                                            |
+| :------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/saved_settings.png) |
+|                                                 Figure: **Saved settings**                                                 |
 
 
 > **Note**: If you need certificates to connect to the SSL server, please refer to the [**'What If I Need Certificates to Connect to SSL Server'**](#what-if-i-need-certificates-to-connect-to-ssl-server?) section below.
@@ -153,10 +153,10 @@ Upload and setup the certificates required by the SSL server you want to connect
 
 After loading the certificate by clicking the '**Load file**' button, be sure to save it by clicking the '**Save to device**' button.
 
-|                                                                                        |
-| :------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/upload_certificates.png) |
-| Figure: **Upload certificates**                                                        |
+|                                                                                                                                 |
+| :-----------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/ssl_connection_guide/upload_certificates.png) |
+|                                                 Figure: **Upload certificates**                                                 |
 
 
 

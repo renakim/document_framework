@@ -20,7 +20,7 @@ date: 2020-04-07
 
 - **Schematic Version 1.0**
 
-<a href="/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_shield_ethernet_v1.0.pdf" target="_blank">WIZwiki-W7500ECO Shield Ethernet V1.0 Schematic</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki-w7500eco/wizwiki_w7500_eco_shield_ethernet_v1.0.pdf" target="_blank">WIZwiki-W7500ECO Shield Ethernet V1.0 Schematic</a>
 
 ## Part list
 

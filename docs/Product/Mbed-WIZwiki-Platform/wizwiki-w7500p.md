@@ -114,7 +114,7 @@ years. W7500P best suits users who need Internet connectivity.
 **Datasheet**
 
    * [W7500P Documents](./../iMCU/W7500/Documents.md)
-   * <a href="/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/overview/LPC11U3X.pdf" target="_blank">LPC11U35FHI33/501 Datasheet</a>
 
 **Schematic**
 
@@ -127,12 +127,12 @@ years. W7500P best suits users who need Internet connectivity.
 
   - **Schematic Version 1.0**
 
-   * <a href="/img/products/wizwiki_w7500p/wizwiki-w7500p_sch_v1.0.zip" target="_blank">WIZwiki-W7500P V1.0 Schematic (Altium Designer)</a>
-   * <a href="/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf" target="_blank">WIZwiki-W7500P V1.0 Schematic (PDF)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_w7500p/wizwiki-w7500p_sch_v1.0.zip" target="_blank">WIZwiki-W7500P V1.0 Schematic (Altium Designer)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/overview/wizwiki-w7500p_sch_v1.0.pdf" target="_blank">WIZwiki-W7500P V1.0 Schematic (PDF)</a>
 
 **Part list**
 
-   * <a href="/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf" target="_blank">WIZwiki-W7500P V1.0 BOM (PDF)</a>
+   * <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/overview/wizwiki_w7500p_bom_v1.0_150909.pdf" target="_blank">WIZwiki-W7500P V1.0 BOM (PDF)</a>
 
 **Dimension**
 

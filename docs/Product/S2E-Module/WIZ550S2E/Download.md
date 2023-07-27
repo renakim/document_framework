@@ -35,7 +35,7 @@ For all revision binary files including below, you can see at the [release](http
 
 ### Firmware upload(TFTP) guide
 
-<a href="/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Guide Document</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550s2e/wiz550s2e_fw_uploading_tftp.pdf" target="_blank">Guide Document</a>
 
 - **Notice**
     - a working gateway is needed
@@ -46,7 +46,7 @@ For all revision binary files including below, you can see at the [release](http
 
 ### Source code
 
-![](/img/products/w5500/w5500_evb/icons/github.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/github.png)
 <https://github.com/Wiznet/WIZ550S2E>
 
 -----
@@ -62,10 +62,10 @@ page of configuration's in github.
 Please refer to below compatibility table and use appropriate version.
 
 | F/W Version | Configuration Tool Version |
-|------------|----------------------------|
-| 1.0.3      | 1.03                       |
-| 1.3.0      | 1.33                       |
-| 1.4.1      | 1.33                       |
+| ----------- | -------------------------- |
+| 1.0.3       | 1.03                       |
+| 1.3.0       | 1.33                       |
+| 1.4.1       | 1.33                       |
 
 - [v1.33](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/v1.33/WIZnet_Configuration_Tool.jar)
 - [v1.32](https://github.com/Wiznet/WIZnet_Configuration_Tool/releases/download/1.3.2/WIZnet_Configuration_Tool.jar)
@@ -78,10 +78,10 @@ Please refer to below compatibility table and use appropriate version.
 
 ### Environment configuration
 
-![](/img/github.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/github.png)
 <https://github.com/Wiznet/WIZ550S2E#configuration-tool>
 
 ### Source code
 
-![](/img/github.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/github.png)
 <https://github.com/Wiznet/WIZnet_Configuration_Tool>

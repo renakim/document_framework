@@ -79,12 +79,12 @@ Flow control: None, RTS / CTS, XON / XOFF</td>
 
 ### WIZ500SR-RP Callout
 
-|                                                              |
-| ------------------------------------------------------------ |
-| ![WIZ500SR-RP Callout top](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-top.png) |
-| TOP                                                          |
+|                                                                                                 |
+| ----------------------------------------------------------------------------------------------- |
+| ![WIZ500SR-RP Callout top](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-top.png)    |
+| TOP                                                                                             |
 | ![WIZ500SR-RP callout bottom](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-callout-bot.png) |
-| BOTTOM                                                       |
+| BOTTOM                                                                                          |
 
 
 
@@ -184,19 +184,19 @@ High : No Collision</td>
 
 ![WIZ500SR-RP 1x12 UART1 (J4)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j4-pinmap.png)
 
-| Pin Number | Signal    | Description                                                  |
-| ---------- | --------- | ------------------------------------------------------------ |
-| 1          | VCC       | System Power Input (3.3V)                                    |
-| 2          | RUN       | RP2040 Reset Signal input<br />Active Low                    |
-| 3          | GND       | System Ground                                                |
-| 4          | UART1_TX  | UART1 TX                                                     |
-| 5          | UART1_RTS | UART1 RTS                                                    |
-| 6          | UART1_DTR | UART1 DTR                                                    |
-| 7          | GND       | System Ground                                                |
-| 8          | UART1_RX  | UART1 RX                                                     |
-| 9          | UART1_CTS | UART1 CTS                                                    |
-| 10         | UART1_DSR | UART1 DSR                                                    |
-| 11         | GND       | System Ground                                                |
+| Pin Number | Signal    | Description                                                                |
+| ---------- | --------- | -------------------------------------------------------------------------- |
+| 1          | VCC       | System Power Input (3.3V)                                                  |
+| 2          | RUN       | RP2040 Reset Signal input<br />Active Low                                  |
+| 3          | GND       | System Ground                                                              |
+| 4          | UART1_TX  | UART1 TX                                                                   |
+| 5          | UART1_RTS | UART1 RTS                                                                  |
+| 6          | UART1_DTR | UART1 DTR                                                                  |
+| 7          | GND       | System Ground                                                              |
+| 8          | UART1_RX  | UART1 RX                                                                   |
+| 9          | UART1_CTS | UART1 CTS                                                                  |
+| 10         | UART1_DSR | UART1 DSR                                                                  |
+| 11         | GND       | System Ground                                                              |
 | 12         | BLINK     | Working LED Signal <br />When Module working well Switch Toggle every 1.0s |
 
 
@@ -341,10 +341,10 @@ Changes will be reflected after reset</td>
 
 ![WIZ500SR-RP 1x2 BOOTSEL set pin (J2)](/img/products/s2e_module/wiz500sr-rp/wiz500sr-rp-j2-pinmap.png)
 
-| Pin Number | Signal  | Description                                                  |
-| ---------- | ------- | ------------------------------------------------------------ |
+| Pin Number | Signal  | Description                                                                                                                                          |
+| ---------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | BOOTSEL | Active Low<br />Drive this pin Low and reset(or power on),then RP2040 will enter USB Mass Storage Device mode<br />Then RP2040 can be re-programming |
-| 2          | GND     | System Ground                                                |
+| 2          | GND     | System Ground                                                                                                                                        |
 
 **J2 is not mounted connector**
 
@@ -418,20 +418,20 @@ When Module working well Blinking every 1.0s </td>
 
 ## Schematic & Artwork
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Altium   | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Schematic/WIZ500SR-RP_SCH_V100.zip">Download</a> | \-      |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Schematic/WIZ500SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                      | Remarks |
+| ----------- | ---- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Altium   | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Schematic/WIZ500SR-RP_SCH_V100.zip">Download</a>                 | \-      |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Schematic/WIZ500SR-RP_SCH_V100.pdf" target="_blank">Download</a> | \-      |
 
 
 ------------------------------------------------------------------------
 
 ## Part list
 
-| H/W version | Type | Filetype | Download Link                                                | Remarks |
-| ----------- | ---- | -------- | ------------------------------------------------------------ | ------- |
-| 1.0         | TTL  | Excel    | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Partlist/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
-| :::         | :::  | PDF      | ![](/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Partlist/WIZ500SR-RP_PL_V100.pdf" target="_blank">Download</a> |         |
+| H/W version | Type | Filetype | Download Link                                                                                                                                                                                                                                                                                                                     | Remarks |
+| ----------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1.0         | TTL  | Excel    | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Partlist/WIZ500SR-RP_PL_V100.xlsx" target="_blank">Download</a> |         |
+| :::         | :::  | PDF      | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png) <a href="https://github.com/Wiznet/Hardware-Files-of-WIZnet/raw/4d4c49d044e6d49c58748386eb2b5292ab607564/04_Serial_to_Ethernet_Module/WIZ500SR-RP/WIZ500SR-RP_V100/Partlist/WIZ500SR-RP_PL_V100.pdf" target="_blank">Download</a>  |         |
 
 
 ------------------------------------------------------------------------
@@ -534,9 +534,9 @@ When Module working well Blinking every 1.0s </td>
 
 ### Ethernet Power Dissipation
 
-| Condition                      | Min  | Typ  | Max  | Tol  | Unit |
-| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 100M Transmitting              | \-   | 120  | -    |      | mA   |
+| Condition         | Min | Typ | Max | Tol | Unit |
+| ----------------- | --- | --- | --- | --- | ---- |
+| 100M Transmitting | \-  | 120 | -   |     | mA   |
 
 
 ### External Flash Memory

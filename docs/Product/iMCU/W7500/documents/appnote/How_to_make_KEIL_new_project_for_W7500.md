@@ -125,7 +125,7 @@ Set 'include path' with
 
 ### STEP 7. Memory setting!
 
-![](/img/products/w7500/documents/appnote/keil18.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500/documents/appnote/keil18.jpg)
 
 Click "Options for Target..."
 
@@ -198,7 +198,7 @@ Now compile this project!! by pressing **F7** or clicking **Build icon**
 After compile, **W7500_Test.bin** file will be created.
 And then WIZwiki-W7500 will upload this bin file on itself via the User program you registered.
 
-![](/img/products/w7500/documents/appnote/pdf.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500/documents/appnote/pdf.jpg)
 
 If you want to convert this document to the PDF file? Click to [Export to PDF]
 

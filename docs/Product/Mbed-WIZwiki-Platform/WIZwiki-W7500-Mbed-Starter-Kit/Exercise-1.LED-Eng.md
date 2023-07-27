@@ -26,34 +26,34 @@ for further testing. If you haven’t signed up yet, please sign up.
 #### Connect the PC with mbed platform board
 
 Connect the PC with WIZwiki-W7500 using the USB cable.
-![](/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg) The PC will
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/bd_usb_connected.jpg) The PC will
 read the driver like a USB driver.
 
 #### Open the mbed compiler
 
 Click “Open mbed Compiler” as shown below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/105_wizwiki.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/105_wizwiki.png)
 
 A pop-up will appear and “Blinky LED Hello World” will be set as the
 template and “mbed\_blinky” will be set as the Default program name.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/106_program_name.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/106_program_name.png)
 
 Click OK and the mbed\_blinky program will be copied to my Program
 Workspace.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/107_mbed_blinky_main.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/107_mbed_blinky_main.png)
 
 Clik the Compile icon from the menu to compile the example code. Success
 message will appear below if an error is not occurred during compiling.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/108_compile_end.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/108_compile_end.png)
 
 Once compiling is successful, download the
 mbed\_blinky\_WIZWIKI-W7500.bin file to the PC.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/109_bin.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/109_bin.png)
 ### Example Code
 
 ``` c
@@ -74,7 +74,7 @@ int main(/) {
 ### Run exercise and Check test result
 
 Copy and paste the mbed\_blinky\_WIZWIKI\_W7500.bin file to the mbed
-driver (E: or F:) ![](/img/products/wizwiki_mbed_kit/kit_en/110_copy.png)
+driver (E: or F:) ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/110_copy.png)
 
 Then press the reset pin. The LED (blue circle) shown in the below image
 will blink every 0.2 second. ![WIZwiki-W7500 LED1](/img/products/wizwiki_mbed_kit/kit_en/wizwiki_led1.png)

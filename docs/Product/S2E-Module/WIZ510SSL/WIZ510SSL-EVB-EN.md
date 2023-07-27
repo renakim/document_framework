@@ -6,7 +6,7 @@ date: 2021-03-15
 
 ## WIZ510SSL-EVB
 
-![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_sideview.png)
 
   - WIZ510SSL Developer Board.
   - USB to UART chip, CP2104.
@@ -20,10 +20,10 @@ date: 2021-03-15
 
 
 
-|                                                                           |
-| ------------------------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png) |
-| **WIZ510SSL-EVB Call Out**                                   |
+|                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------ |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/wiz510ssl-evb/wiz510sslevb_callout.png) |
+| **WIZ510SSL-EVB Call Out**                                                                                   |
 
 -----
 
@@ -51,7 +51,7 @@ date: 2021-03-15
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><img src="" /> <a href="/img/products/wiz510ssl/static/WIZ550SSL-EVB_V001.PDF"target="_blank">Download</a></td>
+<td><img src="" /> <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/WIZ550SSL-EVB_V001.PDF"target="_blank">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -78,14 +78,14 @@ date: 2021-03-15
 <td>1.0</td>
 <td>TTL</td>
 <td>Excel</td>
-<td><a href="/img/products/wiz510ssl/static/WIZ550SSL-EVB_V100.xlsx"target="_blank">Download</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/WIZ550SSL-EVB_V100.xlsx"target="_blank">Download</a></td>
 <td>BOM version 1.0</td>
 </tr>
 <tr class="even">
 <td>:::</td>
 <td>:::</td>
 <td>PDF</td>
-<td><a href="/img/products/wiz510ssl/static/WIZ510SSL_EVB_V100_partlist.pdf"target="_blank">Download</a></td>
+<td><a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/static/WIZ510SSL_EVB_V100_partlist.pdf"target="_blank">Download</a></td>
 <td>:::</td>
 </tr>
 </tbody>
@@ -98,9 +98,9 @@ date: 2021-03-15
   - WIZ510SSL-EVB (TTL/RS232) Rev1.0 Dimension : 
       - 100mm x 65mm ( PCB board size )
 
-|                                                          |
-| -------------------------------------------------------- |
-| ![](/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png) |
-| **Rev0.1**                                               |
+|                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz510ssl/wiz510ssl-evb/wiz510ssl-evb-dimensions.png) |
+| **Rev0.1**                                                                                                       |
 
 

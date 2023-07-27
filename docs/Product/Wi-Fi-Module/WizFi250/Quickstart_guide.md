@@ -10,49 +10,49 @@ The WizFi250 EVB is the evaluation board for testing WizFi250 and prototyping de
 
 ### Feature Identification
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-1.png) 
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-1.png) 
 
 #### Button Description
 -----
 
-|**WizFi250 Reset**|	Through this button, user can restart WizFi250 module.|
-|------------------|--------------------------|
-|**Function**|Through the function button, user can enter specific mode without AT Command.<br />♦ Factory Recovery : When doing Boot or Reset, press the button over 3.5 seconds<br />♦ AP Mode : When module is working, press it once.<br />♦ OTA Mode : When module is working, press it twice.<br />♦ Factory Default : When module is working, press it three times.|
-|**Arduino Board Reset**|	With this button, user can restart Arduino board|
+| **WizFi250 Reset**      | Through this button, user can restart WizFi250 module.                                                                                                                                                                                                                                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Function**            | Through the function button, user can enter specific mode without AT Command.<br />♦ Factory Recovery : When doing Boot or Reset, press the button over 3.5 seconds<br />♦ AP Mode : When module is working, press it once.<br />♦ OTA Mode : When module is working, press it twice.<br />♦ Factory Default : When module is working, press it three times. |
+| **Arduino Board Reset** | With this button, user can restart Arduino board                                                                                                                                                                                                                                                                                                             |
 
 #### LED Description
 
-|  |  |
-|----|----|
-|UART RX/TX|	Indicate UART RX/TX Status|
-|Power LED	|Indicate Power On/Off of WizFi250|
-|Mode LED|	Indicate Data/Command Mode <br />♦ LOW(ON) : Data Mode <br />♦ HIGH(OFF) : Command Mode|
-|Wi-Fi LED	|Indicate Wi-Fi Association <br />♦ LOW(ON) : Wi-Fi is associated <br />♦ HIGH(OFF) : Wi-Fi is not associated|
+|            |                                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| UART RX/TX | Indicate UART RX/TX Status                                                                                   |
+| Power LED  | Indicate Power On/Off of WizFi250                                                                            |
+| Mode LED   | Indicate Data/Command Mode <br />♦ LOW(ON) : Data Mode <br />♦ HIGH(OFF) : Command Mode                      |
+| Wi-Fi LED  | Indicate Wi-Fi Association <br />♦ LOW(ON) : Wi-Fi is associated <br />♦ HIGH(OFF) : Wi-Fi is not associated |
 
 #### Pin Description
 
-| | |
-|--|--|
-|BOOT|	Enter boot mode <br />♦ SHORT : Start in boot mode <br />♦ OPEN : Start in application mode|
-|5V Power	|Alternative choice for 5V power supply|
-|GPIO Pin	|Through this pin, user can use GPIO signal|
+|          |                                                                                             |
+| -------- | ------------------------------------------------------------------------------------------- |
+| BOOT     | Enter boot mode <br />♦ SHORT : Start in boot mode <br />♦ OPEN : Start in application mode |
+| 5V Power | Alternative choice for 5V power supply                                                      |
+| GPIO Pin | Through this pin, user can use GPIO signal                                                  |
 
 ### Interface Description
 
-| | |
-|--|--|
-|UART1 Interface|	Alternative choice for Serial interface.|
-|SPI Interface	|Through these pins, user can control SPI interface.|
-|USB Interface	|This provides power supply & Serial interface Default serial information:<br />♦ Baud rate : 115200<br />♦ Data rate : 8<br />♦ Stop bits : 1<br />♦ Parity : None<br />♦ Flow control : None|
+|                 |                                                                                                                                                                                               |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UART1 Interface | Alternative choice for Serial interface.                                                                                                                                                      |
+| SPI Interface   | Through these pins, user can control SPI interface.                                                                                                                                           |
+| USB Interface   | This provides power supply & Serial interface Default serial information:<br />♦ Baud rate : 115200<br />♦ Data rate : 8<br />♦ Stop bits : 1<br />♦ Parity : None<br />♦ Flow control : None |
 
 ### Interface Board PIN Map
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250_interface_board_bottom_pin_map.png) 
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250_interface_board_bottom_pin_map.png) 
 
 
 ### Interface Board Dimension
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250_interface_board_dimension.png) 
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250_interface_board_dimension.png) 
 
 ## Stsart Serial to Wi-Fi
 
@@ -62,7 +62,7 @@ Wi-Fi as example. In this example, WizFi250 is set to the TCP server and
 peer system is set to the TCP client. And then data is exchanged between
 WizFi250 and the peer system.
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-2.png)
 
 ### Using Function Button & Web Server Interface
 
@@ -88,11 +88,11 @@ Procedure for setting serial to Wi-Fi is explained below.
 
 LED results of WIZFI250:
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250_leds.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250_leds.png)
 
  * Connect to WizFi250’s SSID …by inputting default password (123456789) and WizFi250’s IP address or URL (wizfi250.wiznet.com) in your web browser. After that input the user id and user password. ( Default ID : admin, Default Password : admin )
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-3.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-3.png)
 
  * If you select “S2W Setting & Scan Network” menu, …the web page will be shown as below.\\ If WizFi250 is set successfully, it shows the success message … as in the following picture on the right.\\ If you select <Next_Step> button, you can move to next page. 
 
@@ -105,27 +105,27 @@ LED results of WIZFI250:
 | Remote Port                    | Connecting device's Port       |
 | Local Port                     | Module's Port                  |
 
-|                                                       |                                                       |
-| ----------------------------------------------------- | ----------------------------------------------------- |
-| ![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-4.png) | ![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-5.png) |
+|                                                                                                    |                                                                                                    |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-4.png) | ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-5.png) |
 
 
  * Select WizFi250's DHCP Mode. \\   It includes __DHCP__ or __stactic IP__ setting.
 
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-5-1.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-5-1.png)
 
 
  * Firstly, input the password of …the AP you want to join and click “Join“ button to connect to that AP. \\ \\ After setting up, you will see **“Device Started Web server and access point stopped. See UART for further information.”** message in web browser. It means that WizFi250 will try to connect to the selected AP.\\ \\ Important note: If you input the wrong password of AP, you need to redo all procedures.
 
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-6.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-6.png)
 
 
  * WizFi250 will be associated … to the AP you select… and you can use TCP server in WizFi250.\\ This picture is the serial message when WizFi250 has set successfully.
 
 
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-7.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-7.png)
 
 
 ### Using Serial Command
@@ -179,9 +179,9 @@ three 0x2B = '+' characters.
 This section explains how to exchange data between WizFi250 and Peer
 System.  
 This example describes the structure of data flow.
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-8.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-8.png)
 
 After TCP connection is done and if WizFi250 receives serial data, the
 serial data will be sent to peer system immediately and Wizfi250 can
 receive data from peer system.
-![](/img/products/wizfi250/wizfi250qsg/wizfi250qsg-9.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/wizfi250qsg/wizfi250qsg-9.png)

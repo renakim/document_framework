@@ -24,11 +24,11 @@ It is displayed on the screen through the serial port..
 ### Schematic
 
 The overall circuit diagram is as follows.
-![](/img/products/wizwiki_mbed_kit/kit_kr/temp_sensor_schem.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/temp_sensor_schem.png)
 
 ### Connection diagram
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/exam_temp_sensor.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/exam_temp_sensor.png)
 
 ## Software
 
@@ -74,7 +74,7 @@ int main(void)
 
 The following is an example execution screen. Celsius and Fahrenheit temperature values alternate.
 
-![](/img/products/wizwiki_mbed_kit/kit_kr/temp_sensor_result.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_kr/temp_sensor_result.jpg)
 
 ## Learning materials
 

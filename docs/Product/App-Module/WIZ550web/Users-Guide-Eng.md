@@ -19,7 +19,7 @@ WIZ550web provides the lightweight webserver operating. It controls digital outp
 
 ## TFTP Guide Document
 
-<a href="/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP Guide Document</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz550web/wiz550webug_kr/wiz550web_tftp_guide.pdf" target="_blank">TFTP Guide Document</a>
 
 ---
 
@@ -81,11 +81,11 @@ This is the function which makes Module reboot. This requires password to reboot
 
 All setting value is initialized to factory default, if the “Factory Reset” button is clicked. Factory default values of Module are listed below.
 
-|**Category	|Item|	Value**|
-|---------|-----|------|
-|**Network**	|Local IP	|192.168.11.100|
-||Local Gateway	|192.168.11.1|
-||Local Subnet	|255.255.255.0|
+| **Category  | Item          | Value**        |
+| ----------- | ------------- | -------------- |
+| **Network** | Local IP      | 192.168.11.100 |
+|             | Local Gateway | 192.168.11.1   |
+|             | Local Subnet  | 255.255.255.0  |
 
 #### Exit
 Close the configuration tool program window.
@@ -141,9 +141,9 @@ Some parameters are mandatory and others are optional. Parameters must be entere
 
 
 
-|Input by User	|AT\r\n (0x61 0x74 0x0d 0x0a)|
-|---------------|---------------------------|
-|Output from WIZ550WEB|	[S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a)|
+| Input by User         | AT\r\n (0x61 0x74 0x0d 0x0a)       |
+| --------------------- | ---------------------------------- |
+| Output from WIZ550WEB | [S]\r\n (0x5b 0x53 0x5d 0x0d 0x0a) |
 
 ---
 
@@ -163,15 +163,15 @@ Some parameters are mandatory and others are optional. Parameters must be entere
 
 Responses are listed below.
 
-|**Response|	Description**|
-|--------|-------------|
-|Success Response	|[S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓ 
-Responses are listed below.|
-|Success Dump Response	|[D,(Id),(Size)]↓(Data)↓ .Command Request Success, Outputs large data include 'Enter key' value.|
-|Fail Response|	[F,(Id),(ErrorCode),(ErrorParam)]↓Command Request Fail, outputs with param when it's needed. |
-|Wait Response	|[W,(Id)]↓ Command is started with ID in Async mode.|
-|Data Receive Response	|[R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓Outputs the received data.|
-|Event Response|	[V,(Id),(EventCode)]↓.Event occurred.|
+| **Response                  | Description**                                                                                   |
+| --------------------------- | ----------------------------------------------------------------------------------------------- |
+| Success Response            | [S,(Id),(Param1),(Param2),(Param3),(Param4),(Param5),(Param6)]↓                                 |
+| Responses are listed below. |
+| Success Dump Response       | [D,(Id),(Size)]↓(Data)↓ .Command Request Success, Outputs large data include 'Enter key' value. |
+| Fail Response               | [F,(Id),(ErrorCode),(ErrorParam)]↓Command Request Fail, outputs with param when it's needed.    |
+| Wait Response               | [W,(Id)]↓ Command is started with ID in Async mode.                                             |
+| Data Receive Response       | [R,(SockId),(ReceivedSize),(SrcIP),(SrcPort)]↓(Data)↓Outputs the received data.                 |
+| Event Response              | [V,(Id),(EventCode)]↓.Event occurred.                                                           |
 
   * (Id): 0 - System ID or 0~n - Socket Number
   * (Size): Byte size of the output data
@@ -189,57 +189,57 @@ Responses are listed below.|
 
 **General Error Code**
 
-|Code	|Error Name|	Description|
-|--------|---------|----------------|
-|0	|ERR_Undefined|Undefined Error	|
-|1|	ERR_WrongOperator|	Wrong Operator|
-|2	|ERR_WrongCommandSign|		Wrong Command Sign|
-|3|	ERR_WrongArguments|	Wrong Arguments|
-|4|	ERR_OurofRange	|	Parameter is out of Range|
-|5|	ERR_FuncDisabled|	This function is disabled|
-|6	|ERR_NotAllowed	|Not Allowed|
-|7|	ERR_CommandBusy|	Command Busy|
-|8	|ERR_CommandTimeout|	Command Timeout|
+| Code | Error Name           | Description               |
+| ---- | -------------------- | ------------------------- |
+| 0    | ERR_Undefined        | Undefined Error           |
+| 1    | ERR_WrongOperator    | Wrong Operator            |
+| 2    | ERR_WrongCommandSign | Wrong Command Sign        |
+| 3    | ERR_WrongArguments   | Wrong Arguments           |
+| 4    | ERR_OurofRange       | Parameter is out of Range |
+| 5    | ERR_FuncDisabled     | This function is disabled |
+| 6    | ERR_NotAllowed       | Not Allowed               |
+| 7    | ERR_CommandBusy      | Command Busy              |
+| 8    | ERR_CommandTimeout   | Command Timeout           |
 
 #### Socket Error Code
 
-|Code|	Error Name|	Description|
-|----|------------|-------------|
-|10|	ERR_SockNotAvail|Socket Not Available	|
-|11	|ERR_SockClosed|Socket Closed|
-|12|	ERR_SockPortNumNotAvail|	Port Not Available|
-|13	|ERR_SockNotConnected	|Not Connected|
-|14|	ERR_SockWrongAddr|	Wrong Address|
-|15	|ERR_SockDataNotAvailable	|Data Not Available|
+| Code | Error Name               | Description          |
+| ---- | ------------------------ | -------------------- |
+| 10   | ERR_SockNotAvail         | Socket Not Available |
+| 11   | ERR_SockClosed           | Socket Closed        |
+| 12   | ERR_SockPortNumNotAvail  | Port Not Available   |
+| 13   | ERR_SockNotConnected     | Not Connected        |
+| 14   | ERR_SockWrongAddr        | Wrong Address        |
+| 15   | ERR_SockDataNotAvailable | Data Not Available   |
 
 #### Other Error Code
 
-|Code	|Error Name	|Description|
-|-------|----------|-------------|
-|20|	ERR_NoFreeMem	|No Free Memory|
+| Code | Error Name    | Description    |
+| ---- | ------------- | -------------- |
+| 20   | ERR_NoFreeMem | No Free Memory |
 
 #### Event Code
 
 **Socket Event Code**
 
-|Code	|Socket Event Name|	Description|
-|-------|-----------------|-------------|
-|0|	EVENT_SockConnected|	|Connected. Socket transition from Listen state to established state|
-|1|	EVENT_SockDisconnected	|Disconnected. Socket transition from established state to disconnected state|
-|2	|EVENT_SockClosed	|Closed. Socket transition to closed state|
-|3|	EVENT_SockDataRcvd	|Data Received. The corresponding socket received data from its peer|
+| Code | Socket Event Name      | Description                                                                  |
+| ---- | ---------------------- | ---------------------------------------------------------------------------- |
+| 0    | EVENT_SockConnected    |                                                                              | Connected. Socket transition from Listen state to established state |
+| 1    | EVENT_SockDisconnected | Disconnected. Socket transition from established state to disconnected state |
+| 2    | EVENT_SockClosed       | Closed. Socket transition to closed state                                    |
+| 3    | EVENT_SockDataRcvd     | Data Received. The corresponding socket received data from its peer          |
 
 ### Network Commands
 
-|Command	|Prop.|	Input Parameter|	Response |
-|---------|-----|----------------|---------- |
-| [AT+NSET](#atnset)	|None or ?	|	|[S,,S,(IP),(SN),(GW),(DNS)][S,,D]|
-||=|	S,(IP),(SN),(GW),(DNS)|	[S]|
-|||D|	[S]|
-||-	|num,Param	|[S]|
-|[AT+NSTAT](#atnstat)|	None or ?||		[S,,S/D,(IP),(SN),(GW),(DNS)]|
-|[AT+NMAC](#atnmac)|	None or ?||		[S,,(MAC)]|
-||=	|(MAC)|	[S]|
+| Command              | Prop.     | Input Parameter        | Response                          |
+| -------------------- | --------- | ---------------------- | --------------------------------- |
+| [AT+NSET](#atnset)   | None or ? |                        | [S,,S,(IP),(SN),(GW),(DNS)][S,,D] |
+|                      | =         | S,(IP),(SN),(GW),(DNS) | [S]                               |
+|                      |           | D                      | [S]                               |
+|                      | -         | num,Param              | [S]                               |
+| [AT+NSTAT](#atnstat) | None or ? |                        | [S,,S/D,(IP),(SN),(GW),(DNS)]     |
+| [AT+NMAC](#atnmac)   | None or ? |                        | [S,,(MAC)]                        |
+|                      | =         | (MAC)                  | [S]                               |
 
 #### AT+NSET
 
@@ -251,10 +251,10 @@ Responses are listed below.|
  
 < DHCP>: Static/DHCP
 
-|Parameter|	Meaning|
-|---------|---------|
-|S|	DHCP Off, Static|
-|D	|DHCP On, DHCP Client|
+| Parameter | Meaning              |
+| --------- | -------------------- |
+| S         | DHCP Off, Static     |
+| D         | DHCP On, DHCP Client |
 
 < IP>: IP Address (Optional)
 < SN>: Subnet Mask (Optional)
@@ -360,20 +360,20 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 ### Management Commands
 
-|Command|	Prop.|	Input Parameter|	Response|
-|--------|-------|-----------------|-------------|
-|[AT](#at)	|None|		|[S]|
-||?|	|[D,,(Size)]↓(Data)|
-|[AT+MSTAT](#atmstat)	|None or ?	|	|[S,,(Version)]|
-|[AT+MUSART1](#atmusart1)|	None or ?	|	[S,,(BR),(W),(P),(S),(F)]|
-||=	|(BR),(W),(P),(S),(F)|	[S]|
-||-|	num,Param|	[S]|
-|[AT+MUSART2](#atmusart2)	|None or ?|		|[S,,(BR),(W),(P),(S),(F)]|
-||=|	(BR),(W),(P),(S),(F)|	[S]|
-||-|	num,Param	|[S]|
-|[AT+MSAVE](#atmsave)|	None|	|	[S]|
-|[AT+MRST](#atmrst)|	None|		|[S]|
-||=	|F|	[S]|
+| Command                  | Prop.     | Input Parameter           | Response                  |
+| ------------------------ | --------- | ------------------------- | ------------------------- |
+| [AT](#at)                | None      |                           | [S]                       |
+|                          | ?         |                           | [D,,(Size)]↓(Data)        |
+| [AT+MSTAT](#atmstat)     | None or ? |                           | [S,,(Version)]            |
+| [AT+MUSART1](#atmusart1) | None or ? | [S,,(BR),(W),(P),(S),(F)] |
+|                          | =         | (BR),(W),(P),(S),(F)      | [S]                       |
+|                          | -         | num,Param                 | [S]                       |
+| [AT+MUSART2](#atmusart2) | None or ? |                           | [S,,(BR),(W),(P),(S),(F)] |
+|                          | =         | (BR),(W),(P),(S),(F)      | [S]                       |
+|                          | -         | num,Param                 | [S]                       |
+| [AT+MSAVE](#atmsave)     | None      |                           | [S]                       |
+| [AT+MRST](#atmrst)       | None      |                           | [S]                       |
+|                          | =         | F                         | [S]                       |
 
 #### AT
 
@@ -414,49 +414,49 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
   
 &#60;BR&#62;: Baud rate
     
-|Parameter|	Meaning|
-|---------|--------|
-|300	|300bps|
-|600	|600bps|
-|1200	|1200bps|
-|2400	|2400bps|
-|4800	|4800bps|
-|9600	|9600bps|
-|19200|	19200bps|
-|38400|	38400bps|
-|57600|	57600bps|
-|115200|	115200bps|
-|230400	|230400bps|
+| Parameter | Meaning   |
+| --------- | --------- |
+| 300       | 300bps    |
+| 600       | 600bps    |
+| 1200      | 1200bps   |
+| 2400      | 2400bps   |
+| 4800      | 4800bps   |
+| 9600      | 9600bps   |
+| 19200     | 19200bps  |
+| 38400     | 38400bps  |
+| 57600     | 57600bps  |
+| 115200    | 115200bps |
+| 230400    | 230400bps |
 
 &#60;W&#62;: Word length
     
-|Parameter|	Meaning|
-|---------|---------|
-|8|	8 bits|
-|9|	9 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 8         | 8 bits  |
+| 9         | 9 bits  |
 
 &#60;P&#62;: Parity bit
     
-|Parameter	|Meaning|
-|-----------|-------|
-|N	|NONE|
-|O	|ODD|
-|E	|EVEN|
+| Parameter | Meaning |
+| --------- | ------- |
+| N         | NONE    |
+| O         | ODD     |
+| E         | EVEN    |
 
 
 &#60;S&#62;: Stop bit
     
-|Parameter|	Meaning|
-|---------|--------|
-|1|	1 bits|
-|2|	2 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 1         | 1 bits  |
+| 2         | 2 bits  |
 
 &#60;F&#62;: Flow Control
     
-|Parameter|	Meaning|
-|----------|--------|
-|0	|NONE|
-|1	|RTS/CTS|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | NONE    |
+| 1         | RTS/CTS |
 
 - **Response:**
 
@@ -496,51 +496,51 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 
 &#60;BR&#62;: Baud rate
     
-|Parameter	|Meaning|
-|------------|-------|
-|300	|300bps|
-|600|	600bps|
-|1200|	1200bps|
-|2400|	2400bps|
-|4800	|4800bps|
-|9600|	9600bps|
-|19200|	19200bps|
-|38400	|38400bps|
-|57600|	57600bps|
-|115200|	115200bps|
-|230400|	230400bps|
+| Parameter | Meaning   |
+| --------- | --------- |
+| 300       | 300bps    |
+| 600       | 600bps    |
+| 1200      | 1200bps   |
+| 2400      | 2400bps   |
+| 4800      | 4800bps   |
+| 9600      | 9600bps   |
+| 19200     | 19200bps  |
+| 38400     | 38400bps  |
+| 57600     | 57600bps  |
+| 115200    | 115200bps |
+| 230400    | 230400bps |
 
 &#60;W&#62;: Word length
     
-|Parameter|	Meaning|
-|----------|-------|
-|8	|8 bits|
-|9|	9 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 8         | 8 bits  |
+| 9         | 9 bits  |
 
 &#60;P&#62;: Parity bit
     
-|Parameter|	Meaning|
-|---------|--------|
-|N	|NONE|
-|O|	ODD|
-|E	|EVEN|
+| Parameter | Meaning |
+| --------- | ------- |
+| N         | NONE    |
+| O         | ODD     |
+| E         | EVEN    |
 
 
 &#60;S&#62;: Stop bit
     
-|Parameter|	Meaning|
-|---------|--------|
-|1	|1 bits|
-|2|	2 bits|
+| Parameter | Meaning |
+| --------- | ------- |
+| 1         | 1 bits  |
+| 2         | 2 bits  |
 
 &#60;F&#62;: Flow Control
     
-|Parameter|	Meaning|
-|----------|-------|
-|0	|NONE|
-|1	|RTS/CTS|
-|2|RS422|
-|3|RS485|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | NONE    |
+| 1         | RTS/CTS |
+| 2         | RS422   |
+| 3         | RS485   |
 
 - **Response:**
 
@@ -597,12 +597,12 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
     
 ### Function Commands
 
-|Command|	Prop.|	Input Parameter|	Response|
-|-------|------|-----------------|----------|
-|[AT+FIODIR](#atfiodir)|	=	|(PIN)|	[S,,(Direction)]|
-||=	|(PIN),(Direction)|	[S]|
-|[AT+FIOVAL](#atfioval)|	=|	(PIN)|	[S,,(VAL)]|
-||=	|(PIN),(VAL)|	[S]|
+| Command                | Prop. | Input Parameter   | Response         |
+| ---------------------- | ----- | ----------------- | ---------------- |
+| [AT+FIODIR](#atfiodir) | =     | (PIN)             | [S,,(Direction)] |
+|                        | =     | (PIN),(Direction) | [S]              |
+| [AT+FIOVAL](#atfioval) | =     | (PIN)             | [S,,(VAL)]       |
+|                        | =     | (PIN),(VAL)       | [S]              |
 
 ---
    
@@ -618,11 +618,11 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 < PIN> : GPIO Pin Number (1 ~ 16)
 < Direction> : GPIO Pin Direction
 
-|Parameter|	Meaning|
-|----------|-------|
-|0|	Not Used (Read Only)|
-|1	|Input|
-|2|	Output|
+| Parameter | Meaning              |
+| --------- | -------------------- |
+| 0         | Not Used (Read Only) |
+| 1         | Input                |
+| 2         | Output               |
 
 - **Response:**
 
@@ -663,10 +663,10 @@ Note that < IP>,< SN>,< GW>,< DNS> address of response are not actual addresses,
 < PIN> : GPIO Pin Number (1 ~ 16)
 < VAL> : GPIO Pin Output Value
 
-|Parameter|	Meaning|
-|---------|---------|
-|0	|Low|
-|1|	High|
+| Parameter | Meaning |
+| --------- | ------- |
+| 0         | Low     |
+| 1         | High    |
 
 - **Response:**
 

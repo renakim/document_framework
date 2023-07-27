@@ -8,7 +8,7 @@ date: 2020-04-08
   * [English](./Getting-Started-EN.md)  
   * [Korean](./Getting-Started-KO.md) (current page)
 
-![](/img/products/wiz750sr/docs_icon.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/docs_icon.png)
 
 -----
 
@@ -232,11 +232,11 @@ WIZ750SR 제품은 1:1 통신만 가능했던 기존 제품의 UDP 모드에 다
 
   - RS-232/TTL 제품은 다음과 같은 시리얼 데이터 흐름제어(flow control)를 지원합니다.
 
-| Flow Control | Description                        | Remarks |
-| ------------ | ---------------------------------- | ------- |
-| NONE         | 흐름제어를 사용하지 않습니다.                   | Default |
+| Flow Control | Description                                 | Remarks |
+| ------------ | ------------------------------------------- | ------- |
+| NONE         | 흐름제어를 사용하지 않습니다.               | Default |
 | XON/XOFF     | 소프트웨어 흐름제어 (Software flow control) | \-      |
-| CTS/RTS      | 하드웨어 흐름제어 (Hardware flow control)  | \-      |
+| CTS/RTS      | 하드웨어 흐름제어 (Hardware flow control)   | \-      |
 
   - RS-422/485 제품의 경우, 위 흐름제어 옵션 중 하나를 선택하더라도 'NONE'을 선택한 것과 동일하게 동작합니다.
 

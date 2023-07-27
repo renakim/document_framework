@@ -48,7 +48,7 @@ Try to perform a device search first.
 python wizconfig.py -s
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/02.search.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/02.search.png)
 
 You then use the getfile option to get information from a single device
 or multiple devices as follows.
@@ -65,7 +65,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_oneport.txt
 python wizconfig.py -a --getfile cmd_oneport.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/single_getfile.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/single_getfile.png)
 
 -----
 
@@ -105,7 +105,7 @@ Use getfile option with new command list file.
 python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_net.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/single_getfile_short.png)
 
 * Multi devices
 
@@ -113,7 +113,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --getfile cmd_net.txt
 python wizconfig.py -a --getfile cmd_net.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/multi_getfile_short.png)
 
 You can use this after customizing according to your purpose and
 situation.
@@ -169,7 +169,7 @@ There is an example file in the project directory, 'set\_cmd.txt'.
 python wizconfig.py -d 00:08:DC:53:AE:93 --setfile set_cmd.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/single_setfile.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/single_setfile.png)
 
 \* **Check:**
 
@@ -177,7 +177,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --setfile set_cmd.txt
 python wizconfig.py -d 00:08:DC:53:AE:93 --getfile set_cmd.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/single_setfile_get.png)
 
 \* **Multi devices**
 
@@ -185,7 +185,7 @@ python wizconfig.py -d 00:08:DC:53:AE:93 --getfile set_cmd.txt
 python wizconfig.py -a --setfile set_cmd.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/multi_setfile.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/multi_setfile.png)
 
 \* **Check:**
 
@@ -193,6 +193,6 @@ python wizconfig.py -a --setfile set_cmd.txt
 python wizconfig.py -a --getfile set_cmd.txt
 ```
 
-![](/img/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz750sr/clitool/fileoption/multi_setfile_get.png)
 
 The setfile option can be useful when you want to save and use multiple options as shown above.

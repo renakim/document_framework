@@ -6,7 +6,7 @@ date: 2021-07-21
 
 ## Overview
 
-![](/img/products/wiz100sr/ShopDtl_1075_201501081554051.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz100sr/ShopDtl_1075_201501081554051.jpg)
 
 WIZ100SR-EVB is a evaluation board for WIZ100SR.
 
@@ -48,4 +48,4 @@ WIZ100SR is the serial to Ethernet module using W5100 & 8051 MCU.  WIZ100SR is t
 
 ## Evaluation Board Interface
 
-![](/img/products/wiz100sr/140626_73500_new.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz100sr/140626_73500_new.jpg)

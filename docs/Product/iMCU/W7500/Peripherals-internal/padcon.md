@@ -19,11 +19,11 @@ Pads of W7500 are controllable. User can control pad’s characteristic.
 
 The below Figure shows the function schematic of digital I/O pad of W7500.
 
-![](/img/products/w7500p/peripheral/schem_digital_iopad.jpg "Figure 1 function schematic of digital I/O pad")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/schem_digital_iopad.jpg "Figure 1 function schematic of digital I/O pad")
 
 The below Figure shows the function schematic of digital/analog mux IO pad of W7500
 
-![](/img/products/w7500p/peripheral/schem_a_d_iopad.jpg "Figure 2 function schematic of analog/digital mux I/O pad")
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7500p/peripheral/schem_a_d_iopad.jpg "Figure 2 function schematic of analog/digital mux I/O pad")
 
 Initials of Pad diagram is same as below.
 

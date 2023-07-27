@@ -151,12 +151,12 @@ in.
 
 #### Schematic
 
-  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip" target="_blank">WizFi310 Shield Schematic(Altium)</a>
-  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf" target="_blank">WizFi310 Shield Schematic(PDF)</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.zip" target="_blank">WizFi310 Shield Schematic(Altium)</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizfi310_shield/wizfi310_shield_sch_v100.pdf" target="_blank">WizFi310 Shield Schematic(PDF)</a>
 
 #### Partlist
 
-  - <a href="/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf" target="_blank">WizFi310 Shield Partlist</a>
+  - <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/osh/wizfi310_shield/wizfi310_shield_pl_v100_170329.pdf" target="_blank">WizFi310 Shield Partlist</a>
 
 -----
 

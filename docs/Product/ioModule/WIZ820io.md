@@ -35,13 +35,13 @@ WIZ820io is the compact-sized network module that includes W5200 (TCP/IP & Ether
 
 ### Datasheet
 
-<a href="/img/products/wiz820io/WIZ820io_User_Manual_V1.0.pdf" target="_blank">WIZ820io Datasheet v1.0</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz820io/WIZ820io_User_Manual_V1.0.pdf" target="_blank">WIZ820io Datasheet v1.0</a>
 
 Last Update: 2013.06.08
 
 ### Hardware Guide
 
-<a href="/img/products/wiz820io/WIZ820io_hardware.zip" target="_blank">WIZ820io Hardware Guide</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz820io/WIZ820io_hardware.zip" target="_blank">WIZ820io Hardware Guide</a>
 
 - WIZ820io Schematic (V 1.0.5)
 - WIZ820io Part List (V1.0)
@@ -50,4 +50,4 @@ Last Update: 2013.06.08
 
 AX1 Loopback Test Program, Install version
 
-<a href="/img/products/wiz820io/AX1.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz820io/AX1.zip" target="_blank">Download</a>

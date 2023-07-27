@@ -28,7 +28,7 @@ No special circuit.
 Connect the PC and the router (with DHCP function) with LAN cable.
 Connect the router and the WIZwiki board with LAN cable. Connect the PC and the WIZwiki board with USB cable.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/tcp_loopback_system_config_en.png)
 
 ## Software
 
@@ -52,11 +52,11 @@ Use the example code in the page below.
 
 Click on the red part of the "Import this program" section in the figure below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_1.jpg)
 
 A pop-up window will appear as shown below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_2.jpg)
 
 The "Source URL" and "Import As" have default values. User can change the "Import Name" if one wants. If clicking on the red part of the "Import", the program is copied to the mbed compiler environment.
 
@@ -64,21 +64,21 @@ The "Source URL" and "Import As" have default values. User can change the "Impor
 
 Execute serial terminal in PC. First push Reset switch of WIZwiki board and check messages.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server1.jpg)
 
 Execute Hercules program in PC. Select TCP Client menu and configure the IP and Port. Click on the red part of the "Ping" button in the figure below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client1.jpg)
 
 Click the "Connect" button and check connection.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client2.jpg)
 
 The TCP Client sends a message to WIZwiki board and the WIZwiki board sends a reversed message to the TCP client. Check the Loopback message as shown below.
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_client3.jpg)
 
-![](/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizwiki_mbed_kit/kit_en/ex_tcp_loop_server2.jpg)
 
 ## Learning Resources
 

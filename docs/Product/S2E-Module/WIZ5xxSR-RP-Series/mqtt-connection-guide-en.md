@@ -89,10 +89,10 @@ Ex>
 mosquitto -c mosquitto.conf -p 1883 -v
 ```
 
-|                                                                                                       |
-| :---------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/run_mqtt_broker_through_mosquitto.png) |
-| Figure: **Run MQTT broker through Mosquitto**                                                         |
+|                                                                                                                                                |
+| :--------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/run_mqtt_broker_through_mosquitto.png) |
+|                                                 Figure: **Run MQTT broker through Mosquitto**                                                  |
 
 
 
@@ -100,36 +100,36 @@ mosquitto -c mosquitto.conf -p 1883 -v
 
 1. Select **MQTT client** mode in the **Operation mode** setting section
 
-|                                                                                             |
-| :-----------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/select_mqtt_client_mode.png) |
-| Figure: **Select MQTT client mode**                                                         |
+|                                                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/select_mqtt_client_mode.png) |
+|                                                 Figure: **Select MQTT client mode**                                                  |
 
 2. Setup the **remote host IP (or URL)** and **remote port** in the **Remote host / port** section
 
-|                                                                                                          |
-| :------------------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_remote_host_ip_and_remote_port.png) |
-| Figure: **Setup remote host IP and remote port**                                                         |
+|                                                                                                                                                   |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_remote_host_ip_and_remote_port.png) |
+|                                                 Figure: **Setup remote host IP and remote port**                                                  |
 
 3. Setup MQTT options
 
-|                                                                                        |
-| :------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_mqtt_options.png) |
-| Figure: **Setup MQTT options**                                                         |
+|                                                                                                                                 |
+| :-----------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/setup_mqtt_options.png) |
+|                                                 Figure: **Setup MQTT options**                                                  |
 
 4. Click the **Apply Settings** button to save the settings
 
-|                                                                                                 |
-| :---------------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/click_apply_settings_button.png) |
-| Figure: **Click Apply Settings button**                                                         |
+|                                                                                                                                          |
+| :--------------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/click_apply_settings_button.png) |
+|                                                 Figure: **Click Apply Settings button**                                                  |
 
-|                                                                                    |
-| :--------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/saved_settings.png) |
-| Figure: **Saved settings**                                                         |
+|                                                                                                                             |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/saved_settings.png) |
+|                                                 Figure: **Saved settings**                                                  |
 
 
 
@@ -137,15 +137,15 @@ mosquitto -c mosquitto.conf -p 1883 -v
 
 WIZ5xxSR-RP is successfully connected to the MQTT broker!
 
-|                                                                            |
-| :------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/status.png) |
-| Figure: **Status**                                                         |
+|                                                                                                                     |
+| :-----------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/status.png) |
+|                                                 Figure: **Status**                                                  |
 
-|                                                                                            |
-| :----------------------------------------------------------------------------------------: |
-| ![](/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/connect_to_mqtt_broker.png) |
-| Figure: **Connect to MQTT broker**                                                         |
+|                                                                                                                                     |
+| :---------------------------------------------------------------------------------------------------------------------------------: |
+| ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/s2e_module/wiz5xxsr-rp/mqtt_connection_guide/connect_to_mqtt_broker.png) |
+|                                                 Figure: **Connect to MQTT broker**                                                  |
 
 
 

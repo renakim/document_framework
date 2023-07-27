@@ -13,10 +13,10 @@ required to interface W5100S and Transformer. The WIZ810Sio is an ideal
 option for users who want to develop their Internet enabling systems
 rapidly.
 
-|                                                     |
-| --------------------------------------------------- |
+|                                                      |
+| ---------------------------------------------------- |
 | ![WIZ810Sio](/img/products/wiz810sio/wiz810io_2.png) |
-| Figure: ***WIZ810Sio***                             |
+| Figure: ***WIZ810Sio***                              |
 
 -----
 
@@ -49,7 +49,7 @@ rapidly.
 
 ### Datasheet
 
-  - ![](/img/products/w5500/w5500_evb/icons/download.png)
+  - ![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_evb/icons/download.png)
     <a href="https://www.wiznet.io/wp-content/uploads/2019/01/WIZ810Sio-User-Manual-V1.0-002.pdf" target="_blank">Download</a>
 
 -----

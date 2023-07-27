@@ -4,7 +4,7 @@ title: iMCU7100-EVB
 date: 2021-07-26
 ---
 
-![](/img/products/w7100a/w7100A_evb_f-280.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7100a/w7100A_evb_f-280.jpg)
 
 ## Key Features
 
@@ -38,12 +38,12 @@ date: 2021-07-26
 
 ### Schematic
 
-<a href="/img/products/w7100a/iMCU7100EVB_Schematic.zip" target="_blank">iMCU7100-EVB Schematic</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7100a/iMCU7100EVB_Schematic.zip" target="_blank">iMCU7100-EVB Schematic</a>
 
 Hardware Schematic of iMCU7100-EVB V1.1
 
 ### Partlist
 
-<a href="/img/products/w7100a/iMCU7100EVB_Partlist.zip" target="_blank">iMCU7100-EVB Part List</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w7100a/iMCU7100EVB_Partlist.zip" target="_blank">iMCU7100-EVB Part List</a>
 
 Part List of iMCU7100-EVB V1.0 & V1.1

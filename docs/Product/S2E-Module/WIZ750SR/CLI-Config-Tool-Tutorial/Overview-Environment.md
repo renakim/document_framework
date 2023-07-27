@@ -53,11 +53,11 @@ If python already installed, check the version as follow. (on cmd.exe)
 Check **'Add Python 3.6 to PATH'** option
 to set environment variables of windows.
 
-![](/img/products/configtool/overview/install_python_01.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/overview/install_python_01.png)
 
-![](/img/products/configtool/overview/install_python_02.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/overview/install_python_02.png)
 
-![](/img/products/configtool/overview/install_python_03.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/configtool/overview/install_python_03.png)
 
 -----
 

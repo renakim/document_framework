@@ -6,7 +6,7 @@ keywords: [w5100,ethernet chip,wiznet,hardwired tcp/ip,arduino ethernet,pico eth
 description: W5100 chip is a Hardwired Internet controller designed as a full hardwired TCP/IP stack with WIZnet technology
 ---
 
-![](/img/products/w5100/W5100-7.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100/W5100-7.jpg)
 
 **Hardwired Dual TCP/IP Stack Controller**
 
@@ -18,7 +18,7 @@ By using W5100, users can implement the Ethernet application they need by using 
 
 It is possible to use 4 independent hardware sockets simultaneously. BUS (Direct  & Indirect) & SPI (Serial Peripheral Interface) are provided for easy integration with the external MCU.
 
-![](/img/products/w5100/w5100-block-d.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5100/w5100-block-d.jpg)
 
 -----
 

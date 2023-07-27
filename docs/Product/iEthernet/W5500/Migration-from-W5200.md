@@ -12,7 +12,7 @@ This page explains migration materials to W5200 users.
 
 ### Driver for W5200 Users
 
-  - Download :  <a href="/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip" target="_blank">w5500_cortexm3_firmware_for_legacy.zip</a>
+  - Download :  <a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/w5500/w5500_cortexm3_firmware_for_legacy.zip" target="_blank">w5500_cortexm3_firmware_for_legacy.zip</a>
 
 This driver is provided only for current W5200 users to help with a fast migration to W5500. TTo **get the new or latest BSD version driver**, please refer to the [W5500 Driver](driver) page.
 

@@ -12,7 +12,7 @@ Please check **[WIZ752SR-125](./../WIZ752SR-12x-Series/WIZ752SR-125/WIZ752SR-125
 
 ## Overview
 
-![](/img/products/wiz125sr/125.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz125sr/125.jpg)
 
 WIZ125SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ125SR is the protocol converter that transmits the data sent by serial equipment as TCP/IP data type, and converts back the TCP/IP data received through the network into serial data to transmit back to the equipment. It supports two serial ports so that it can communicate with two serial equipments at the same time.
 
@@ -41,7 +41,7 @@ WIZ125SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ125SR 
 
 ## Hardware Interface
 
-![](/img/products/wiz125sr/hw_if.jpg)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz125sr/hw_if.jpg)
 
 ## Download
 
@@ -51,13 +51,13 @@ WIZ125SR is an embedded module based on WIZnet W5100 &  ARM Cortex-M3. WIZ125SR 
 
 Last Update: 2010.07.10
 
-<a href="/img/products/wiz125sr/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">User Manual</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz125sr/WIZ125SR_User_Manual_EN_V1.0.pdf" target="_blank">User Manual</a>
 
 #### WIZ125SR Datasheet v1.00
 
 Last Update: 2010.05.26
 
-<a href="/img/products/wiz125sr/WIZ125SR_Datasheet_EN_V1.0.pdf" target="_blank">Datasheet</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz125sr/WIZ125SR_Datasheet_EN_V1.0.pdf" target="_blank">Datasheet</a>
 
 ### Firmware
 
@@ -70,7 +70,7 @@ Last Update: 2010.05.26
     - Stabilize the network operation by internal code modified
     - Watchdog timer added for device operation stability
 
-<a href="/img/products/wiz120sr/wiz120_125sr_app_0141.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/wiz120_125sr_app_0141.zip" target="_blank">Download</a>
 
 #### Firmware v1.4.0
 
@@ -78,14 +78,14 @@ Last Update: 2010.05.26
 - Ethernet to Serial Data Transmission problem has been fixed:
     The Ethernet data was not transmitted to the designated serial port. This problem sporadically occurred without any rule.
 
-<a href="/img/products/wiz120sr/wiz120_125sr_app.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/wiz120_125sr_app.zip" target="_blank">Download</a>
 
 #### Firmware v1.3.0
 
 - Last Update: 2013.04.18
 - Bug fixed : When set (Databits : 7),(Parity:odd/even) in UART2, WIZ120/125SR sent wrong data
 
-<a href="/img/products/wiz120sr/WIZ120SR_FW_V130E.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/WIZ120SR_FW_V130E.zip" target="_blank">Download</a>
 
 ### Utilities
 
@@ -95,14 +95,14 @@ Last Update: 2010.05.26
 - WIZ120SR/ WIZ125SR Config Tool Program Installation Package
 - WIZ120SR/ WIZ125SR Config Tool Source Code
 
-<a href="/img/products/wiz120sr/WIZ12xSR_Config_V110.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz120sr/WIZ12xSR_Config_V110.zip" target="_blank">Download</a>
 
 #### Device Terminal Program for Windows
 
 - Last Update: 2015.08.05
 - Simple Configuration & Testing for WIZnet Serial to Ethernet Modules
 
-<a href="/img/products/wiz100sr/Device_Terminal.zip" target="_blank">Download</a>
+<a href="https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wiz100sr/Device_Terminal.zip" target="_blank">Download</a>
 
 #### WIZVSP Program for Windows
 

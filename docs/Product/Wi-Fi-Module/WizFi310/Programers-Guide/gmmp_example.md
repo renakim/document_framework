@@ -4,18 +4,18 @@ title: WizFi310 GMMP (Global M2M Protocol) 연동 가이드
 date: 2020-04-15
 ---
 
-![](/img/products/wizfi250/thingplug_logo.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/thingplug_logo.png)
 
 ## 1. GMMP(Global M2M Protocol)
 
-![](/img/products/wizfi250/flow.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/flow.png)  
 GMMP는 M2M 단말과 개방형 M2M 플랫폼(OMP) 사이의 TCP 기반 연동 규격으로서, 단말 등록/해지, 주기보고, 단말
 제어 등의 기능을 수행하는 SK Telecom 내부 규격이다.  
 WizFi310은 WiFi로 SKT의 개방형 IoT 플랫폼인 ThingPlug와 연동하고, 수집한 데이터를 ThingPlug로
 전송하는 M2M GW 역할을 수행한다. ThingPlug에 저장된 데이터는 TCP 기반의 OpenAPI를 통해
 Application 등을 통해 데이터를 실시간 모니터링 할 수 있으며, WizFi310을 제어, 관리할 수 있다.  
 
-![](/img/products/wizfi250/flow1.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/flow1.png)  
 
 ## 2. WizFi310 ThingPlug 연동
 
@@ -30,7 +30,7 @@ https://sandbox.sktiot.com
 위 링크의 '가이드 다운로드'에서 '디바이스(TCP) 등록 가이드' 참고 
   
 로그인 후 '디바이스' -\> '디바이스 정보' -\> '디바이스 등록' -\> '개별 등록'에서 디바이스를 등록할 수 있다.  
-![](/img/products/wizfi250/add_device.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/add_device.png)
 
 * **서비스명** : ThingPlug
 * **서비스 프로토콜**: GMMP
@@ -40,7 +40,7 @@ https://sandbox.sktiot.com
 * **제조사 아이디**: 제조사가 부여한 아이디를 입력한다.(개인일 경우 임의로 입력한다.)
 * **Always On 여부**: 사용
 
-![](/img/products/wizfi250/add_device2.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/add_device2.png)
 
 * **플랫폼 제어메시지 수신망**: 'IP_WIRE'를 선택한다.
 * **수신 Address**: 임의의 IPv4 주소를 입력한다.(ex> 192.168.1.1)
@@ -57,8 +57,8 @@ ThingPlug 사이트에서 디바이스(TCP)등록을 하며 입력했던 정보�
 * 디바이스(TCP) 등록을 한 상태라면 '디바이스 조회'에서 '승인완료-단말 Regi. 필요' 상태를 확인할 수 있다.
 * MAC Address: 0008dc1e3222, 디바이스 아이디: WizFi310_1E3222 제조사 아이디: WIZnet 으로 디바이스(TCP) 등록시 아래와 같은 정보를 확인할 수 있다.
 
-![](/img/products/wizfi250/device_1_need_regi.png)  
-![](/img/products/wizfi250/device_2_need_regi.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/device_1_need_regi.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/device_2_need_regi.png)
 
 
 * 이후 'AT+GMMPSET' 명령어를 이용해 WizFi310을 ThingPlug의 GMMP 단말로 등록할 수 있다.
@@ -68,14 +68,14 @@ ThingPlug 사이트에서 디바이스(TCP)등록을 하며 입력했던 정보�
 
 * 정상적으로 등록이 완료 되었다면 GW의 디바이스 아이디(GW ID) "SC10010254"와 Device 의 디바이스 아이디(Device ID) "AD10014858"가 등록된 것을 확인할 수 있다.
 
-![](/img/products/wizfi250/device_3_end_regi.png)  
-![](/img/products/wizfi250/device_4_end_regi.png)  
-![](/img/products/wizfi250/device_5_end_regi.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/device_3_end_regi.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/device_4_end_regi.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/device_5_end_regi.png)  
   
 
 ## 3. GMMP 프로토콜로 데이터 전송
 
-![](/img/products/wizfi250/gmmp_message.png) GMMP 프로토콜을 사용하여 M2M 단말과 M2M
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/gmmp_message.png) GMMP 프로토콜을 사용하여 M2M 단말과 M2M
 플랫폼(ThingPlug) 사이의 단말 등록/해지, 주기 보고, 단말 제어의 기능을 수행할 수 있다. 단말 등록은 2.
 WizFi310 GMMP 연동에서 설명한 내용이다.  
 3. GMMP 프로토콜로 데이터 전송 에서 다룰 내용은 "주기 보고"와 TCP 세션 유지를 위한 "Heartbeat" 이다.  
@@ -163,7 +163,7 @@ WizFi310에서 M2M 플랫폼(ThingPlug)로 데이터를 보내기 위해서는 A
 
 ## 4. Application에서 데이터 조회 및 장치 제어
 
-![](/img/products/wizfi250/application_message.png)
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/application_message.png)
 
 WizFi310이 GMMP를 이용해 ThingPlug에 보낸 데이터를 조회하거나 WizFi310을 제어하기 위해서 OpenAPI를
 사용한다.
@@ -178,32 +178,32 @@ Application에서 적용하기 위해서는 "서비스 App 등록"에서 등록 
 
 * "Open API 선택"을 눌러 테스트 진행할 Open API를 선택한다. WizFi310(M2M GW)에서 보낸 최신 데이터를 조회하려면 "GW 주기보고 최신 데이터 조회"를 선택한다.
 
-![](/img/products/wizfi250/app_1_view_list.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/app_1_view_list.png)  
 
 * 테스트에 사용할 App을 선택한다. App 등록 후 승인을 받게 되면 이 앱 리스트에 등록한 App이 나타나게 된다.
 * 테스트를 위해 "Service Default App"을 선택한다.
 
-![](/img/products/wizfi250/app_2_app.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/app_2_app.png)  
 
 * 테스트를 진행할 디바이스(GW)를 선택한다.
 
-![](/img/products/wizfi250/app_3_device.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/app_3_device.png)  
 
 * 테스트 실행을 클릭하면 선택한 Open API의 실행결과를 확인할 수 있다.
 * < content>와 < content> 사이의 데이터가 WizFi310(M2M GW)에서 ThingPlug로 보낸 데이터 이다.
 * V2l6RmkyNTAgdGVzdCBkYXRhICFAIyQlXiYqKCk=
 * 이 데이터는 Base64로 Encoding 되어 있기 때문에 Base64 Decoding이 필요하다.
 
-![](/img/products/wizfi250/app_4_result.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/app_4_result.png)  
 
 * "V2l6RmkyNTAgdGVzdCBkYXRhICFAIyQlXiYqKCk=" 을 Base64로 Decoding을 하게 되면
 WizFi310에서 보냈던 "WizFi310 test data \!@\#$%^&\*(/)"을 확인할 수 있다.
 
-![](/img/products/wizfi250/app_5_decode.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/app_5_decode.png)  
 
 ### 장치 제어
 
-![](/img/products/wizfi250/control_1_flow.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/control_1_flow.png)  
 Application을 이용해서 WizFi310을 제어하는 과정은 위와 같은 절차에 따라서 진행된다.  
 * Application이 ThingPlug로 제어 요청 메세지를 보내면, TingPlug는 WizFi310에 GMMP 제어요청을 하게 된다.
 * WizFi310은 GMMP 제어 요청을 받고, 동작을 수행 한다.
@@ -212,19 +212,19 @@ Application을 이용해서 WizFi310을 제어하는 과정은 위와 같은 절
   
 Open API로 테스트 하는 방법은 데이터 조회와 동일하다. 대부분의 제어 명령은 "제어 요청"과 "결과 조회" 두가지로 되어있다. 아래 예제는 WizFi310(GW)의 상태를 확인하는 "GW Status Check" 이다.
 
-![](/img/products/wizfi250/control_2_openapi.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/control_2_openapi.png)  
 
 *  Open API 중 "GW Status Check"를 사용해서 Application이 ThingPlug로 제어 요청 메세지를 보내면 아래와 같은 응답을 받게 된다.
 * stateActionStatus의 내용은 PROGRESS로 ThingPlug가 제어 명령을 수신했다는 의미이다.
 
-![](/img/products/wizfi250/control_3_req_result.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/control_3_req_result.png)  
 
 *  Open API 중 "GW Status Check 결과조회"를 사용해서 ThingPlug가 수집한 WizFi310의 Status를 응답으로 받는다.
 * stateActionStatus의 내용은 SUCCESS로 제어 성공을 나타낸다.
 * operationState은 단말의 운용 상태를 나타낸다. PAUSE는 일시 중지 상태이다.
 * reportState의 데이터 보고 기능 상태를 나타낸다. ON은 데이터 보고기능 ON을 나타낸다.
 
-![](/img/products/wizfi250/control_4_res_result.png)  
+![](https://d3cmhcsnvv7jc.cloudfront.net/docs/img/products/wizfi250/control_4_res_result.png)  
 
 ## 5. GMMP 프로토콜을 사용하기 위한 WizFi310 AT Commands
 
@@ -241,9 +241,9 @@ Open API로 테스트 하는 방법은 데이터 조회와 동일하다. 대부�
 * GMMP 관련 이벤트 로그, 디버그 프린트를 위해서 메시지 출력 레벨을 3으로 설정한다. 이벤트 로그, 디버그 프린트 각각의 설정은 AT+GMMPOPT로 설정 가능하다. \\ \\
 * ex) AT+MMSG=3
 
-| Element | Parameter | Description                |
-| ------- | --------- | -------------------------- |
-| level   | 1         | 응답을 출력하지 않는다.              |
+| Element | Parameter | Description                             |
+| ------- | --------- | --------------------------------------- |
+| level   | 1         | 응답을 출력하지 않는다.                 |
 | :::     | 2         | 응답과 이벤트 로그를 출력한다.(Default) |
 | :::     | 3         | 응답, 이벤트, 디버그를 출력한다.        |
 
@@ -391,8 +391,8 @@ ThingPlug-&gt;디바이스 정보-&gt;디바이스 조회에서 확인 가능</t
 * < Option > = 11은 Heartbeat 패킷의 전송 주기(Heartbeat Period)이다. \\ \\ 
 * ex) AT+GMMPOPT=11,< period >
 
-| Element | Example | Description               |
-| ------- | ------- | ------------------------- |
+| Element | Example | Description                        |
+| ------- | ------- | ---------------------------------- |
 | period  | 10      | Heartbeat 패킷 전송 주기(단위: 분) |
 
 **< Option > = 12**
@@ -400,8 +400,8 @@ ThingPlug-&gt;디바이스 정보-&gt;디바이스 조회에서 확인 가능</t
 * < Option > = 12은 Delivery 패킷의 전송 주기(Report Period)이다. \\ \\
 * ex) AT+GMMPOPT=12,< period >
 
-| Element | Example | Description              |
-| ------- | ------- | ------------------------ |
+| Element | Example | Description                       |
+| ------- | ------- | --------------------------------- |
 | period  | 10      | Delivery 패킷 전송 주기(단위: 분) |
 
 ## 6. EXAMPLE
