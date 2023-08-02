@@ -189,3 +189,13 @@ html[data-theme="dark"] .rlc-container {
 html[data-theme="dark"] .rlc-description {
   color: #aaa;
 }
+
+.markdown table {
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 8px;
+}
